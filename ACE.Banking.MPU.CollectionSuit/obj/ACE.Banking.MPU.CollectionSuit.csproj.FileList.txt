@@ -1,0 +1,5 @@
+bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
+obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb

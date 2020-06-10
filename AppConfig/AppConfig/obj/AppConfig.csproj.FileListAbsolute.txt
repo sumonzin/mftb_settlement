@@ -1,0 +1,12 @@
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\bin\Debug\AppConfig.dll
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\bin\Debug\AppConfig.pdb
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\obj\Debug\ResolveAssemblyReference.cache
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\obj\Debug\AppConfig.dll
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\obj\Debug\AppConfig.pdb
+D:\AKZ\Work\Shanghai\AppConfig\AppConfig\bin\Debug\RegisterationSaving.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\bin\Release\AppConfig.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\bin\Release\AppConfig.pdb
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\bin\Release\RegisterationSaving.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\obj\Release\ResolveAssemblyReference.cache
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\obj\Release\AppConfig.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\AppConfig\obj\Release\AppConfig.pdb

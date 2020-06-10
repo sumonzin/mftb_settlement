@@ -1,0 +1,146 @@
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ResolveAssemblyReference.cache
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\SETTLEMENT\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD Bank\MWD\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Settlement Report\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Oracle.DataAccess.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Oracle.DataAccess.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Deliver\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb

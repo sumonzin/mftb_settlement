@@ -1,0 +1,153 @@
+3/13/2020 11:16:38 AM ==> Download Process Start at = >3/13/2020 11:16:38 AM
+3/13/2020 11:17:10 AM ==> ====================================
+3/13/2020 11:17:10 AM ==> File download Processs start at = >3/13/2020 11:17:10 AM
+3/13/2020 11:17:10 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:10 AM
+3/13/2020 11:17:10 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:10 AM
+File Type is = > MBACom
+3/13/2020 11:17:10 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ACOM download start at  = > 3/13/2020 11:17:10 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ACOM download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBAcomE
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401AERR download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401AERR download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBICom
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ICOM download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ICOM download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBIcomE
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401IERR download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401IERR download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBScom
+3/13/2020 11:17:11 AM ==> Member Bank File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\IND20022401SCOM download start at = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Member Bank File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\IND20022401SCOM download finish at = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> File download Processs finish at = >3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> ====================================
+3/13/2020 11:17:11 AM ==> ====================================
+3/13/2020 11:17:11 AM ==> File download Processs start at = >3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBAC
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401C download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401C download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBAE
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401E download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401E download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBAS
+3/13/2020 11:17:11 AM ==> Merchant Settlement File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\ECOM\INC20022401S download start at = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Merchant Settlement File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MerchantSTF\13-3-2020\ECOM\INC20022401S download finish at = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBIC
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411C download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411C download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBIE
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411E download start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> Memberbank Trail File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411E download finish at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Start at  = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:11 AM ==> SettlementFileChecking Event Finish at  = > 3/13/2020 11:17:11 AM
+File Type is = > MBIS
+3/13/2020 11:17:11 AM ==> Merchant Settlement File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\ECOM\INC20022411S download start at = > 3/13/2020 11:17:11 AM
+3/13/2020 11:17:12 AM ==> Merchant Settlement File = > D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MerchantSTF\13-3-2020\ECOM\INC20022411S download finish at = > 3/13/2020 11:17:12 AM
+3/13/2020 11:17:12 AM ==> File download Processs finish at = >3/13/2020 11:17:12 AM
+3/13/2020 11:17:12 AM ==> ====================================
+3/13/2020 11:17:15 AM ==> Download Process finish at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> SettlementFileReading Event Start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\INC20022401SReading Start at = > 3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Data = > 900   10200002C0000000157263200D00000000009749430000000000000000000000000000000000C0000000157263200D000000000097494300000004900000000000104                              
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess Fail at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Err Description = >String was not recognized as a valid DateTime.
+3/13/2020 11:17:15 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\INC20022401SReading finish at = > 3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\INC20022411SReading Start at = > 3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Data = > 900   102000020000000000000000000000000000000000D0000000052195500C0000000000108443D0000000052195500C000000000010844300000000000000000111104                              
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess Fail at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Err Description = >String was not recognized as a valid DateTime.
+3/13/2020 11:17:15 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\INC20022411SReading finish at = > 3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\IND20022401SCOMReading Start at = > 3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess start at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:15 AM ==> Data = > 900   10200002C0000001662500000C0000000006650000D0000000703600000D0000000003518000C0000000958900000C000000000313200000000002340000000149104                              
+3/13/2020 11:17:15 AM ==> Member Bank SettlementProcess Fail at = >3/13/2020 11:17:15 AM
+3/13/2020 11:17:16 AM ==> Err Description = >String was not recognized as a valid DateTime.
+3/13/2020 11:17:16 AM ==> Member Bank Settlement File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\MemberBankSTF\13-3-2020\IND20022401SCOMReading finish at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401CReading Start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> ===================================
+3/13/2020 11:17:16 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> data = > 100   62346600152480200000000000004850000000004850002000000010410402231706203620136384020224000003461599   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11002231706203620130224000000000000000   10300005F05104100000000000000000000002910     
+3/13/2020 11:17:16 AM ==> MemberBank Trail File Reading One By One fail at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> Err Desc = > String was not recognized as a valid DateTime.
+3/13/2020 11:17:16 AM ==> ===================================
+3/13/2020 11:17:16 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401CReading finish at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401EReading Start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> ===================================
+3/13/2020 11:17:16 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> MemberBank Trail File Reading One By One finish at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> ===================================
+3/13/2020 11:17:16 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022401EReading finish at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411CReading Start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> ===================================
+3/13/2020 11:17:16 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:16 AM
+3/13/2020 11:17:16 AM ==> data = > 100   95030201000548410000000000000970000000000970002000000010410402240925265526535249010224000003463508   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11002240925265526530224000000000000000   10200002F05104100000000000291000000000000     
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One fail at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> Err Desc = > String was not recognized as a valid DateTime.
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411CReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411EReading Start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\INC20022411EReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ACOMReading Start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> data = > 500   950101214095567530200000000000000000000000000020000000/040976/185445022402246011   10200002   101000010000000000000030000   113921/005518040976/001120031041040000000000000000000000000000000000000000000000000000000002100000000000000000000000000000000000000000051000000000000000000000010000000000000000000000000224122445
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One fail at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> Err Desc = > String was not recognized as a valid DateTime.
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ACOMReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401AERRReading Start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401AERRReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ICOMReading Start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> data = > 500   950302010008334501000000000100000000000100000020000000/045172/164128022402246011   10300005   102000020000000000000030000   873151/005510045172/00220026104104000000000000000000000000000000000000000000000000000000000210000000000000000000000000500000000000000005100000000       103000050000000000000000000000000224101132
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One fail at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> Err Desc = > String was not recognized as a valid DateTime.
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401ICOMReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401IERRReading Start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One start at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> MemberBank Trail File Reading One By One finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:17 AM ==> ===================================
+3/13/2020 11:17:17 AM ==> MemberBank Trail File D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\13-3-2020\TrailFile\MemberTrailFile\13-3-2020\IND20022401IERRReading finish at = > 3/13/2020 11:17:17 AM
+3/13/2020 11:17:18 AM ==> SettlementFileReading Event Finish at = >3/13/2020 11:17:18 AM
+3/13/2020 11:17:18 AM ==> ============================================
+3/13/2020 11:17:18 AM ==> Core-Banking Settlement File Download Start At = > 3/13/2020 11:17:18 AM
+3/13/2020 11:17:25 AM ==> ============================================
+3/13/2020 11:17:35 AM ==> Core-Banking Settlement File Download Finish At = > 3/13/2020 11:17:35 AM
+3/13/2020 11:17:35 AM ==> ============================================
+3/13/2020 11:17:37 AM ==> Log Writing Event Start at = > 3/13/2020 11:17:37 AM
+3/13/2020 11:17:37 AM ==> Log Writing Event Finish at = > 3/13/2020 11:17:37 AM

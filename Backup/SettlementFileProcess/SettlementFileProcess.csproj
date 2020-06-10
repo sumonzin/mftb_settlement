@@ -1,0 +1,174 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{560B5DEF-26CB-4C46-9C5F-290EBF8481F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SettlementFileProcess</RootNamespace>
+    <AssemblyName>SettlementFileProcess</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>Download.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppConfig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="RegisterationSaving, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataReconcile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataReconcile.Designer.cs">
+      <DependentUpon>DataReconcile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inbox.Designer.cs">
+      <DependentUpon>Inbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\FTPLibrary.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDisputeFileDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterDisputeFileDetail.Designer.cs">
+      <DependentUpon>MasterDisputeFileDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessInfo.Designer.cs">
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettlementFileDownloadProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettlementFileDownloadProcess.Designer.cs">
+      <DependentUpon>SettlementFileDownloadProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettlementProcessConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettlementProcessConfiguration.Designer.cs">
+      <DependentUpon>SettlementProcessConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataReconcile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DataReconcile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Inbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDisputeFileDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MasterDisputeFileDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProcessInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettlementFileDownloadProcess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettlementFileDownloadProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettlementProcessConfiguration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SettlementProcessConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Support\Image\Check_24x24.png" />
+    <None Include="Support\Image\Cancel_24x24.png" />
+    <Content Include="Download.ico" />
+    <Content Include="Support\Image\Log Out_24x24.png" />
+    <Content Include="Support\Image\Save_24x24.png" />
+    <Content Include="Support\Lib\AppConfig.dll" />
+    <Content Include="Support\Lib\RegisterationSaving.dll" />
+    <None Include="Support\Image\Search_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACE.Banking.MPU.Businesslogic\ACE.Banking.MPU.Businesslogic.csproj">
+      <Project>{9BCF6072-5DBD-47BF-8349-BE23771BA9B7}</Project>
+      <Name>ACE.Banking.MPU.Businesslogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACE.Banking.MPU.CollectionSuit\ACE.Banking.MPU.CollectionSuit.csproj">
+      <Project>{A4CF69D3-1830-4B42-A266-5180D7AF2460}</Project>
+      <Name>ACE.Banking.MPU.CollectionSuit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

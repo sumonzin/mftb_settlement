@@ -1,0 +1,411 @@
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\KYP\ACE\24NOV2015\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\MWD\SETTLEMENT\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\MWD Bank\MWD\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\bin\Debug\Oracle.DataAccess.dll
+D:\MWD\Settlement Report\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Oracle.DataAccess.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\MWD\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+F:\ma maythanzin ko ko data\Deliver\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+F:\ma maythanzin ko ko data\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+F:\ma maythanzin ko ko data\Deliver\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\stdole.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Backup\Source code\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\stdole.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\stdole.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Backup\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\stdole.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Source code  (Latest) Version 2.1\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Development\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Development Backup\Version 2.1 Backup\28-02-2019\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojResolveAssemblyReference.cache
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
+D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojAssemblyReference.cache
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.cache
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb

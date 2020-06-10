@@ -1,0 +1,125 @@
+03/06/2020 11:41:01 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 11:42:57 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 11:42:57
+03/06/2020 11:42:57 ==> Before Compare With MerchantID= >03/06/2020 11:42:57
+03/06/2020 11:42:57 ==> After Compare With MerchantID= >03/06/2020 11:42:57
+03/06/2020 11:46:14 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 11:46:16 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 11:46:16
+03/06/2020 11:46:19 ==> Before Compare With MerchantID= >03/06/2020 11:46:19
+03/06/2020 11:46:20 ==> After Compare With MerchantID= >03/06/2020 11:46:20
+03/06/2020 12:12:22 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 12:12:24 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 12:12:24
+03/06/2020 12:12:29 ==> Before Compare With MerchantID= >03/06/2020 12:12:29
+03/06/2020 13:40:24 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 13:40:30 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 13:40:30
+03/06/2020 13:40:35 ==> Before Compare With MerchantID= >03/06/2020 13:40:35
+03/06/2020 13:40:37 ==> After Compare With MerchantID= >03/06/2020 13:40:37
+03/06/2020 13:42:06 ==> Insert_DirPoS process is successful.= >03/06/2020 13:42:06
+03/06/2020 13:42:08 ==> Before Compare With MerchantID= >03/06/2020 13:42:08
+03/06/2020 13:42:09 ==> After Compare With MerchantID= >03/06/2020 13:42:09
+03/06/2020 13:43:01 ==> Insert_DirPoS process is successful.= >03/06/2020 13:43:01
+03/06/2020 13:43:08 ==> Before Compare With MerchantID= >03/06/2020 13:43:08
+03/06/2020 13:43:10 ==> After Compare With MerchantID= >03/06/2020 13:43:10
+03/06/2020 13:52:12 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:12
+03/06/2020 13:52:13 ==> Before Compare With MerchantID= >03/06/2020 13:52:13
+03/06/2020 13:52:13 ==> After Compare With MerchantID= >03/06/2020 13:52:13
+03/06/2020 13:52:13 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:13
+03/06/2020 13:52:16 ==> Before Compare With MerchantID= >03/06/2020 13:52:16
+03/06/2020 13:52:16 ==> After Compare With MerchantID= >03/06/2020 13:52:16
+03/06/2020 13:52:16 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:16
+03/06/2020 13:52:17 ==> Before Compare With MerchantID= >03/06/2020 13:52:17
+03/06/2020 13:52:17 ==> After Compare With MerchantID= >03/06/2020 13:52:17
+03/06/2020 13:52:17 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:17
+03/06/2020 13:52:18 ==> Before Compare With MerchantID= >03/06/2020 13:52:18
+03/06/2020 13:52:18 ==> After Compare With MerchantID= >03/06/2020 13:52:18
+03/06/2020 13:52:18 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:18
+03/06/2020 13:52:19 ==> Before Compare With MerchantID= >03/06/2020 13:52:19
+03/06/2020 13:52:19 ==> After Compare With MerchantID= >03/06/2020 13:52:19
+03/06/2020 13:52:19 ==> Insert_DirPoS process is successful.= >03/06/2020 13:52:19
+03/06/2020 13:52:19 ==> Select_Sum_DirPOS_Trans is successful.= >03/06/2020 13:52:19
+03/06/2020 13:52:19 ==> Select_Sum_MemberBankDirPOS_Trans is successful.= >03/06/2020 13:52:19
+03/06/2020 13:52:20 ==> After Amount Calculation is successful.= >03/06/2020 13:52:20
+03/06/2020 13:52:20 ==> InsertSettlementUpload is successful.= >03/06/2020 13:52:20
+03/06/2020 13:55:31 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 13:55:32 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 13:55:32
+03/06/2020 13:56:23 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 13:56:24 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 13:56:24
+03/06/2020 13:56:30 ==> Before Compare With MerchantID= >03/06/2020 13:56:30
+03/06/2020 13:56:31 ==> After Compare With MerchantID= >03/06/2020 13:56:31
+03/06/2020 13:56:38 ==> Insert_DirPoS process is successful.= >03/06/2020 13:56:38
+03/06/2020 13:56:41 ==> Before Compare With MerchantID= >03/06/2020 13:56:41
+03/06/2020 13:56:42 ==> After Compare With MerchantID= >03/06/2020 13:56:42
+03/06/2020 13:57:28 ==> Insert_DirPoS process is successful.= >03/06/2020 13:57:28
+03/06/2020 13:57:34 ==> Before Compare With MerchantID= >03/06/2020 13:57:34
+03/06/2020 13:57:37 ==> After Compare With MerchantID= >03/06/2020 13:57:37
+03/06/2020 13:57:43 ==> Insert_DirPoS process is successful.= >03/06/2020 13:57:43
+03/06/2020 13:57:46 ==> Before Compare With MerchantID= >03/06/2020 13:57:46
+03/06/2020 13:57:47 ==> After Compare With MerchantID= >03/06/2020 13:57:47
+03/06/2020 13:58:35 ==> Insert_DirPoS process is successful.= >03/06/2020 13:58:35
+03/06/2020 13:58:38 ==> Before Compare With MerchantID= >03/06/2020 13:58:38
+03/06/2020 13:58:42 ==> After Compare With MerchantID= >03/06/2020 13:58:42
+03/06/2020 13:59:08 ==> Insert_DirPoS process is successful.= >03/06/2020 13:59:08
+03/06/2020 14:04:41 ==> Before Compare With MerchantID= >03/06/2020 14:04:41
+03/06/2020 14:04:42 ==> After Compare With MerchantID= >03/06/2020 14:04:42
+03/06/2020 14:04:46 ==> Insert_DirPoS process is successful.= >03/06/2020 14:04:46
+03/06/2020 14:04:47 ==> Before Compare With MerchantID= >03/06/2020 14:04:47
+03/06/2020 14:04:48 ==> After Compare With MerchantID= >03/06/2020 14:04:48
+03/06/2020 14:04:52 ==> Insert_DirPoS process is successful.= >03/06/2020 14:04:52
+03/06/2020 14:04:54 ==> Before Compare With MerchantID= >03/06/2020 14:04:54
+03/06/2020 14:04:54 ==> After Compare With MerchantID= >03/06/2020 14:04:54
+03/06/2020 14:05:08 ==> Insert_DirPoS process is successful.= >03/06/2020 14:05:08
+03/06/2020 14:05:09 ==> Select_Sum_DirPOS_Trans is successful.= >03/06/2020 14:05:09
+03/06/2020 14:05:10 ==> Select_Sum_MemberBankDirPOS_Trans is successful.= >03/06/2020 14:05:10
+03/06/2020 14:05:12 ==> After Amount Calculation is successful.= >03/06/2020 14:05:12
+03/06/2020 14:05:33 ==> InsertSettlementUpload is successful.= >03/06/2020 14:05:33
+03/06/2020 14:21:02 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 14:21:02 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 14:21:02
+03/06/2020 14:21:03 ==> Before Compare With MerchantID= >03/06/2020 14:21:03
+03/06/2020 14:21:03 ==> After Compare With MerchantID= >03/06/2020 14:21:03
+03/06/2020 14:27:41 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 14:27:42 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 14:27:42
+03/06/2020 14:27:45 ==> Before Compare With MerchantID= >03/06/2020 14:27:44
+03/06/2020 14:27:45 ==> After Compare With MerchantID= >03/06/2020 14:27:45
+03/06/2020 14:28:13 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:13
+03/06/2020 14:28:15 ==> Before Compare With MerchantID= >03/06/2020 14:28:15
+03/06/2020 14:28:15 ==> After Compare With MerchantID= >03/06/2020 14:28:15
+03/06/2020 14:28:20 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:20
+03/06/2020 14:28:21 ==> Before Compare With MerchantID= >03/06/2020 14:28:21
+03/06/2020 14:28:22 ==> After Compare With MerchantID= >03/06/2020 14:28:22
+03/06/2020 14:28:26 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:26
+03/06/2020 14:28:27 ==> Before Compare With MerchantID= >03/06/2020 14:28:27
+03/06/2020 14:28:28 ==> After Compare With MerchantID= >03/06/2020 14:28:28
+03/06/2020 14:28:32 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:32
+03/06/2020 14:28:34 ==> Before Compare With MerchantID= >03/06/2020 14:28:34
+03/06/2020 14:28:34 ==> After Compare With MerchantID= >03/06/2020 14:28:34
+03/06/2020 14:28:39 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:39
+03/06/2020 14:28:42 ==> Before Compare With MerchantID= >03/06/2020 14:28:42
+03/06/2020 14:28:43 ==> After Compare With MerchantID= >03/06/2020 14:28:43
+03/06/2020 14:28:48 ==> Insert_DirPoS process is successful.= >03/06/2020 14:28:48
+03/06/2020 14:28:55 ==> Before Compare With MerchantID= >03/06/2020 14:28:55
+03/06/2020 14:28:56 ==> After Compare With MerchantID= >03/06/2020 14:28:56
+03/06/2020 14:29:15 ==> Insert_DirPoS process is successful.= >03/06/2020 14:29:15
+03/06/2020 14:29:19 ==> Before Compare With MerchantID= >03/06/2020 14:29:19
+03/06/2020 14:29:23 ==> After Compare With MerchantID= >03/06/2020 14:29:23
+03/06/2020 14:29:51 ==> Insert_DirPoS process is successful.= >03/06/2020 14:29:50
+03/06/2020 14:31:05 ==> Select_Sum_DirPOS_Trans is successful.= >03/06/2020 14:31:05
+03/06/2020 14:31:12 ==> Select_Sum_MemberBankDirPOS_Trans is successful.= >03/06/2020 14:31:12
+03/06/2020 14:31:19 ==> After Amount Calculation is successful.= >03/06/2020 14:31:19
+03/06/2020 14:31:23 ==> InsertSettlementUpload is successful.= >03/06/2020 14:31:23
+03/06/2020 14:55:19 ==> Select_DirPOS_Trans Complete=> 2020/05/27
+03/06/2020 14:55:19 ==> SelectAll_Merchant_Rate Complete= >03/06/2020 14:55:19
+03/06/2020 14:55:19 ==> Before Compare With MerchantID= >03/06/2020 14:55:19
+03/06/2020 14:55:19 ==> After Compare With MerchantID= >03/06/2020 14:55:19
+03/06/2020 14:55:20 ==> Insert_DirPoS process is successful.= >03/06/2020 14:55:20
+03/06/2020 14:55:23 ==> Before Compare With MerchantID= >03/06/2020 14:55:23
+03/06/2020 14:55:23 ==> After Compare With MerchantID= >03/06/2020 14:55:23
+03/06/2020 14:55:23 ==> Insert_DirPoS process is successful.= >03/06/2020 14:55:23
+03/06/2020 14:55:24 ==> Before Compare With MerchantID= >03/06/2020 14:55:24
+03/06/2020 14:55:24 ==> After Compare With MerchantID= >03/06/2020 14:55:24
+03/06/2020 14:55:24 ==> Insert_DirPoS process is successful.= >03/06/2020 14:55:24
+03/06/2020 14:55:26 ==> Before Compare With MerchantID= >03/06/2020 14:55:26
+03/06/2020 14:55:26 ==> After Compare With MerchantID= >03/06/2020 14:55:26
+03/06/2020 14:55:26 ==> Insert_DirPoS process is successful.= >03/06/2020 14:55:26
+03/06/2020 14:55:26 ==> Select_Sum_DirPOS_Trans is successful.= >03/06/2020 14:55:26
+03/06/2020 14:55:26 ==> Select_Sum_MemberBankDirPOS_Trans is successful.= >03/06/2020 14:55:26
+03/06/2020 14:55:27 ==> After Amount Calculation is successful.= >03/06/2020 14:55:27
+03/06/2020 14:55:27 ==> InsertSettlementUpload is successful.= >03/06/2020 14:55:27

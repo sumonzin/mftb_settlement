@@ -1,0 +1,480 @@
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Users\Sandar\Desktop\6-6-2012 STFDownload\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+E:\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+E:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+F:\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+F:\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+F:\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+F:\Version III\SettlementFileProcess\bin\Debug\AppConfig.dll
+F:\Version III\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+F:\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+F:\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+F:\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+F:\Version III\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+F:\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\AppConfig.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\Banking\ATM Project\Source\MPU Version\SettlementFileProcess\FTP Download Only (Ref Version III)\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+C:\Users\Sandar\Desktop\Version III\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Documents and Settings\Ar Kar Htet Myint\Desktop\Version III(Settlement 20-8)\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\20120828_HO\Settlement\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\AppConfig.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Work\ATM Project\Source\MPU Version\SettlementFileProcess\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+F:\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+F:\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+F:\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\17052012\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\17052012\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\Sources\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\Sources\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+C:\Documents and Settings\Tayzar\Desktop\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+F:\Settlement\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+F:\Settlement\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+F:\Settlement\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version IV\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version IV\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+E:\Work\Banking\ATM Project\ACE\MPU Settlement Process Project\Source\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\CBS\MWD\Settlement\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\office.xml
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\May Be Latest\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\30112015 Ecommerce Settlement\27\Version V(27NOV15)\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Users\Administrator\Desktop\New folder\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\AppConfig.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\office.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.Cache
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+D:\Su Yii Mon\MWD BANK\MWD(Settlement)\Settlement Project (Development Version_SYM)\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb

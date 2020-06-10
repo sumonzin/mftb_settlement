@@ -1,0 +1,19 @@
+6/10/2020 11:45:28 AM ==> Download Process Start at = >6/10/2020 11:45:28 AM
+6/10/2020 11:45:28 AM ==> ====================================
+6/10/2020 11:45:28 AM ==> File download Processs start at = >6/10/2020 11:45:28 AM
+6/10/2020 11:45:28 AM ==> File download Processs fail at = >6/10/2020 11:45:28 AM
+6/10/2020 11:45:28 AM ==> Err Desc = > The device is not ready.
+
+6/10/2020 11:45:28 AM ==> ====================================
+6/10/2020 11:45:30 AM ==> Download Process Fail at = >6/10/2020 11:45:30 AM
+6/10/2020 11:45:30 AM ==> Err Desc = > Download Process Fail at => 6/10/2020 11:45:30 AM
+6/10/2020 11:45:30 AM ==> SettlementFileReading Event Start at = >6/10/2020 11:45:30 AM
+6/10/2020 11:45:30 AM ==> SettlementFileReading Event Fail at = >6/10/2020 11:45:30 AM
+6/10/2020 11:45:30 AM ==> Err Desc = >Could not find a part of the path 'E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\bin\Debug\MPUSettlementFile\10-6-2020\MerchantSTF\10-6-2020\ECOM'.
+6/10/2020 11:45:30 AM ==> ============================================
+6/10/2020 11:45:30 AM ==> Core-Banking Settlement File Download Start At = > 6/10/2020 11:45:30 AM
+6/10/2020 11:45:45 AM ==> ============================================
+6/10/2020 11:45:46 AM ==> Core-Banking Settlement File Download Finish At = > 6/10/2020 11:45:46 AM
+6/10/2020 11:45:46 AM ==> ============================================
+6/10/2020 11:45:46 AM ==> Log Writing Event Start at = > 6/10/2020 11:45:46 AM
+6/10/2020 11:45:46 AM ==> Log Writing Event Finish at = > 6/10/2020 11:45:46 AM

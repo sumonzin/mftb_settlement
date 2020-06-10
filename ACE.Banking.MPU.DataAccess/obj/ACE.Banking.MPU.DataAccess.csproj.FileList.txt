@@ -1,0 +1,10 @@
+bin\Debug\ACE.Banking.MPU.DataAccess.dll
+bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACE.Banking.MPU.DataAccess.dll
+obj\Debug\ACE.Banking.MPU.DataAccess.pdb

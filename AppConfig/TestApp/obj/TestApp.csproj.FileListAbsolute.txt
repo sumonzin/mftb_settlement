@@ -1,0 +1,25 @@
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\TestApp.exe.config
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\TestApp.exe
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\TestApp.pdb
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\AppConfig.dll
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\RegisterationSaving.dll
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\bin\Debug\AppConfig.pdb
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\obj\Debug\ResolveAssemblyReference.cache
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\obj\Debug\TestApp.exe
+D:\AKZ\Work\Shanghai\AppConfig\TestApp\obj\Debug\TestApp.pdb
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Debug\TestApp.exe.config
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Debug\TestApp.exe
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Debug\TestApp.pdb
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\TestApp.exe.config
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\TestApp.exe
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\TestApp.pdb
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\AppConfig.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\RegisterationSaving.dll
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\bin\Release\AppConfig.pdb
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Release\ResolveAssemblyReference.cache
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Release\TestApp.Properties.Resources.resources
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Release\TestApp.csproj.GenerateResource.Cache
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Release\TestApp.exe
+D:\Work\ISO Parser\ISO Parser\Current\AppConfig\TestApp\obj\Release\TestApp.pdb

@@ -38,7 +38,7 @@ namespace ACE.Banking.MPU.Businesslogic
             }
             catch (Exception ex)
             {
-                // LogHelper.Logger.Error(DateTime.Now.ToString()+" Error Exception =>" ,ex);
+              
             }
             finally
             {

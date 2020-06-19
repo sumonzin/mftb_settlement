@@ -156,19 +156,20 @@ namespace ACE.Banking.MPU.Businesslogic
                 {
                     uniqueKey = memberBankDetailTransactionInfoInfo.AcquringInstitutionID;
 
-                    memberBankDetailTransactionInfoInfo.AcquringInstitutionID = DataController.Insert(memberBankDetailTransactionInfoInfo.PAN, memberBankDetailTransactionInfoInfo.ProcessingCode, 
-                                                                                                      memberBankDetailTransactionInfoInfo.transAmount, memberBankDetailTransactionInfoInfo.settlementAmount,
-                                                                                                      memberBankDetailTransactionInfoInfo.SetConservationRate, memberBankDetailTransactionInfoInfo.SystemTraceNo, memberBankDetailTransactionInfoInfo.TransDateTime,
-                                                                                                      memberBankDetailTransactionInfoInfo.SETTLEMENTDATE, memberBankDetailTransactionInfoInfo.MerchantType,memberBankDetailTransactionInfoInfo.TerminalNo,
-                                                                                                      memberBankDetailTransactionInfoInfo.AcquringInstitutionID, memberBankDetailTransactionInfoInfo.IssuerBankCode, memberBankDetailTransactionInfoInfo.BeneficiaryBankCode,
-                                                                                                      memberBankDetailTransactionInfoInfo.ForwardInstitutionID, memberBankDetailTransactionInfoInfo.AuthResponseCode, memberBankDetailTransactionInfoInfo.RetrievalRefNo, 
-                                                                                                      memberBankDetailTransactionInfoInfo.CardAcceptorTerminalNo, memberBankDetailTransactionInfoInfo.TransactionCurCode, memberBankDetailTransactionInfoInfo.SettlementCurcode,
-                                                                                                      memberBankDetailTransactionInfoInfo.FromAccount, memberBankDetailTransactionInfoInfo.ToAccount, memberBankDetailTransactionInfoInfo.MessageType, memberBankDetailTransactionInfoInfo.CardAcceptorIDCode,
-                                                                                                      memberBankDetailTransactionInfoInfo.ResponseCode, memberBankDetailTransactionInfoInfo.ServiceFeeReceive, memberBankDetailTransactionInfoInfo.ServiceFeePayable,
-                                                                                                      memberBankDetailTransactionInfoInfo.InterChangeServiceFee, memberBankDetailTransactionInfoInfo.POSEntryMode, memberBankDetailTransactionInfoInfo.OrgSystemTraceNo,
-                                                                                                      memberBankDetailTransactionInfoInfo.POSConditionCode,memberBankDetailTransactionInfoInfo.AcceptanceAmount,
-                                                                                                      memberBankDetailTransactionInfoInfo.CardHolderTransFee,memberBankDetailTransactionInfoInfo.TranTranmissionDate,memberBankDetailTransactionInfoInfo.ReservedForUse,memberBankDetailTransactionInfoInfo.CreatedDate,
-                                                                                                      memberBankDetailTransactionInfoInfo.BatchNo, memberBankDetailTransactionInfoInfo.FILENAME, memberBankDetailTransactionInfoInfo.FileType, memberBankDetailTransactionInfoInfo.TranRespCode, memberBankDetailTransactionInfoInfo.RefundStatus);
+                    memberBankDetailTransactionInfoInfo.AcquringInstitutionID =
+                        DataController.Insert(memberBankDetailTransactionInfoInfo.PAN, memberBankDetailTransactionInfoInfo.ProcessingCode, 
+                        memberBankDetailTransactionInfoInfo.transAmount, memberBankDetailTransactionInfoInfo.settlementAmount,
+                        memberBankDetailTransactionInfoInfo.SetConservationRate, memberBankDetailTransactionInfoInfo.SystemTraceNo, memberBankDetailTransactionInfoInfo.TransDateTime,
+                        memberBankDetailTransactionInfoInfo.SETTLEMENTDATE, memberBankDetailTransactionInfoInfo.MerchantType,memberBankDetailTransactionInfoInfo.TerminalNo,
+memberBankDetailTransactionInfoInfo.AcquringInstitutionID, memberBankDetailTransactionInfoInfo.IssuerBankCode, memberBankDetailTransactionInfoInfo.BeneficiaryBankCode,
+memberBankDetailTransactionInfoInfo.ForwardInstitutionID, memberBankDetailTransactionInfoInfo.AuthResponseCode, memberBankDetailTransactionInfoInfo.RetrievalRefNo, 
+memberBankDetailTransactionInfoInfo.CardAcceptorTerminalNo, memberBankDetailTransactionInfoInfo.TransactionCurCode, memberBankDetailTransactionInfoInfo.SettlementCurcode,
+memberBankDetailTransactionInfoInfo.FromAccount, memberBankDetailTransactionInfoInfo.ToAccount, memberBankDetailTransactionInfoInfo.MessageType, memberBankDetailTransactionInfoInfo.CardAcceptorIDCode,
+memberBankDetailTransactionInfoInfo.ResponseCode, memberBankDetailTransactionInfoInfo.ServiceFeeReceive, memberBankDetailTransactionInfoInfo.ServiceFeePayable,
+memberBankDetailTransactionInfoInfo.InterChangeServiceFee, memberBankDetailTransactionInfoInfo.POSEntryMode, memberBankDetailTransactionInfoInfo.OrgSystemTraceNo,
+memberBankDetailTransactionInfoInfo.POSConditionCode,memberBankDetailTransactionInfoInfo.AcceptanceAmount,
+memberBankDetailTransactionInfoInfo.CardHolderTransFee,memberBankDetailTransactionInfoInfo.TranTranmissionDate,memberBankDetailTransactionInfoInfo.ReservedForUse,memberBankDetailTransactionInfoInfo.CreatedDate,
+memberBankDetailTransactionInfoInfo.BatchNo, memberBankDetailTransactionInfoInfo.FILENAME, memberBankDetailTransactionInfoInfo.FileType, memberBankDetailTransactionInfoInfo.TranRespCode, memberBankDetailTransactionInfoInfo.RefundStatus);
                 }
                 DataController.CommitTransaction();
             }

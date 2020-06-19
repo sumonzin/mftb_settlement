@@ -42,7 +42,6 @@ namespace ACE.Banking.MPU.DataAccess
         {
             get
             {
-                //string connectionString = ConfigurationManager.ConnectionStrings["SettlementDB"].Name;
                 string connectionString = ConfigurationManager.ConnectionStrings["MAINDB"].Name;
                 return connectionString;
             }
@@ -53,7 +52,6 @@ namespace ACE.Banking.MPU.DataAccess
             get
             {
                 string connectionString = ConfigurationManager.AppSettings["OrclConnection"];
-                //string strConnection = ConfigurationManager.ConnectionStrings["OrclConnection"].Name;
                 return connectionString;
             }
         }
@@ -67,12 +65,7 @@ namespace ACE.Banking.MPU.DataAccess
         {
             DB = DatabaseFactory.CreateDatabase(MainDBConnectionStringName);
             Connection = DB.CreateConnection();
-
-            //T_DB = DatabaseFactory.CreateDatabase(T_MainDBConnectionStringName);
-            //T_Connection = T_DB.CreateConnection();
-
-            //S_DB = DatabaseFactory.CreateDatabase(S_MainDBConnectionStringName);
-            //S_Connection = S_DB.CreateConnection();
+           
         }
         #endregion
 
@@ -155,8 +148,6 @@ namespace ACE.Banking.MPU.DataAccess
         {
             get
             {
-                //string connectionString = ConfigurationManager.ConnectionStrings[AppConfig.OtherBranchConnectionName].Name;                
-                //return connectionString;
                 return string.Empty;
             }
         }
@@ -172,8 +163,6 @@ namespace ACE.Banking.MPU.DataAccess
         {
             get
             {
-                //string connectionString = ConfigurationManager.ConnectionStrings[AppConfig.StandingOrderConnectionName].Name;
-                //return connectionString;
                 return string.Empty;
             }
         }

@@ -13,25 +13,10 @@ namespace ACE.Banking.MPU.DataAccess
 {
     public class CBSMPUSFT_DataController : DataControllerBase
     {
-        //public string CBSSettlementFileGenerate(DateTime MPUStartdate, DateTime MPUEndDate)
-        //{
-        //    Command = DB.GetStoredProcCommand("SP_MPU_SETTLEMENT_INFO_CUTOFF");
-        //    DB.AddInParameter(Command, "MPUSTARTDATE", DbType.DateTime, MPUStartdate);
-        //    DB.AddInParameter(Command, "MPUENDDATE", DbType.DateTime, MPUEndDate);
-        //    DB.AddOutParameter(Command, "RCODE", DbType.String, 2);
-
-        //    DB.ExecuteNonQuery(Command);
-        //    return Convert.ToString(DB.GetParameterValue(Command, "RCODE"));
-        //}
-
+        
         public MPUSettlementINfo CBSSettlementFileGenerate(DateTime MPUStartdate, DateTime MPUEndDate)
         {
-            //String Startdate = "15-12-2018";
-            // String EndDate = "15-12-2018";
-
-            // String Startdate = MPUStartdate.ToString("dd-MM-yyyy HH':'mm':'ss");
-            // String EndDate = MPUEndDate.ToString("dd-MM-yyyy HH':'mm':'ss");
-
+            
             String Startdate = MPUStartdate.ToString("dd-MM-yyyy");
             String EndDate = MPUEndDate.ToString("dd-MM-yyyy");
 
@@ -50,8 +35,7 @@ namespace ACE.Banking.MPU.DataAccess
                     cmd.Parameters.Add("MPUSTARTDATE", OracleDbType.Varchar2).Value = Startdate;
                     cmd.Parameters.Add("MPUENDDATE", OracleDbType.Varchar2).Value = EndDate;
 
-                    //cmd.Parameters.Add("MPUSTARTDATE", OracleDbType.Varchar2).Value = MPUStartdate.ToString();
-                    //cmd.Parameters.Add("MPUENDDATE", OracleDbType.Varchar2).Value = MPUEndDate.ToString();
+              
                     cmd.Parameters.Add("CV_1", OracleDbType.RefCursor).Direction = ParameterDirection.Output;
 
                     MPUSettlementINfo SelectedData = new MPUSettlementINfo();
@@ -222,14 +206,7 @@ namespace ACE.Banking.MPU.DataAccess
                             {
                                 SelectedData.InSummary = rdr.GetDecimal(38);
                             }
-                            //if (!rdr.IsDBNull())
-                            //{
-                            //    SelectedData.strMPUstartDate = rdr.GetDateTime(30).ToString();
-                            //}
-                            //if (!rdr.IsDBNull(31))
-                            //{
-                            //    SelectedData.strMPUEndDate = rdr.GetDateTime(31).ToString();
-                            //}
+                            
                         }
                         rdr.Close();
                     }

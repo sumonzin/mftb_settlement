@@ -43,11 +43,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Oracle.DataAccess" version="2.112.1.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="56832">
       <assemblyIdentity name="ACE.Banking.MPU.Businesslogic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -156,14 +151,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1948096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1947136">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>46FQpyHpnZ4fjGgyuPt7avpNdUC1Hu9kNSJfYiSTWkI=</dsig:DigestValue>
+        <dsig:DigestValue>2aDISsxY2FXcVkAVlplQ3OifZL2COgHPCFJu6uLAQ5Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -176,13 +171,13 @@
       <dsig:DigestValue>jxT/6OICc4mRyZQIrrFlNfUcEDVuvEeKZyYCxqgpJSk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SettlementFileProcess.exe.config" size="2696">
+  <file name="SettlementFileProcess.exe.config" size="2682">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>856QqI5TaVeBMneEf12qhqD1tj4ui9kScmrVdxoBWus=</dsig:DigestValue>
+      <dsig:DigestValue>CKb0MylFENcbgxvGyH5jTyqeBy07dZ+xAICfK27xa4k=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Support\Image\Log Out_24x24.png" size="926">

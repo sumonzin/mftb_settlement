@@ -26,17 +26,7 @@ namespace SettlementFileProcess
 
             //Select SOl_ID form Gam table
             Settlement_InfoController controller = new Settlement_InfoController();
-            // var soldata = controller.SelectAll_Gam();
-
-            //Insert into core banking gam table
-            //for(int i=0;i<soldata.Count;i++)
-            //{
-            //    if(soldata[i].accountNo!=null && soldata[i].Sol_ID!=null)
-            //    {
-            //          controller.InsertIntoGam(soldata[i].accountNo,soldata[i].Sol_ID);
-            //    }
-
-            //}
+           
         }
 
         #region Customize Events
@@ -163,8 +153,6 @@ namespace SettlementFileProcess
                 string DBPassword = string.Empty;
                 string ServerName = string.Empty;
 
-                //Seqlog.TraceLog("Config Writing Event Start at = >" + DateTime.Now, FileName);
-
                 DataRetriveFromReg dreg = new DataRetriveFromReg();
                 AppConfigInfo.RegDataSuit = dreg.ServerConfigRetrieve();
 
@@ -193,12 +181,11 @@ namespace SettlementFileProcess
                     }
                 ConfigWriter cfw = new ConfigWriter();
                 cfw.DBConnectionstringWriter("SettlementDB", ServerName, DBName, DBUserName, DBPassword);
-                //Seqlog.TraceLog("Config Writing Event Finish at = >" + DateTime.Now, FileName);
+               
             }
             catch (Exception ex)
             {
-                //Seqlog.TraceLog("Config Writing Event Fail at = >" + DateTime.Now, FileName);
-                //Seqlog.TraceLog("Err Desc = > " + ex.Message, FileName);
+               
             }
         }
 
@@ -207,9 +194,7 @@ namespace SettlementFileProcess
             try
             {
                 Settlement_InfoController STFCtrl = new Settlement_InfoController();
-                dgvSettlementLog.AutoGenerateColumns = false;
-                // _dataSource = STFCtrl.SelectByStatus("'" + "A" + "'" + "," + "'" + "F" + "'");
-                //Update By MTSKK
+                dgvSettlementLog.AutoGenerateColumns = false; 
                 _dataSource = STFCtrl.SettlementInfo_SelectListForMemberBank_New("'" + "A" + "'" + "," + "'" + "F" + "'");
                 dgvSettlementLog.DataSource = _dataSource;
             }
@@ -470,7 +455,6 @@ namespace SettlementFileProcess
                     {
                         MerchantStmInfo = new Settlement_InfoInfo();
                         MerchantStmInfo.MerchantCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MerchantCode"].Value);
-                        //MerchantStmInfo.ApproveBy = Dns.GetHostName();
                         MerchantStmInfo.ProcessBy = MerchantStmInfo.ApproveFrom;
                         MerchantStmInfo.ProcessFrom = myIP;
                         MerchantStmInfo.UpdatedDate = DateTime.Now;
@@ -487,7 +471,6 @@ namespace SettlementFileProcess
                         MerchantStmInfo.ProcessFrom = myIP;
                         STMCtrl.UpdateByMerchantCode(MerchantStmInfo);
 
-                        //MPUSettlementStatusUpdate(i, MerchantStmInfo.Status, _Eno, MerchantStmInfo.SettlementDate);
 
                         DataRetrieve();
                         MerchantSettlementFieldsShow();
@@ -498,7 +481,7 @@ namespace SettlementFileProcess
                         MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
                         MemberStmInfo.Status = "A";
                         MemberStmInfo.ProcessFrom = myIP;
-                        //MemberStmInfo.ApproveFrom = myIP;
+                      
                         MemberStmInfo.UpdatedDate = DateTime.Now;
                         MemberStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
                         MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
@@ -525,7 +508,7 @@ namespace SettlementFileProcess
 
                         STMCtrl.UpdateByMemberCode(MemberStmInfo);
                         MPUSettlementStatusUpdate(i, MemberStmInfo.Status, Eno, MemberStmInfo.SettlementDate);
-                        //  dgvSettlementLog.Rows[i].Cells["Status"].Value = MemberStmInfo.Status;
+                      
                         if (String.IsNullOrEmpty(Eno))
                             MessageBox.Show("Data Processing is Complete");
                         else if (MemberStmInfo.Status == "S")
@@ -614,11 +597,9 @@ namespace SettlementFileProcess
                                                           SettlementCollection[j].NavigationFlat,
                                                           SettlementCollection[j].TranAmount,
                                                           "MMK",
-
                                                           SettlementCollection[j].RateCode,
-                                                          //GSettlementDate.ToShortDateString(),//Settlement Date
-                                                          null,//DateTime.Now.ToShortDateString(),
-                                                          null,//SettlementCollection[j].strGLDate,
+                                                          null,
+                                                          null,
                                                           SettlementCollection[j].CategoryCode,
                                                           SettlementCollection[j].ENo,
                                                           SettlementCollection[j].Rate,
@@ -658,7 +639,6 @@ namespace SettlementFileProcess
                                     ThirdDataRecord.ReferenceAmount = ISSDataCollection[k].TranAmount;
                                     ThirdDataRecord.RefCurCode = "MMK";
                                     ThirdDataRecord.RateCode = " ";
-                                    //GSettlementDate.ToShortDateString(),//Settlement Date
                                     ThirdDataRecord.strValuedate = ISSDataCollection[k].strValuedate; //Settlement Date
                                     ThirdDataRecord.strGLDate = ISSDataCollection[k].strGLDate;
                                     ThirdDataRecord.CategoryCode = ISSDataCollection[k].CategoryCode;
@@ -704,9 +684,9 @@ namespace SettlementFileProcess
                                                           "MMK",
 
                                                           ISSDataCollection[k].RateCode,
-                                                          //GSettlementDate.ToShortDateString(),//Settlement Date (Value Date)
-                                                          null,  //DateTime.Now.ToShortDateString(), //(ValueType Date)
-                                                          null,//ISSDataCollection[k].strGLDate,
+                                                       
+                                                          null, 
+                                                          null,
                                                           ISSDataCollection[k].CategoryCode,
                                                           ISSDataCollection[k].ENo,
                                                           ISSDataCollection[k].Rate,
@@ -733,10 +713,8 @@ namespace SettlementFileProcess
                                                          ThirdDataRecord.NavigationFlat,
                                                          ThirdDataRecord.TranAmount,
                                                          "MMK",
-                                                         "",                                //settlement_UploadCollections[i].RateCode,
-                                                                                            // DateTime.Now.ToShortDateString(),  //GSettlementDate.ToShortDateString(),//Settlement Date (Value Date)
+                                                         "",                              
                                                          null,
-                                                         //ThirdDataRecord.strGLDate,
                                                          null,
                                                          ThirdDataRecord.CategoryCode,
                                                          ThirdDataRecord.ENo,
@@ -782,7 +760,7 @@ namespace SettlementFileProcess
                                                       ISSECOMDataCollection[l].TranParticular,
                                                       ISSECOMDataCollection[l].AccountRespCode,
                                                       "",
-                                                      //settlement_UploadCollections[i].ReferenceNo,
+                                                    
                                                       ISSECOMDataCollection[l].InstrumentType,
                                                       ISSECOMDataCollection[l].strInsdate,
                                                       ISSECOMDataCollection[l].InstrumentAlpha,
@@ -791,10 +769,8 @@ namespace SettlementFileProcess
                                                       ISSECOMDataCollection[l].TranAmount,
                                                       "MMK",
                                                       "",
-                                                      //settlement_UploadCollections[i].RateCode,
-                                                      //GSettlementDate.ToShortDateString(),//Settlement Date (Value Date)
-                                                      null,  //DateTime.Now.ToShortDateString(), //(ValueType Date)
-                                                      null,//ISSDataCollection[k].strGLDate,
+                                                      null, 
+                                                      null,
                                                       ISSECOMDataCollection[l].CategoryCode,
                                                       ISSECOMDataCollection[l].ENo,
                                                       ISSECOMDataCollection[l].Rate,
@@ -840,7 +816,7 @@ namespace SettlementFileProcess
                                                       ISSPOSDataCollection[h].TranAmount,
                                                       ISSPOSDataCollection[h].TranParticular,
                                                       ISSPOSDataCollection[h].AccountRespCode,
-                                                      "",   //settlement_UploadCollections[i].ReferenceNo,
+                                                      "",
                                                       ISSPOSDataCollection[h].InstrumentType,
                                                       ISSPOSDataCollection[h].strInsdate,
                                                       ISSPOSDataCollection[h].InstrumentAlpha,
@@ -848,10 +824,9 @@ namespace SettlementFileProcess
                                                       ISSPOSDataCollection[h].NavigationFlat,
                                                       ISSPOSDataCollection[h].TranAmount,
                                                       "MMK",
-                                                      "",         //settlement_UploadCollections[i].RateCode,
-                                                                  //GSettlementDate.ToShortDateString(),//Settlement Date (Value Date)
-                                                      null,  //DateTime.Now.ToShortDateString(), //(ValueType Date)
-                                                      null,//ISSDataCollection[k].strGLDate,
+                                                      "",         
+                                                      null,  
+                                                      null,
                                                       ISSPOSDataCollection[h].CategoryCode,
                                                       ISSPOSDataCollection[h].ENo,
                                                       ISSPOSDataCollection[h].Rate,
@@ -861,7 +836,6 @@ namespace SettlementFileProcess
 
                             #endregion POS Debit Transactions from TLF
 
-                           
                             //Select Direct POS Merchant
                             DirPOSCollections Resmodel = new DirPOSCollections();
                             DirPOSCollections Pos_Collection = new DirPOSCollections();
@@ -1077,256 +1051,7 @@ namespace SettlementFileProcess
                             }
 
                             #endregion
-
-                            #region Data Prepare and Insert Settlement_Upload for Debit Card (POS and ECOM)
-
-                            //Settlement_UploadCollections collection = new Settlement_UploadCollections();
-                            //Settlement_UploadCollections SelectionData = new Settlement_UploadCollections();
-                            //collection = controller.Select_SettlementUpload_CreditCard(Eno);
-
-                            //for (int t = 0; t < collection.Count; t++)
-                            //{
-                            //    if (t == 0)
-                            //    {
-                            //        collection[t].AccountNo = data.ECOMPayableAcc;
-                            //        collection[t].CurrencyCode = "MMK";
-                            //        collection[t].RefCurCode = "MMK";
-                            //        collection[t].ServiceOutlet = "1111";
-                            //        collection[t].TranType = "D";
-                            //        collection[t].TranAmount = collection[t].TranAmount;
-                            //        collection[t].ReferenceAmount = collection[t].TranAmount;
-                            //        collection[t].TranParticular = null;
-                            //        collection[t].AccountRespCode = null;
-                            //        collection[t].ReferenceNo = "-";
-                            //        collection[t].InstrumentType = null;
-                            //        collection[t].strInsdate = null;
-                            //        collection[t].InstrumentAlpha = null;
-                            //        collection[t].InstrumentNumber = null;
-                            //        collection[t].NavigationFlat = null;
-                            //        collection[t].RateCode = "-";
-                            //        collection[t].CategoryCode = null;
-                            //        collection[t].strValuedate = null;
-                            //        collection[t].ENo = Eno;
-                            //        collection[t].Rate = 0;
-                            //        collection[t].Channel = "PEDebit";
-                            //    }
-                            //    else if (t == 1)
-                            //    {
-                            //        collection[t].AccountNo = data.MPUSettlementAcc;
-                            //        collection[t].CurrencyCode = "MMK";
-                            //        collection[t].RefCurCode = "MMK";
-                            //        collection[t].ServiceOutlet = "1111";
-                            //        collection[t].TranType = "C";
-                            //        collection[t].TranAmount = collection[t].TranAmount;
-                            //        collection[t].ReferenceAmount = collection[t].TranAmount;
-                            //        collection[t].TranParticular = null;
-                            //        collection[t].AccountRespCode = null;
-                            //        collection[t].ReferenceNo = "-";
-                            //        collection[t].InstrumentType = null;
-                            //        collection[t].strInsdate = null;
-                            //        collection[t].InstrumentAlpha = null;
-                            //        collection[t].InstrumentNumber = null;
-                            //        collection[t].NavigationFlat = null;
-                            //        collection[t].RateCode = "-";
-                            //        collection[t].CategoryCode = null;
-                            //        collection[t].strValuedate = null;
-                            //        collection[t].ENo = Eno;
-                            //        collection[t].Rate = 0;
-                            //        collection[t].Channel = "PEDebit";
-                            //    }
-                            //    else
-                            //    {
-                            //        collection[t].AccountNo = data.IncomingAcc;
-                            //        collection[t].CurrencyCode = "MMK";
-                            //        collection[t].RefCurCode = "MMK";
-                            //        collection[t].ServiceOutlet = "1111";
-                            //        collection[t].TranType = "C";
-                            //        collection[t].TranAmount = collection[t].TranAmount;
-                            //        collection[t].ReferenceAmount = collection[t].TranAmount;
-                            //        collection[t].TranParticular = null;
-                            //        collection[t].AccountRespCode = null;
-                            //        collection[t].ReferenceNo = "-";
-                            //        collection[t].InstrumentType = null;
-                            //        collection[t].strInsdate = null;
-                            //        collection[t].InstrumentAlpha = null;
-                            //        collection[t].InstrumentNumber = null;
-                            //        collection[t].NavigationFlat = null;
-                            //        collection[t].RateCode = "-";
-                            //        collection[t].CategoryCode = null;
-                            //        collection[t].strValuedate = null;
-                            //        collection[t].ENo = Eno;
-                            //        collection[t].Rate = 0;
-                            //        collection[t].Channel = "PEDebit";
-                            //    }
-
-                            //    #region Insert into Settlement_uploadd
-
-                            //    controller.InsertSettlementUpload(collection[t].AccountNo,
-                            //                         collection[t].CurrencyCode,
-                            //                         collection[t].ServiceOutlet,
-                            //                         collection[t].TranType,
-                            //                         collection[t].TranAmount,
-                            //                         collection[t].TranParticular,
-                            //                         collection[t].AccountRespCode,
-                            //                         "-",   //settlement_UploadCollections[i].ReferenceNo,
-                            //                         collection[t].InstrumentType,
-                            //                         collection[t].strInsdate,
-                            //                         collection[t].InstrumentAlpha,
-                            //                         collection[t].InstrumentNumber,
-                            //                         collection[t].NavigationFlat,
-                            //                         collection[t].TranAmount,
-                            //                         collection[t].CurrencyCode,
-                            //                         "-",         //settlement_UploadCollections[i].RateCode,
-                            //                                      //GSettlementDate.ToShortDateString(),//Settlement Date (Value Date)
-                            //                         null,  //DateTime.Now.ToShortDateString(), //(ValueType Date)
-                            //                         null,//ISSDataCollection[k].strGLDate,
-                            //                         collection[t].CategoryCode,
-                            //                         collection[t].ENo,
-                            //                         collection[t].Rate,
-                            //                         collection[t].Channel
-                            //                         );
-
-                            //    #endregion Insert into Settlement_uploadd
-                            //}
-
-                            #endregion Data Prepare and Insert Settlement_Upload for Debit Card (POS and ECOM)
-                     
-                            #region Credit Card (POS)
-
-                            //Settlement_UploadCollections dataforcredit = new Settlement_UploadCollections();
-
-                            //dataforcredit = controller.SelectFromtlf_ForECOMPOSCredit(Eno);
-
-                            //for (int n = 0; n < dataforcredit.Count; n++)
-                            //{
-                            //    //Insert data prepare for Credit(pos+ecom)
-                            //    if (dataforcredit[n].AccountNo == "LAB003" && dataforcredit[n].TranType == "Dr")
-                            //    {
-                            //        dataforcredit[n].AccountNo = data.MPUSettlementAcc;
-                            //        dataforcredit[n].CurrencyCode = "MMK";
-                            //        dataforcredit[n].RefCurCode = "MMK";
-                            //        dataforcredit[n].ServiceOutlet = "1111";
-                            //        dataforcredit[n].TranType = "D";
-                            //        dataforcredit[n].TranAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].ReferenceAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].TranParticular = null;
-                            //        dataforcredit[n].AccountRespCode = null;
-                            //        dataforcredit[n].ReferenceNo = "-";
-                            //        dataforcredit[n].InstrumentType = null;
-                            //        dataforcredit[n].strInsdate = null;
-                            //        dataforcredit[n].InstrumentAlpha = null;
-                            //        dataforcredit[n].InstrumentNumber = null;
-                            //        dataforcredit[n].NavigationFlat = null;
-                            //        dataforcredit[n].RateCode = "-";
-                            //        dataforcredit[n].CategoryCode = null;
-                            //        dataforcredit[n].strValuedate = null;
-                            //        dataforcredit[n].ENo = Eno;
-                            //        dataforcredit[n].Rate = 0;
-                            //        dataforcredit[n].Channel = "POSCr";
-                            //    }
-                            //    else if (dataforcredit[n].AccountNo == "AAC001" && dataforcredit[n].TranType == "Cr")
-                            //    {
-                            //        dataforcredit[n].AccountNo = data.RecePOsCrdAcc;
-                            //        dataforcredit[n].CurrencyCode = "MMK";
-                            //        dataforcredit[n].RefCurCode = "MMK";
-                            //        dataforcredit[n].ServiceOutlet = "1111";
-                            //        dataforcredit[n].TranType = "C";
-                            //        dataforcredit[n].TranAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].ReferenceAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].TranParticular = null;
-                            //        dataforcredit[n].AccountRespCode = null;
-                            //        dataforcredit[n].ReferenceNo = "-";
-                            //        dataforcredit[n].InstrumentType = null;
-                            //        dataforcredit[n].strInsdate = null;
-                            //        dataforcredit[n].InstrumentAlpha = null;
-                            //        dataforcredit[n].InstrumentNumber = null;
-                            //        dataforcredit[n].NavigationFlat = null;
-                            //        dataforcredit[n].RateCode = "-";
-                            //        dataforcredit[n].CategoryCode = null;
-                            //        dataforcredit[n].strValuedate = null;
-                            //        dataforcredit[n].ENo = Eno;
-                            //        dataforcredit[n].Rate = 0;
-                            //        dataforcredit[n].Channel = "POSCr";
-                            //    }
-                            //    else if (dataforcredit[n].AccountNo == "LAN002" && dataforcredit[n].TranType == "Cr")
-                            //    {
-                            //        dataforcredit[n].AccountNo = data.CommissiononPOs;
-                            //        dataforcredit[n].CurrencyCode = "MMK";
-                            //        dataforcredit[n].RefCurCode = "MMK";
-                            //        dataforcredit[n].ServiceOutlet = "1111";
-                            //        dataforcredit[n].TranType = "C";
-                            //        dataforcredit[n].TranAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].ReferenceAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].TranParticular = null;
-                            //        dataforcredit[n].AccountRespCode = null;
-                            //        dataforcredit[n].ReferenceNo = "-";
-                            //        dataforcredit[n].InstrumentType = null;
-                            //        dataforcredit[n].strInsdate = null;
-                            //        dataforcredit[n].InstrumentAlpha = null;
-                            //        dataforcredit[n].InstrumentNumber = null;
-                            //        dataforcredit[n].NavigationFlat = null;
-                            //        dataforcredit[n].RateCode = "-";
-                            //        dataforcredit[n].CategoryCode = null;
-                            //        dataforcredit[n].strValuedate = null;
-                            //        dataforcredit[n].ENo = Eno;
-                            //        dataforcredit[n].Rate = 0;
-                            //        dataforcredit[n].Channel = "POSCr";
-                            //    }
-                            //    else
-                            //    {
-                            //        dataforcredit[n].AccountNo = data.CommissiononEcom;
-                            //        dataforcredit[n].CurrencyCode = "MMK";
-                            //        dataforcredit[n].RefCurCode = "MMK";
-                            //        dataforcredit[n].ServiceOutlet = "1111";
-                            //        dataforcredit[n].TranType = "C";
-                            //        dataforcredit[n].TranAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].ReferenceAmount = dataforcredit[n].TranAmount;
-                            //        dataforcredit[n].TranParticular = null;
-                            //        dataforcredit[n].AccountRespCode = null;
-                            //        dataforcredit[n].ReferenceNo = "-";
-                            //        dataforcredit[n].InstrumentType = null;
-                            //        dataforcredit[n].strInsdate = null;
-                            //        dataforcredit[n].InstrumentAlpha = null;
-                            //        dataforcredit[n].InstrumentNumber = null;
-                            //        dataforcredit[n].NavigationFlat = null;
-                            //        dataforcredit[n].RateCode = "-";
-                            //        dataforcredit[n].CategoryCode = null;
-                            //        dataforcredit[n].strValuedate = null;
-                            //        dataforcredit[n].ENo = Eno;
-                            //        dataforcredit[n].Rate = 0;
-                            //        dataforcredit[n].Channel = "POSCr";
-                            //    }
-
-                            //    #region Insert into Settlement_uploadd
-
-                            //    controller.InsertSettlementUpload(dataforcredit[n].AccountNo,
-                            //                         dataforcredit[n].CurrencyCode,
-                            //                         dataforcredit[n].ServiceOutlet,
-                            //                         dataforcredit[n].TranType,
-                            //                         dataforcredit[n].TranAmount,
-                            //                         dataforcredit[n].TranParticular,
-                            //                         dataforcredit[n].AccountRespCode,
-                            //                         "-",
-                            //                         dataforcredit[n].InstrumentType,
-                            //                         dataforcredit[n].strInsdate,
-                            //                         dataforcredit[n].InstrumentAlpha,
-                            //                         dataforcredit[n].InstrumentNumber,
-                            //                         dataforcredit[n].NavigationFlat,
-                            //                         dataforcredit[n].TranAmount,
-                            //                         dataforcredit[n].CurrencyCode,
-                            //                         "-",
-                            //                         null,
-                            //                         null,
-                            //                         dataforcredit[n].CategoryCode,
-                            //                         dataforcredit[n].ENo,
-                            //                         dataforcredit[n].Rate,
-                            //                         dataforcredit[n].Channel
-                            //                         );
-
-                            //    #endregion Insert into Settlement_uploadd
-                            //}
-
-                            #endregion Credit Card (POS)
+  
                         }
                         else
                         {
@@ -1470,7 +1195,6 @@ namespace SettlementFileProcess
 
             string filename = "SettlementUpload_IST.TXT";
             string sPathName = @"D:\SettlementUploadFiles_IST\";
-            //string sPathName = System.Windows.Forms.Application.StartupPath + @"\MerchantSettlementUpload\";
             sPathName = System.IO.Path.Combine(sPathName, System.DateTime.Now.ToString("ddMMyyyy"));
 
             System.IO.Directory.CreateDirectory(sPathName);
@@ -1563,8 +1287,7 @@ namespace SettlementFileProcess
             //Delete Gam
             Ctrl.DeleteGam();
 
-            //Delete Records in Settlement_Upload Table
-            //Ctrl.DeleteSettlementUpload();
+            
         }
 
         public DataTable ConvertToDataTable<T>(IList<T> data)

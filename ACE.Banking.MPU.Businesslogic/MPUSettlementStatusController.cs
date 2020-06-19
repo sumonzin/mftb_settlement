@@ -56,9 +56,7 @@ namespace ACE.Banking.MPU.Businesslogic
             try
             {
                 DataController.StartTransaction();
-                //foreach (MPUSettlementStatusInfo mPUSettlementStatusInfo in mPUSettlementStatusCollections)
-                    DataController.Update(mPUSettlementStatusInfo.TransactionNo, mPUSettlementStatusInfo.TransactionDate, mPUSettlementStatusInfo.SettlementDate, mPUSettlementStatusInfo.UPdatedDate, mPUSettlementStatusInfo.STATUS);
-
+                DataController.Update(mPUSettlementStatusInfo.TransactionNo, mPUSettlementStatusInfo.TransactionDate, mPUSettlementStatusInfo.SettlementDate, mPUSettlementStatusInfo.UPdatedDate, mPUSettlementStatusInfo.STATUS);
                 DataController.CommitTransaction();
             }
             catch (Exception ex)

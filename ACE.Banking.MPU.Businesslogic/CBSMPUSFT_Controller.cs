@@ -17,11 +17,6 @@ namespace ACE.Banking.MPU.Businesslogic
             string _return = string.Empty;
             try
             {
-                //CBSMPUSTFCtrl.StartTransaction();
-                //_return = CBSMPUSTFCtrl.CBSSettlementFileGenerate(MPUSTFStartDate, MPUSTFEndDate);
-                //CBSMPUSTFCtrl.CommitTransaction();
-
-                //Select ATM Settlement Data from Infosys Core Banking ........
                 var CutOffData = CBSMPUSTFCtrl.CBSSettlementFileGenerate(MPUSTFStartDate, MPUSTFEndDate);
 
                 //Insert into MPU_Settlement_Info (Combie DB)......
@@ -72,9 +67,7 @@ namespace ACE.Banking.MPU.Businesslogic
                                                                 CutOffData.EcomInFee,
                                                                 CutOffData.EcomInMPUAmt,
                                                                 CutOffData.EcomInMPUFee
-                                                               
-                            //CutofData.MPUStartDate,           
-                            //CutofData.MPUEndDate                                                         
+                                                                             
                                                                 );
                         _return = "00";
                     }

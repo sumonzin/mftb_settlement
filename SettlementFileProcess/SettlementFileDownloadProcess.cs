@@ -120,19 +120,10 @@ namespace SettlementFileProcess
                 string username = Convert.ToString(ConfigurationManager.AppSettings["username"]);
                 string password = Convert.ToString(ConfigurationManager.AppSettings["password"]);
 
-                //DMLStringExecuterController DMLCtrl = new DMLStringExecuterController();
-                //DataTable STFFileTB = DMLCtrl.DMLStringExecuter("select CONVERT(CHAR(8),SYSDATE,112) AS STFDate from sys001 where name = 'LAST_MPU_SETTLEMENT_DATE'");
-                //if (STFFileTB.Rows.Count < 0)
-                //    throw new Exception("There is no settlement date for mpu at sys001.");
-                //FileDownloadFromDirectory(string downloadpath);
-
-                /** Need to re-open for real [downloadstd] **/
-                ////string downloadstd = DateTime.Now.Year.ToString() + DateTime.Now.Month.ToString("00") + (DateTime.Now.Day - 1).ToString("00");
+              
                 string downloadstd = DateTime.Now.AddDays(-1).ToString("ddMMyyyy");
 
-                /** Testing. Need to close~ **/
-                //string downloadstd = "SettlementFiles";
-
+              
                 hostname += "//" + Convert.ToString(downloadstd);
                 string ecommercepath = downloadpath + "ECOM" + "\\";
 
@@ -245,10 +236,9 @@ namespace SettlementFileProcess
                 Seqlog.TraceLog("============================================", FileName);
                 Seqlog.TraceLog("Core-Banking Settlement File Download Start At = > " + DateTime.Now, FileName);
 
-                //Select CutOffStartDate and EndDate from CutOffDetail_Info in CBS DB
+             
                 DMLStringExecuterController DMLCtrl = new DMLStringExecuterController();
                 var test = STFDate.ToString("yyyy/MM/dd");
-                //DataTable MPUSTFDate = DMLCtrl.DMLStringExecuter("select CutOffStartDate,CutOffEndDate from CutOffDetail_Info where TransType='DEN' and GroupChannel='MPU' and convert(varchar, TransactionDate, 111)=convert(varchar, '" + STFDate.ToString("yyyy/MM/dd") + "', 111)");
                 DataTable MPUSTFDate = DMLCtrl.DMLStringExecuter("select CutOffStartDate,CutOffEndDate from CutOffDetail_Info where TransType='DEN' and GroupChannel='MPU' and convert(varchar, TransactionDate, 111)=convert(varchar, '" + test+ "', 111)");
                 if (MPUSTFDate.Rows.Count < 0) throw new Exception("There is no mpu settlement date.");
 
@@ -265,7 +255,6 @@ namespace SettlementFileProcess
 
                 CBSMPUSFT_Controller CBSMPUCtrl = new CBSMPUSFT_Controller();
                 string _rcode = "00";
-                //string _rcode = CBSMPUCtrl.CBSMPUSettlementFileGeneration(Convert.ToDateTime(MPUSTFDate.Rows[0]["CutOffStartDate"]), Convert.ToDateTime(MPUSTFDate.Rows[0]["CutOffEndDate"]));
                 if (_rcode != "00")
                     throw new Exception("CBS Settlement File Generation Fail.Response Code is = > " + _rcode);
                 else
@@ -295,9 +284,7 @@ namespace SettlementFileProcess
             if (getLastPath(DownloadPath).Equals("ECOM"))
             {
                 string subFolder = "ECOM";
-                // Directory.CreateDirectory(MemberBankSTF + Path.DirectorySeparatorChar + subFolder);
                 Directory.CreateDirectory(MerchantStFile + Path.DirectorySeparatorChar + subFolder);
-                //Directory.CreateDirectory(MemberTrailFilePath + Path.DirectorySeparatorChar + subFolder);
                 Directory.CreateDirectory(MerchantTrailFilePath + Path.DirectorySeparatorChar + subFolder);
 
                 /*** COPY FILES TO MPU/-/ECOM/ FOLDER ***/
@@ -319,12 +306,7 @@ namespace SettlementFileProcess
                         {
                             switch (filetype)
                             {
-                                //case "MBS": //Member Bank Settlement File Process
-                                //    seqlog.TraceLog("Member Bank File = > " + MemberBankSTF + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at = > " + DateTime.Now, FileName);
-                                //    File.Copy(FileNameSuit[i], MemberBankSTF + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
-                                //    seqlog.TraceLog("Member Bank File = > " + MemberBankSTF + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at = > " + DateTime.Now, FileName);
-                                //    break;
-
+                               
                                 case "MBAS": //Member Bank Ecom+POS Acq Settlement File Process
                                     seqlog.TraceLog("Merchant Settlement File = > " + MemberBankSTF + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at = > " + DateTime.Now, FileName);
                                     File.Copy(FileNameSuit[i], MemberBankSTF + "\\" + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
@@ -372,30 +354,6 @@ namespace SettlementFileProcess
                                     File.Copy(FileNameSuit[i], MerchantTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
                                     seqlog.TraceLog("Merchant Trail File = > " + MerchantTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at = > " + DateTime.Now, FileName);
                                     break;
-
-                                //case "MBI": //Member Bank Issuing Transaction Process
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
-                                //    File.Copy(FileNameSuit[i], MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
-                                //    break;
-
-                                //case "MBA": //Member Bank Acquiring Transaction Process
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
-                                //    File.Copy(FileNameSuit[i], MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
-                                //    break;
-
-                                //case "MBAE": //Member Bank Acquiring Transaction Err Process
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
-                                //    File.Copy(FileNameSuit[i], MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
-                                //    break;
-
-                                //case "MBIE": //Member Bank Issuing Transaction Err Process
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
-                                //    File.Copy(FileNameSuit[i], MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
-                                //    seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
-                                //    break;
 
                                 case "T464":
                                     seqlog.TraceLog("Master Trail File = > " + MasterT464FilePath + "\\" + subFolder + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
@@ -602,8 +560,7 @@ namespace SettlementFileProcess
                     ftp.CurrentDirectory = "/";
                     ftp.Download(_FtpFileInfo, localfilepath + _FtpFileInfo.Filename + "\\", true);
                 }
-                //dirpath = Convert.ToString(ConfigurationManager.AppSettings["downloadpath"]);
-                //sourpath = Convert.ToString(ConfigurationManager.AppSettings["downloadpathftp"]);
+              
             }
             reader.Close();
             response.Close();
@@ -654,7 +611,6 @@ namespace SettlementFileProcess
                 SettlementFileReading(out STFDate);
                 CoreBankingSettlementFileDownload(STFDate);
                 Seqlog.TraceLog("Log Writing Event Start at = > " + DateTime.Now, FileName);
-
                 Seqlog.TraceLog("Log Writing Event Finish at = > " + DateTime.Now, FileName);
             }
             catch (Exception ex)
@@ -729,7 +685,6 @@ namespace SettlementFileProcess
             ///<comment>
             /// ENHANCE PROPERTIES FOR E-COMMERCE
             ///</comment>
-            //string subFolder = DateTime.Now.ToString("ddMMyyyy");
             string subFolder = "ECOM";
             string MerchantEcommercePath = MerchantStFile + Path.DirectorySeparatorChar + subFolder;
             //string MemberEcommercePath = MemberBankSTF + Path.DirectorySeparatorChar + subFolder;
@@ -780,18 +735,7 @@ namespace SettlementFileProcess
                     SeqLog.TraceLog("Member Bank Settlement File " + MemberBankSTFNameSuit[i] + "Reading finish at = > " + DateTime.Now, FileName);
                 }
 
-                ///<summary>
-                /// Reading Member Bank E-Commerce Files from MPU\DateTime.Now. (INC)
-                ///</summary>
-                //string[] MemberEcommerceNameSuit = Directory.GetFiles(MemberEcommercePath);
-                //for (int i = 0; i < MemberEcommerceNameSuit.Length; i++)
-                //{
-                //    SeqLog.TraceLog("Member Bank E-Commerce Settlement File " + MemberEcommerceNameSuit[i] + "Reading Start at = > " + DateTime.Now, FileName);
-                //    Stw = new StreamReader(MemberEcommerceNameSuit[i]);
-                //    MemberBankSettlementProcess(Stw, MemberEcommerceNameSuit[i].Replace(MemberEcommercePath + "\\", ""), out STFDate);
-                //    SeqLog.TraceLog("Member Bank E-Commerce Settlement File " + MemberEcommerceNameSuit[i] + "Reading finish at = > " + DateTime.Now, FileName);
-                //}
-
+                
                 ///<summary>
                 /// Reading Merchant Trail File from MPU. (MCD)
                 ///</summary>
@@ -828,18 +772,7 @@ namespace SettlementFileProcess
                     SeqLog.TraceLog("MemberBank Trail File " + MemberBankTrailFile[i] + "Reading finish at = > " + DateTime.Now, FileName);
                 }
 
-                ///<summary>
-                /// Reading Member Bank E-Commerce Trail File from MPU\DATETIME.NOW. (IND)
-                ///</summary>
-                //string[] MemberBankEcommTrailFileSuit = Directory.GetFiles(MemberTrailEcommercePath);
-                //for (int i = 0; i < MemberBankEcommTrailFileSuit.Length; i++)
-                //{
-                //    SeqLog.TraceLog("MemberBank Trail File " + MemberBankEcommTrailFileSuit[i] + "Reading Start at = > " + DateTime.Now, FileName);
-                //    Stw = new StreamReader(MemberBankEcommTrailFileSuit[i]);
-                //    MemberBankTrailFileProcess(Stw, MemberBankEcommTrailFileSuit[i].Replace(MemberTrailEcommercePath + "\\", ""));
-                //    SeqLog.TraceLog("MemberBank Trail File " + MemberBankEcommTrailFileSuit[i] + "Reading finish at = > " + DateTime.Now, FileName);
-                //}
-
+                
                 ///<summary>
                 /// Reading Master T464 File from MPU. (...)
                 ///</summary>
@@ -905,10 +838,8 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.ProcessingCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ProcessingCodeLenth));
                                 startpoint = startpoint + MemberBankTranInfo.ProcessingCodeLenth;
                                 MemberBankTranInfo.transAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.TransAmountLength));
-                                //MemberBankTranInfo.transAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.TransAmountLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.TransAmountLength;
                                 MemberBankTranInfo.settlementAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.SettlementAmountLength));
-                                //MemberBankTranInfo.settlementAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.SettlementAmountLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.SettlementAmountLength;
                                 MemberBankTranInfo.SetConservationRate = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.SetConservationRateLength));
                                 startpoint = startpoint + MemberBankTranInfo.SetConservationRateLength;
@@ -955,10 +886,8 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.AuthType = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.AuthTypeLength));
                                 startpoint = startpoint + MemberBankTranInfo.AuthTypeLength;
                                 MemberBankTranInfo.ServiceFeeReceive = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeeReceiveLength));
-                                //MemberBankTranInfo.ServiceFeeReceive = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeeReceiveLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeeReceiveLength;
                                 MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength));
-                                //MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeePayableLength;
                                 MemberBankTranInfo.ReservedForUse = Convert.ToString(OneLine.Substring(startpoint));
                                 MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
@@ -978,7 +907,6 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.CreatedDate = DateTime.Now;
                                 MemberBankTranInfo.RefundStatus = "A";
 
-                                //MemberBankTranColl.Add(MemberBankTranInfo);
                                 if (!MemberBankTranCtrl.Add(MemberBankTranInfo))
                                     throw new Exception("Data Writing Fail.");
                             }
@@ -1008,10 +936,8 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.ProcessingCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ProcessingCodeLenth));
                                 startpoint = startpoint + MemberBankTranInfo.ProcessingCodeLenth;
                                 MemberBankTranInfo.transAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.TransAmountLength));
-                                //MemberBankTranInfo.transAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.TransAmountLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.TransAmountLength;
                                 MemberBankTranInfo.settlementAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.SettlementAmountLength));
-                                //MemberBankTranInfo.settlementAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.SettlementAmountLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.SettlementAmountLength;
                                 MemberBankTranInfo.SetConservationRate = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.SetConservationRateLength));
                                 startpoint = startpoint + MemberBankTranInfo.SetConservationRateLength;
@@ -1027,8 +953,7 @@ namespace SettlementFileProcess
                                 //Terminal Type=Merchant Type
                                 MemberBankTranInfo.MerchantType = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.MerchantTypeLength));
                                 startpoint = startpoint + MemberBankTranInfo.MerchantTypeLength;
-                                //MemberBankTranInfo.TerminalNo = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TerminalNoLength));
-                                //startpoint = startpoint + MemberBankTranInfo.TerminalNoLength;
+                               
                                 MemberBankTranInfo.AcquringInstitutionID = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.AcquireInstitutionIDLength)).Trim();
                                 startpoint = startpoint + MemberBankTranInfo.AcquireInstitutionIDLength;
                                 MemberBankTranInfo.IssuerBankCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.IssuerBankcodeLength)).Trim();
@@ -1058,13 +983,10 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.ResponseCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ResponseCodeLength));
                                 startpoint = startpoint + MemberBankTranInfo.ResponseCodeLength;
                                 MemberBankTranInfo.ServiceFeeReceive = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeeReceiveLength));
-                                //MemberBankTranInfo.ServiceFeeReceive = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeeReceiveLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeeReceiveLength;
                                 MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength));
-                                //MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeePayableLength;
                                 MemberBankTranInfo.InterChangeServiceFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.InterChangeServiceFeeLength));
-                                //MemberBankTranInfo.InterChangeServiceFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.InterChangeServiceFeeLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.InterChangeServiceFeeLength;
                                 MemberBankTranInfo.POSEntryMode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.POSEntryModeLength));
                                 startpoint = startpoint + MemberBankTranInfo.POSEntryModeLength;
@@ -1075,21 +997,14 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.CardAcceptorIDCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.CardAcceptorIDCodeLength));
                                 startpoint = startpoint + MemberBankTranInfo.CardAcceptorIDCodeLength;
                                 MemberBankTranInfo.AcceptanceAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.AcceptanceAmountLength));
-                                //MemberBankTranInfo.AcceptanceAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.AcceptanceAmountLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.AcceptanceAmountLength;
                                 MemberBankTranInfo.CardHolderTransFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransFeeLength));
-                                //MemberBankTranInfo.CardHolderTransFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransFeeLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.CardHolderTransFeeLength;
                                 MemberBankTranInfo.TranTranmissionDate = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TranTranmissionDateLength));
                                 startpoint = startpoint + MemberBankTranInfo.TranTranmissionDateLength;
                                 MemberBankTranInfo.RefundStatus = "A";
 
-                                //MemberBankTranInfo.RecInstitutionID = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.RecInstitutionIDLength));
-                                //startpoint = startpoint + MemberBankTranInfo.RecInstitutionIDLength + 1;
-
-                                //MemberBankTranInfo.SAndDSwitchFlag = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.SAndDSwitchFlagLength));
-                                //startpoint = startpoint + MemberBankTranInfo.SAndDSwitchFlagLength;
-
+                                
                                 MemberBankTranInfo.ReservedForUse = Convert.ToString(OneLine.Substring(startpoint));
                                 MemberBankTranInfo.FILENAME = STFFileName;
                                 if (STFFileName.Substring(11, 1) == "I" && STFFileName.Substring(12, 3) == "COM")
@@ -1104,7 +1019,6 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.BatchNo = DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
                                 MemberBankTranInfo.CreatedDate = DateTime.Now;
 
-                                //MemberBankTranColl.Add(MemberBankTranInfo);
                                 if (!MemberBankTranCtrl.Add(MemberBankTranInfo))
                                     throw new Exception("Data Writing Fail.");
                             }
@@ -1112,13 +1026,7 @@ namespace SettlementFileProcess
                     } //End of while loop
                 } //End of else loop
 
-                //DMLStringExecuterController DMLCtrl = new DMLStringExecuterController();
-                //DataTable dml = DMLCtrl.DMLStringExecuter("DELETE FROM MEMBERBANKDETAILTRANSACTIONINFO WHERE FILENAME = '" + STFFileName + "'");
-                //if (!MemberBankTranCtrl.Add(MemberBankTranColl))
-                //    throw new Exception("Data Writing Fail.");
-
-                //if (!MemberBankTranCtrl.Add(MemberBankTranInfo))
-                //    throw new Exception("Data Writing Fail.");
+               
                 SeqLog.TraceLog("MemberBank Trail File Reading One By One finish at = > " + DateTime.Now, FileName);
                 SeqLog.TraceLog("===================================", FileName);
             }
@@ -1129,113 +1037,6 @@ namespace SettlementFileProcess
                 SeqLog.TraceLog("===================================", FileName);
             }
         }
-
-        //private void MemberBankTrailFileProcess(StreamReader stw, string STFFileName)
-        //{
-        //    SequenceLog SeqLog = new SequenceLog();
-        //    MemberBankDetailTransactionInfoController MemberBankTranCtrl = new MemberBankDetailTransactionInfoController();
-        //    MemberBankDetailTransactionInfoCollections MemberBankTranColl = new MemberBankDetailTransactionInfoCollections();
-        //    MemberBankDetailTransactionInfoInfo MemberBankTranInfo;
-        //    try
-        //    {
-        //        SeqLog.TraceLog("===================================", FileName);
-        //        SeqLog.TraceLog("MemberBank Trail File Reading One By One start at = > " + DateTime.Now, FileName);
-        //        MemberBankTranInfo = new MemberBankDetailTransactionInfoInfo();
-
-        //        DMLStringExecuterController DMLCtrl = new DMLStringExecuterController();
-        //        DataTable dml = DMLCtrl.DMLStringExecuter("DELETE FROM MEMBERBANKDETAILTRANSACTIONINFO WHERE FILENAME = '" + STFFileName + "'");
-
-        //        while (!stw.EndOfStream)
-        //        {
-        //            string OneLine = stw.ReadLine();
-        //            int startpoint = 0;
-        //            if (OneLine.Trim() != string.Empty)
-        //            {
-        //                SeqLog.TraceLog("data = > " + OneLine, FileName);
-        //                MemberBankTranInfo.AcquringInstitutionID = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.AcquireInstitutionIDLength)).Trim();
-        //                startpoint = startpoint + MemberBankTranInfo.AcquireInstitutionIDLength + 1;
-        //                MemberBankTranInfo.ForwardInstitutionID = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ForwardInstitutionIDLength)).Trim();
-        //                startpoint = startpoint + MemberBankTranInfo.ForwardInstitutionIDLength + 1;
-        //                MemberBankTranInfo.SystemTraceNo = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.SystemTraceNoLength)).Trim();
-        //                startpoint = startpoint + MemberBankTranInfo.SystemTraceNoLength + 1;
-        //                MemberBankTranInfo.TransDateTime = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TransDateTimeLength)).Trim();
-        //                startpoint = startpoint + MemberBankTranInfo.TransDateTimeLength + 1;
-        //                MemberBankTranInfo.PAN = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.PANLength)).Trim();
-        //                startpoint = startpoint + MemberBankTranInfo.PANLength + 1;
-        //                MemberBankTranInfo.transAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.TransAmountLength));
-        //                startpoint = startpoint + MemberBankTranInfo.TransAmountLength + 1;
-        //                MemberBankTranInfo.AcceptanceAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.AcceptanceAmountLength));
-        //                startpoint = startpoint + MemberBankTranInfo.AcceptanceAmountLength + 1;
-        //                MemberBankTranInfo.CardHolderTransFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransFeeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.CardHolderTransFeeLength + 1;
-        //                MemberBankTranInfo.MessageType = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.MessageTypeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.MessageTypeLength + 1;
-        //                MemberBankTranInfo.ProcessingCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ProcessingCodeLenth));
-        //                startpoint = startpoint + MemberBankTranInfo.ProcessingCodeLenth + 1;
-        //                MemberBankTranInfo.MerchantType = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.MerchantTypeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.MerchantTypeLength + 1;
-        //                MemberBankTranInfo.TerminalNo = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TerminalNoLength));
-        //                startpoint = startpoint + MemberBankTranInfo.TerminalNoLength + 1;
-        //                MemberBankTranInfo.CardAcceptorIDCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.CardAcceptorIDCodeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.CardAcceptorIDCodeLength + 1;
-        //                MemberBankTranInfo.RetrievalRefNo = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.RetrievalRefNoLength));
-        //                startpoint = startpoint + MemberBankTranInfo.RetrievalRefNoLength + 1;
-        //                MemberBankTranInfo.POSConditionCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.POSConditionCodeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.POSConditionCodeLength + 1;
-        //                MemberBankTranInfo.AuthResponseCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.AuthResponseCodeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.AuthResponseCodeLength + 1;
-        //                MemberBankTranInfo.RecInstitutionID = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.RecInstitutionIDLength));
-        //                startpoint = startpoint + MemberBankTranInfo.RecInstitutionIDLength + 1;
-        //                MemberBankTranInfo.OrgSystemTraceNo = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.OrgSystemTraceNolength));
-        //                startpoint = startpoint + MemberBankTranInfo.OrgSystemTraceNolength + 1;
-        //                MemberBankTranInfo.ResponseCode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.ResponseCodeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.ResponseCodeLength + 1;
-        //                MemberBankTranInfo.POSEntryMode = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.POSEntryModeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.POSEntryModeLength + 1;
-        //                MemberBankTranInfo.ServiceFeeReceive = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeeReceiveLength));
-        //                startpoint = startpoint + MemberBankTranInfo.ServiceFeeReceiveLength + 1;
-        //                MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength));
-        //                startpoint = startpoint + MemberBankTranInfo.ServiceFeePayableLength + 1;
-        //                MemberBankTranInfo.InterChangeServiceFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.InterChangeServiceFeeLength));
-        //                startpoint = startpoint + MemberBankTranInfo.InterChangeServiceFeeLength + 1;
-        //                MemberBankTranInfo.SAndDSwitchFlag = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.SAndDSwitchFlagLength));
-        //                startpoint = startpoint + MemberBankTranInfo.SAndDSwitchFlagLength + 1;
-        //                MemberBankTranInfo.ReservedForUse = Convert.ToString(OneLine.Substring(startpoint));
-        //                MemberBankTranInfo.FILENAME = STFFileName;
-        //                if (STFFileName.Substring(11, 1) == "I" && STFFileName.Substring(12, 3) == "COM")
-        //                    MemberBankTranInfo.FileType = "MBI"; // Member Bank Issuing Transaction File
-        //                else if (STFFileName.Substring(11, 1) == "A" && STFFileName.Substring(12, 3) == "COM")
-        //                    MemberBankTranInfo.FileType = "MBA"; // Member Bank Acquiring Transaction File
-        //                else if (STFFileName.Substring(11, 1) == "A" && STFFileName.Substring(12, 3) == "ERR")
-        //                    MemberBankTranInfo.FileType = "MBAE"; // Member Bank Acquiring Transaction Err File
-        //                else if (STFFileName.Substring(11, 1) == "I" && STFFileName.Substring(12, 3) == "ERR")
-        //                    MemberBankTranInfo.FileType = "MBIE"; // Member Bank Issuing Transaction Err File
-        //                MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(3, 2));
-        //                MemberBankTranInfo.BatchNo = DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
-        //                MemberBankTranInfo.CreatedDate = DateTime.Now;
-
-        //                //MemberBankTranColl.Add(MemberBankTranInfo);
-        //                if (!MemberBankTranCtrl.Add(MemberBankTranInfo))
-        //                    throw new Exception("Data Writing Fail.");
-        //            }
-        //        }
-        //        //DMLStringExecuterController DMLCtrl = new DMLStringExecuterController();
-        //        //DataTable dml = DMLCtrl.DMLStringExecuter("DELETE FROM MEMBERBANKDETAILTRANSACTIONINFO WHERE FILENAME = '" + STFFileName + "'");
-        //        //if (!MemberBankTranCtrl.Add(MemberBankTranColl))
-        //        //    throw new Exception("Data Writing Fail.");
-
-        //        //if (!MemberBankTranCtrl.Add(MemberBankTranInfo))
-        //        //    throw new Exception("Data Writing Fail.");
-        //        SeqLog.TraceLog("MemberBank Trail File Reading One By One finish at = > " + DateTime.Now, FileName);
-        //        SeqLog.TraceLog("===================================", FileName);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        SeqLog.TraceLog("MemberBank Trail File Reading One By One fail at = > " + DateTime.Now, FileName);
-        //        SeqLog.TraceLog("Err Desc = > " + ex.Message, FileName);
-        //        SeqLog.TraceLog("===================================", FileName);
-        //    }
-        //}
 
         /// <summary>
         /// MasterT464FileProcess
@@ -1469,7 +1270,6 @@ namespace SettlementFileProcess
                         MerchantTranInfo.FileName = STFFileName;
                         var test1 = Convert.ToDateTime(DateTime.Now);
                         var test =Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) +  "/" + STFFileName.Substring(3, 2));
-                        //MerchantTranInfo.STFDate = Convert.ToDateTime(STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(3, 2));
                         MerchantTranColl.Add(MerchantTranInfo);
                     }
                 }
@@ -1505,9 +1305,7 @@ namespace SettlementFileProcess
             try
             {
                 SeqLog.TraceLog("SettlementFileChecking Event Start at  = > " + DateTime.Now, FileName);
-                //if (Convert.ToString(ConfigurationManager.AppSettings["FDD"])!=MPUFileName.Substring(3, 6))
-                //    throw new Exception("This file does not match for previous file name = >" + MPUFileName);
-
+                
                 switch (MPUFileName.Substring(0, 3))
                 {
                     case "MCC":
@@ -1658,85 +1456,6 @@ namespace SettlementFileProcess
                 SeqLog.TraceLog("Merchant Settlement_Info data write fail at = >" + DateTime.Now, FileName);
         }
 
-        /// <summary>
-        /// MemberBankSettlementProcess
-        /// </summary>
-        /// <param name="Stw" type="StreamReader"></param>
-        /// <param name="STFFileName" type="string"></param>
-        /// <param name="STFDate" type="DateTime></param>
-        //private void MemberBankSettlementProcess(StreamReader Stw, string STFFileName, out DateTime STFDate)
-        //{
-        //    SequenceLog SeqLog = new SequenceLog();
-        //    Settlement_InfoController StInfoCtrl = new Settlement_InfoController();
-        //    Settlement_InfoCollections StInfoColl = new Settlement_InfoCollections();
-        //    Settlement_InfoInfo StInfo;
-        //    STFDate = DateTime.Now;
-        //    try
-        //    {
-        //        while (!Stw.EndOfStream)
-        //        {
-        //            int startpoint = 0;
-        //            SeqLog.TraceLog("Member Bank SettlementProcess start at = >" + DateTime.Now, FileName);
-        //            string OneLine = Stw.ReadLine();
-        //            if (OneLine.Trim() != string.Empty)
-        //            {
-        //                SeqLog.TraceLog("Data = > " + OneLine, FileName);
-        //                StInfo = new Settlement_InfoInfo();
-        //                StInfo.MPUDfCode = Convert.ToString(OneLine.Substring(startpoint, 11).Trim());
-        //                startpoint = startpoint + 11 + 1;
-        //                StInfo.OutgoingAmoutSign = Convert.ToString(OneLine.Substring(startpoint, 1).Trim());
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.OutgoingAmount = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2));
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.OutgoingFeeSign = Convert.ToString(OneLine.Substring(startpoint, 1).Trim());
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.OutgoingFee = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2).Trim());
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.IncomingAmountSign = Convert.ToString(OneLine.Substring(startpoint, 1).Trim());
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.IncomingAmount = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2).Trim());
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.IncomingFeeSign = Convert.ToString(OneLine.Substring(startpoint, 1));
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.IncomingFee = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2).Trim());
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.STFAmountSign = Convert.ToString(OneLine.Substring(startpoint, 1).Trim());
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.STFAmount = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2).Trim());
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.STFFeeSign = Convert.ToString(OneLine.Substring(startpoint, 1).Trim());
-        //                startpoint = startpoint + 1 + 1;
-        //                StInfo.STFFee = Convert.ToDecimal(OneLine.Substring(startpoint, 14).Trim() + "." + OneLine.Substring(startpoint + 14, 2).Trim());
-        //                startpoint = startpoint + 1 + 16;
-        //                StInfo.OutgoingSummary = Convert.ToDecimal(OneLine.Substring(startpoint, 10));
-        //                startpoint = startpoint + 1 + 10;
-        //                StInfo.IncomingSummary = Convert.ToDecimal(OneLine.Substring(startpoint, 10));
-        //                startpoint = startpoint + 1 + 10;
-        //                StInfo.SettlementCurrency = Convert.ToString(OneLine.Substring(startpoint, 3));
-        //                startpoint = startpoint + 1 + 3;
-        //                StInfo.Reserved = Convert.ToString(OneLine.Substring(startpoint, 30).Trim());
-        //                StInfo.FileType = "MB";
-        //                StInfo.CreatedDate = DateTime.Now;
-        //                StInfo.SettlementFileName = STFFileName;
-        //                StInfo.SettlementDate = Convert.ToDateTime(STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(3, 2));
-        //                STFDate = StInfo.SettlementDate;
-        //                StInfoColl.Add(StInfo);
-        //            }
-        //        }
-        //        StInfoCtrl.DeleteBySTFFileName(STFFileName);
-        //        if (!StInfoCtrl.Add(StInfoColl))
-        //            throw new Exception("Settlement Process Fail at database.");
-        //        else
-        //            SeqLog.TraceLog("Member Bank SettlementProcess Finish at = >" + DateTime.Now, FileName);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        SeqLog.TraceLog("Member Bank SettlementProcess Fail at = >" + DateTime.Now, FileName);
-        //        SeqLog.TraceLog("Err Description = >" + ex.Message, FileName);
-        //    }
-        //}
-
-        //Modified By MTSKK 10122018
         private void MemberBankSettlementProcess(StreamReader Stw, string STFFileName, out DateTime STFDate)
         {
             SequenceLog SeqLog = new SequenceLog();
@@ -1757,7 +1476,6 @@ namespace SettlementFileProcess
                     {
                         if (RespCode.Trim() == "000" || RespCode.Trim() == "901" || RespCode.Trim() == "902" || RespCode.Trim() == "001")
                         {
-                            //SeqLog.TraceLog("Read Data = > " + OneLine, FileName);
                             continue;
                         }
                         else

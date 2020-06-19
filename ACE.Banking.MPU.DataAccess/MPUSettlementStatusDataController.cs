@@ -38,7 +38,7 @@ namespace ACE.Banking.MPU.DataAccess
             DB.AddInParameter(Command, "CreatedDate", DbType.DateTime, GetNull(DateTime.Now));
             DB.AddInParameter(Command, "STATUS", DbType.String, GetNull(sTATUS));
             DB.ExecuteNonQuery(Command);
-            //return DB.GetParameterValue(Command, "MPUSettlementID").ToString();
+          
             return true;
         }
 
@@ -49,19 +49,10 @@ namespace ACE.Banking.MPU.DataAccess
         {
             Command = DB.GetStoredProcCommand("MPUSettlementStatus_UpdateBySettlementDate");
 
-            //DB.AddInParameter(Command, "MPUSettlementID", DbType.String, GetNull(mPUSettlementID));
-            //DB.AddInParameter(Command, "MPUIncomingAmount", DbType.Decimal, GetNull(mPUIncomingAmount));
-            //DB.AddInParameter(Command, "MPUOutgoingAmount", DbType.Decimal, GetNull(mPUOutgoingAmount));
-            //DB.AddInParameter(Command, "MPUIncomingFee", DbType.Decimal, GetNull(mPUIncomingFee));
-            //DB.AddInParameter(Command, "MPUOutgoingFee", DbType.Decimal, GetNull(mPUOutgoingFee));
-            //DB.AddInParameter(Command, "CBSIncomingAmount", DbType.Decimal, GetNull(cBSIncomingAmount));
-            //DB.AddInParameter(Command, "CBSOutgoingAmount", DbType.Decimal, GetNull(cBSOutgoingAmount));
-            //DB.AddInParameter(Command, "CBSIncomingFee", DbType.Decimal, GetNull(cBSIncomingFee));
-            //DB.AddInParameter(Command, "CBSOutgoingFee", DbType.Decimal, GetNull(cBSOutgoingFee));
+           
             DB.AddInParameter(Command, "TransactionNo", DbType.String, GetNull(transactionNo));
             DB.AddInParameter(Command, "TransactionDate", DbType.DateTime, GetNull(transactionDate));
             DB.AddInParameter(Command, "SettlementDate", DbType.DateTime, GetNull(settlementDate));
-            //DB.AddInParameter(Command, "CreatedDate", DbType.DateTime, GetNull(createdDate));
             DB.AddInParameter(Command, "UPdatedDate", DbType.DateTime, GetNull(uPdatedDate));
             DB.AddInParameter(Command, "STATUS", DbType.String, GetNull(sTATUS));
 

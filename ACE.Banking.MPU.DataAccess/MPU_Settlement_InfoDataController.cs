@@ -18,17 +18,11 @@ namespace ACE.Banking.MPU.DataAccess
 
         public IDataReader SelectBySTFDate(string SettlementDate)
         {
-            //String StartDate = "2018-07-23 23:34:06.000";
-            //String EndDate = "2018-07-24 23:34:07.000";
-            //DateTime startdate = Convert.ToDateTime(StartDate);
-            //DateTime enddate = Convert.ToDateTime(EndDate);
+          
             try
             {
                 Command = DB.GetStoredProcCommand("MPU_Settlement_Info_SelectListSettlementDate");
                 DB.AddInParameter(Command, "FileSTFDate", DbType.String, SettlementDate);
-
-                //DB.AddInParameter(Command, "MPUStartDate", DbType.DateTime, startdate);
-                //DB.AddInParameter(Command, "MPUEndDate", DbType.DateTime, enddate);
 
                 return DB.ExecuteReader(Command);
             }

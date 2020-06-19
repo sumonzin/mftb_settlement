@@ -910,65 +910,13 @@ namespace ACE.Banking.MPU.Businesslogic
                 settlement_InfoInfo.SettlementCurrency = Convert.ToString(dataReader["SettlementCurrency"]);
             }
 
-            //if (!(dataReader["Reserved"] is DBNull))
-            //{
-            //    settlement_InfoInfo.Reserved = Convert.ToString(dataReader["Reserved"]);
-            //}
-
-            //if (!(dataReader["CreatedDate"] is DBNull))
-            //{
-            //    settlement_InfoInfo.CreatedDate = Convert.ToDateTime(dataReader["CreatedDate"]);
-            //}
-
-            //if (!(dataReader["UpdatedDate"] is DBNull))
-            //{
-            //    settlement_InfoInfo.UpdatedDate = Convert.ToDateTime(dataReader["UpdatedDate"]);
-            //}
-
-            //if (!(dataReader["Status"] is DBNull))
-            //{
-            //    settlement_InfoInfo.Status = Convert.ToString(dataReader["Status"]);
-            //}
-
-            //if (!(dataReader["ApproveBy"] is DBNull))
-            //{
-            //    settlement_InfoInfo.ApproveBy = Convert.ToString(dataReader["ApproveBy"]);
-            //}
-
-            //if (!(dataReader["ApproveFrom"] is DBNull))
-            //{
-            //    settlement_InfoInfo.ApproveFrom = Convert.ToString(dataReader["ApproveFrom"]);
-            //}
-            //if (!(dataReader["RejectBy"] is DBNull))
-            //{
-            //    settlement_InfoInfo.RejectBy = Convert.ToString(dataReader["RejectBy"]);
-            //}
-
-            //if (!(dataReader["RejectFrom"] is DBNull))
-            //{
-            //    settlement_InfoInfo.RejectFrom = Convert.ToString(dataReader["RejectFrom"]);
-            //}
-
-            //if (!(dataReader["ProcessBy"] is DBNull))
-            //{
-            //    settlement_InfoInfo.ProcessBy = Convert.ToString(dataReader["ProcessBy"]);
-            //}
-
-            //if (!(dataReader["ProcessFrom"] is DBNull))
-            //{
-            //    settlement_InfoInfo.ProcessFrom = Convert.ToString(dataReader["ProcessFrom"]);
-            //}
-
+          
             if (!(dataReader["FileType"] is DBNull))
             {
                 settlement_InfoInfo.FileType = Convert.ToString(dataReader["FileType"]);
             }
 
-            //if (!(dataReader["MerchantCode"] is DBNull))
-            //{
-            //    settlement_InfoInfo.MerchantCode = Convert.ToString(dataReader["MerchantCode"]);
-            //}
-
+            
             if (!(dataReader["TotalSettlementAmtSign"] is DBNull))
             {
                 settlement_InfoInfo.TotalSettlementAmtSign = Convert.ToString(dataReader["TotalSettlementAmtSign"]);
@@ -979,10 +927,6 @@ namespace ACE.Banking.MPU.Businesslogic
                 settlement_InfoInfo.TotalSettlementAmt = Convert.ToDecimal(dataReader["TotalSettlementAmt"]);
             }
 
-            //if (!(dataReader["MerchantSettlementAccount"] is DBNull))
-            //{
-            //    settlement_InfoInfo.MerchantSettlementAccount = Convert.ToString(dataReader["MerchantSettlementAccount"]);
-            //}
 
             if (!(dataReader["STFFileName"] is DBNull))
             {
@@ -1138,9 +1082,7 @@ namespace ACE.Banking.MPU.Businesslogic
                         if (ResponseCode == "00")
                         {
                             eno = refEno;
-                            //if (DataController.SettlementProcessECOM(accountno, feesign, feeamount, datetime, currency, eno, terminalNo, merchantcode, out refEno, out ResponseCode))
-                            //{
-                            // if (ResponseCode == "00")
+                           
                             DataController.CommitTransaction();
                         }
                         else
@@ -1156,9 +1098,7 @@ namespace ACE.Banking.MPU.Businesslogic
                     if (ResponseCode == "00")
                     {
                         eno = refEno;
-                        //if (DataController.SettlementProcess(accountno, feesign, feeamount, datetime, currency, eno, terminalNo, merchantcode, out refEno, out ResponseCode))
-                        //{
-                        //    if (ResponseCode == "00")
+                        
                         DataController.CommitTransaction();
                     }
                     else

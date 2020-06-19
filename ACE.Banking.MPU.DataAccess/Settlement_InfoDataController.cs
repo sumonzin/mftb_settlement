@@ -160,10 +160,7 @@ namespace ACE.Banking.MPU.DataAccess
         {
             Select_ServiceOutletCollection datacollection = new Select_ServiceOutletCollection();
 
-            //commit the existing transaction
-            //DataControllerBase DBbase = new DataControllerBase();
-            //DBbase.CommitTransaction();
-
+          
             var ConnectionString = ConfigurationManager.AppSettings["OrclConnection"];
             try
             {
@@ -575,8 +572,6 @@ namespace ACE.Banking.MPU.DataAccess
 
             DB.AddOutParameter(Command, "REF@ENO", DbType.String, 11);
             DB.AddOutParameter(Command, "RCODE", DbType.String, 2);
-
-            // Rcode = Convert.ToString(DB.GetParameterValue(Command, "RCODE"));
 
             DB.ExecuteNonQuery(Command);
 

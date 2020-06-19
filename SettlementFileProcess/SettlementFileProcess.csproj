@@ -70,7 +70,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>8E7D6F43E099A7D2BE1C707E4EE902A9420A6691</ManifestCertificateThumbprint>
@@ -86,6 +86,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>SettlementFileProcess_3_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AppConfig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />

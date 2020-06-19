@@ -30,9 +30,6 @@ namespace SettlementFileProcess
             var tdate = new DateTime(TranDate.Year, TranDate.Month, TranDate.Day, 00, 00, 00);
             DateTime ttdate = Convert.ToDateTime(tdate);
 
-            //DateTime StartDate = dtpStart.Value;
-            //DateTime EndDate = dtpEnd.Value;
-            //DateTime TranDate = dtptranDate.Value;
 
             CutOffDateEntryController Controller = new CutOffDateEntryController();
             Controller.InsertintoCutoffdetail_Info(ssdate, eedate, ttdate);

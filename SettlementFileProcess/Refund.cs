@@ -70,7 +70,7 @@ namespace SettlementFileProcess
                 for (int i = 0; i < dgvRefundLog.Rows.Count; i++)
                 {
                     string hostname = Dns.GetHostName();
-                    string myIP = Dns.GetHostEntry(hostname).AddressList[0].ToString();//Dns.GetHostByName(hostname).AddressList[0].ToString();
+                    string myIP = Dns.GetHostEntry(hostname).AddressList[0].ToString();
 
                     if (Convert.ToString(dgvRefundLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvRefundLog.Rows[i].Cells["FileType"].Value) == "MBA")
                     {

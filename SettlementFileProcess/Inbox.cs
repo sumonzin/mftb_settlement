@@ -152,8 +152,6 @@ namespace SettlementFileProcess
                 string DBPassword = string.Empty;
                 string ServerName = string.Empty;
 
-                //Seqlog.TraceLog("Config Writing Event Start at = >" + DateTime.Now, FileName);
-
                 DataRetriveFromReg dreg = new DataRetriveFromReg();
                 AppConfigInfo.RegDataSuit = dreg.ServerConfigRetrieve();
 
@@ -182,12 +180,11 @@ namespace SettlementFileProcess
                     }
                 ConfigWriter cfw = new ConfigWriter();
                 cfw.DBConnectionstringWriter("SettlementDB", ServerName, DBName, DBUserName, DBPassword);
-                //Seqlog.TraceLog("Config Writing Event Finish at = >" + DateTime.Now, FileName);
+                
             }
             catch (Exception ex)
             {
-                //Seqlog.TraceLog("Config Writing Event Fail at = >" + DateTime.Now, FileName);
-                //Seqlog.TraceLog("Err Desc = > " + ex.Message, FileName);
+                
             }
         }
 
@@ -242,7 +239,7 @@ namespace SettlementFileProcess
             {
                 MPU_Settlement_InfoController MPUSTFCtrl = new MPU_Settlement_InfoController();
                 MPU_Settlement_InfoCollections MPUSTFColl = MPUSTFCtrl.Select();
-                //MPU_Settlement_InfoCollections MPUSTFColl = MPUSTFCtrl.SelectBySettlementDate(STFDate.ToString("yyyy/MM/dd"));
+               
                 string ErrorText = string.Empty;
 
                 for (int j = 0; j < dgvSettlementLog.Rows.Count; j++)
@@ -251,8 +248,7 @@ namespace SettlementFileProcess
                     if ((Convert.ToString(dgvSettlementLog.Rows[j].Cells["FileType"].Value) == "MB" && MPUSTFColl.Count <= 0))
                     {
                         dgvSettlementLog.Rows[j].ErrorText = "There is no transaction at core-banking.";
-                        //dgvSettlementLog.Rows[j].DefaultCellStyle.BackColor = Color.LightBlue;
-                        //dgvSettlementLog.Rows[j].DefaultCellStyle.ForeColor = Color.Black;
+                        
                     }
                     for (int i = 0; i < MPUSTFColl.Count; i++)
                     {
@@ -355,11 +351,7 @@ namespace SettlementFileProcess
                 MpuStmStatusinfo.STATUS = status;
                 if (MPUSTFColl.Count > 0)
                 {
-                    //MpuStmStatusinfo.CBSIncomingAmount = Convert.ToDecimal(MPUSTFColl[0].INCOMINGAMOUNT);
-                    //MpuStmStatusinfo.CBSIncomingFee = Convert.ToDecimal(MPUSTFColl[0].INCOMINGMPUFEE);
-                    //MpuStmStatusinfo.CBSOutgoingAmount = Convert.ToDecimal(MPUSTFColl[0].OUTGOINGAMOUNT);
-                    //MpuStmStatusinfo.CBSOutgoingFee = Convert.ToDecimal(MPUSTFColl[0].OUTGOINGMPUFEE);
-
+                   
                     MpuStmStatusinfo.CBSOutgoingAmount = Convert.ToDecimal(MPUSTFColl[0].INCOMINGAMOUNT);
                     MpuStmStatusinfo.CBSOutgoingFee = Convert.ToDecimal(MPUSTFColl[0].INCOMINGMPUFEE);
                     MpuStmStatusinfo.CBSIncomingAmount = Convert.ToDecimal(MPUSTFColl[0].OUTGOINGAMOUNT);
@@ -478,8 +470,7 @@ namespace SettlementFileProcess
                         MerchantStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
                         MerchantStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["SettlementDate"].Value);
                         MCStmColl.Add(MerchantStmInfo);
-                        //MPUSettlementStatusRecord(i, MerchantStmInfo.Status);
-                        //}
+                        
                     }
                     else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
                     {
@@ -579,93 +570,7 @@ namespace SettlementFileProcess
             }
         }
 
-        //private void dgvSettlementLog_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
-        //{
-        //    try
-        //    {
-        //        dgvSettlementLog.ShowRowErrors = true;
-
-        //        for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-        //        {
-        //            //if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC" )
-        //            if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
-        //            {
-        //                decimal incomingamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
-        //                string IncomingAmtSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingAmountSign"].Value);
-
-        //                decimal IncomingFeeamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
-        //                string IncomingFeesign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingFeeSign"].Value);
-
-        //                decimal Outgoingamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingAmount"].Value);
-        //                string OutgoingAmtSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingAmountSign"].Value);
-
-        //                decimal OutgoingFeeamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingFee"].Value);
-        //                string OutgoingFeesign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingFeeSign"].Value);
-
-        //                decimal totalstmamt = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["STFAmount"].Value);
-        //                string totalstmamtsign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["STFAmountSign"].Value);
-
-        //                decimal totalstmfeeamt = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["STFFee"].Value);
-        //                string totalstmamtfeesign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["STFFeeSign"].Value);
-
-        //                if (IncomingAmtSign == "D")
-        //                    incomingamount = 0 - incomingamount;
-        //                if (IncomingFeesign == "D")
-        //                    IncomingFeeamount = 0 - IncomingFeeamount;
-
-        //                if (OutgoingAmtSign == "D")
-        //                    Outgoingamount = 0 - Outgoingamount;
-        //                if (OutgoingFeesign == "D")
-        //                    OutgoingFeeamount = 0 - OutgoingFeeamount;
-
-        //                if (totalstmamtsign == "D")
-        //                    totalstmamt = 0 - totalstmamt;
-
-        //                if (totalstmamtfeesign == "D")
-        //                    totalstmfeeamt = 0 - totalstmfeeamt;
-
-        //                if (!decimal.Equals((incomingamount + IncomingFeeamount + Outgoingamount + OutgoingFeeamount), totalstmamt + totalstmfeeamt))
-        //                {
-        //                    dgvSettlementLog.Rows[i].ErrorText = "Amount didn't match.";
-        //                    //dgvSettlementLog.Rows[i].DefaultCellStyle.BackColor = Color.LightBlue;
-        //                    //dgvSettlementLog.Rows[i].DefaultCellStyle.ForeColor = Color.White;
-        //                }
-        //            }
-        //            else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
-        //            {
-        //                decimal incomingamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
-        //                string IncomingAmtSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingAmountSign"].Value);
-
-        //                decimal Feeamount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
-        //                string Feesign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingFeeSign"].Value);
-
-        //                decimal totalstmamt = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["TotalSTMAmt"].Value);
-        //                string totalstmamtsign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["TotalSTMAmtSign"].Value);
-
-        //                if (IncomingAmtSign == "D")
-        //                    incomingamount = 0 - incomingamount;
-        //                if (Feesign == "D")
-        //                    Feeamount = 0 - Feeamount;
-
-        //                if (totalstmamtsign == "D")
-        //                    totalstmamt = 0 - totalstmamt;
-
-        //                if (!decimal.Equals((incomingamount + Feeamount), totalstmamt))
-        //                {
-        //                    dgvSettlementLog.Rows[i].ErrorText = "Amount didn't match.";
-        //                    // dgvSettlementLog.Rows[i].DefaultCellStyle.BackColor = Color.LightBlue;
-        //                    //dgvSettlementLog.Rows[i].DefaultCellStyle.ForeColor = Color.White;
-        //                }
-        //            }
-        //        }
-        //        DataReconcilation();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show(ex.Message);
-        //    }
-        //}
-
+      
         private void dgvSettlementLog_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
             try
@@ -726,7 +631,7 @@ namespace SettlementFileProcess
                         string totalstmamtfeesign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["STFFeeSign"].Value);
                     }
                 }
-                // DataReconcilation();
+               
             }
             catch (Exception ex)
             {

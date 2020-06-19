@@ -394,18 +394,3 @@ D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Late
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojAssemblyReference.cache
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Inbox.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MainMenu.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.MasterDisputeFileDetail.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.ProcessInfo.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Refund.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.RefundProcess.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementFileDownloadProcess.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.cache
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
-E:\Projects\Banking\MWD\Settlement\02_SourceCode\Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb

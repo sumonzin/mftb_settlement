@@ -1887,7 +1887,10 @@ namespace SettlementFileProcess
             }
             finally
             {
-                if (i != 0) 
+                if (i != 0)
+                    MessageBox.Show("Download Process completed but some errors occured!" + Environment.NewLine + "Please check in the log files...", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                    MessageBox.Show("Download Process completed without errors!", "Download Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

@@ -55,7 +55,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9USBNxt1d5QyO0AFvfYIKlk2EMksFb4Lkld3M0RSGSM=</dsig:DigestValue>
+        <dsig:DigestValue>DuEAVb2fY7CxIPedqLbeIM3McHrOrB+A3yebMRLBEnM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,14 +156,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1947584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1948096">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>I7/bZcA1SEBTw57z/+mEWtH5Gt09mp7anINJvEVd/Mg=</dsig:DigestValue>
+        <dsig:DigestValue>46FQpyHpnZ4fjGgyuPt7avpNdUC1Hu9kNSJfYiSTWkI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1064,20 +1064,16 @@ namespace SettlementFileProcess
                                 {
                                     //Dr (TranAmt - ServiceFeePayable)
                                     controller.InsertSettlementUpload("1111108910100001", "MMK", "1111", "D", Dr_Amt, null, null, null, null, null,
-                                                          null, null, null, Dr_Amt, "MMK", null, null, null, null, Eno, 0, "Dir_POS");
-
-                                    //Cr = ServiceFeeRecieve - ServiceFeePayable
-                                    controller.InsertSettlementUpload("1111300470100004", "MMK", "1111", "C", Cr_Amt, null, null, null, null,
-                                                          null, null, null, null, Cr_Amt, "MMK", null, null, null, null, Eno, 0, "Dir_POS");
+                                                          null, null, null, Dr_Amt, "MMK", null, null, null, null, Eno, 0, "03_POS");
 
                                     //Cr = TranAmt - ServiceFeeRecieve
-                                    controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", Cr2_Amt, null, null, null, null, null,
-                                                          null, null, null, Cr2_Amt, "MMK", null, null, null, null, Eno, 0, "Dir_POS");
+                                    controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", Dr_Amt, null, null, null, null, null,
+                                                          null, null, null, Dr_Amt, "MMK", null, null, null, null, Eno, 0, "03_POS");
 
-                                    Seqlog.TraceLog("InsertSettlementUpload is successful.= >" + DateTime.Now, "INC01C");
+                                    Seqlog.TraceLog("InsertSettlementUpload for 03_POS Merchant is successful.= >" + DateTime.Now, "INC01C");
                                 }
 
-                                MessageBox.Show("Direct POS process is Successful.");
+                                MessageBox.Show("Point 03 POS process is Successful.");
                             }
 
                             #endregion

@@ -198,7 +198,19 @@ namespace ACE.Banking.MPU.CollectionSuit
         public int AcceptanceAmountLength
         {
             get { return 12; }
-        }       
+        }
+
+        public String CardHolderTransType { get; set; }
+
+        private int cardHolderTransTypeLenght;
+
+        public int CardHolderTransTypeLenght
+        {
+            get { return 1; }
+            
+        }
+
+
         private Decimal _cardHolderTransFee;
         /// <summary>
         /// CardHolderTransFee 
@@ -210,7 +222,7 @@ namespace ACE.Banking.MPU.CollectionSuit
         }
         public int CardHolderTransFeeLength
         {
-            get { return 12; }
+            get { return 11; }
         }
 
         private String _tranTranmissiondate;

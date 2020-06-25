@@ -50,19 +50,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DuEAVb2fY7CxIPedqLbeIM3McHrOrB+A3yebMRLBEnM=</dsig:DigestValue>
+        <dsig:DigestValue>jhz6U/RRC4k/dEekr4NABNgg7Fj9kup9FHal4vTOKXg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.CollectionSuit.dll" size="55808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.CollectionSuit.dll" size="56320">
       <assemblyIdentity name="ACE.Banking.MPU.CollectionSuit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xS/0GWzgtGxZ1GDbaEIJT/24yKq9xyT0ejcyuFSLrDM=</dsig:DigestValue>
+        <dsig:DigestValue>GRpnj4U3QQ0V9190px/fnqEHE9eMmQuep9zh4J13Ims=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0vq8hjxumWSDSn+Wzxu5iS/JlIW+DxIb7XYiXXMjM4g=</dsig:DigestValue>
+        <dsig:DigestValue>fNSLg6V91kwrpWM56s4lwI4UR3e9KkGpISZ+qj7wbEY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -139,6 +139,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.DataAccess.dll" size="1208320">
+      <assemblyIdentity name="Oracle.DataAccess" version="2.121.2.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lSbweAesfSnGjJeN3IMmHQlqbufeppr/nEm78LdhH5M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RegisterationSaving.dll" size="16384">
       <assemblyIdentity name="RegisterationSaving" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -158,7 +170,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2aDISsxY2FXcVkAVlplQ3OifZL2COgHPCFJu6uLAQ5Q=</dsig:DigestValue>
+        <dsig:DigestValue>LY0ViHik9ugu8WoOdf7/2naRaAiO8A1FlsTwE7xjuR8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

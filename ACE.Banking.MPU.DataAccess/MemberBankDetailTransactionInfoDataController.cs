@@ -23,7 +23,7 @@ namespace ACE.Banking.MPU.DataAccess
                              string merchantType, string terminalNo, string acquireInstitutionID, string IssuerBankCode, string BeneficiaryBankCode, string forwardInstitutionID, string authResponseCode,
                              string retrievalRefNo, string CardAcceptorTerminalNo, string TransactionCurCode, string SetCurCode, string FromAcc, string ToAcc, string messageType, string cardAcceptorIDCode, 
                              string responseCode, decimal serviceFeeReceive, decimal serviceFeePayable, decimal interChangeServiceFee, string pOSEntryMode, string orgSystemTraceNo, string pOSConditionCode,
-                             decimal acceptanceAmount, decimal cardHolderTransFee,string TranTranmissionDate,  string reservedForUse, DateTime createdDate, decimal batchNo,
+                             decimal acceptanceAmount, string cardHolderTransType, decimal cardHolderTransFee,string TranTranmissionDate,  string reservedForUse, DateTime createdDate, decimal batchNo,
                              string fILENAME, string fileType,string TranRespCode ,string RefundStatus)
         {
             Command = DB.GetStoredProcCommand("MemberBankDetailTransactionInfo_Insert_New");
@@ -59,6 +59,9 @@ namespace ACE.Banking.MPU.DataAccess
             DB.AddInParameter(Command, "POSCONDITIONCODE", DbType.String, GetNull(pOSConditionCode));
             DB.AddInParameter(Command, "CARDACCEPTORIDCODE", DbType.String, GetNull(cardAcceptorIDCode));
             DB.AddInParameter(Command, "ACCEPTANCEAMOUNT", DbType.Decimal, GetNull(acceptanceAmount));
+
+            DB.AddInParameter(Command, "CARDHOLDERTRANSTYPE", DbType.String, GetNull(cardHolderTransType));
+
             DB.AddInParameter(Command, "CARDHOLDERTRANSFEE", DbType.Decimal, GetNull(cardHolderTransFee));
             DB.AddInParameter(Command, "TranTranmissionDate", DbType.String, GetNull(TranTranmissionDate));
             //DB.AddInParameter(Command, "SANDDSWITCHFLAG", DbType.String, GetNull(sAndDSwitchFlag));

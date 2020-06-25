@@ -947,7 +947,9 @@ namespace SettlementFileProcess
                                 startpoint += 1; //for ('/') filter
                                 MemberBankTranInfo.TransDateTime = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TransDateTimeLength)).Trim();
                                 startpoint = startpoint + MemberBankTranInfo.TransDateTimeLength;
-                                MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+                                // MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+                                MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + DateTime.Now.Year.ToString(), 
+                                    System.Globalization.CultureInfo.GetCultureInfo("hi-IN").DateTimeFormat);
                                 clsGlobal.vSTFDate = MemberBankTranInfo.SETTLEMENTDATE;
                                 startpoint = startpoint + 4;
                                 //Terminal Type=Merchant Type
@@ -998,8 +1000,14 @@ namespace SettlementFileProcess
                                 startpoint = startpoint + MemberBankTranInfo.CardAcceptorIDCodeLength;
                                 MemberBankTranInfo.AcceptanceAmount = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.AcceptanceAmountLength));
                                 startpoint = startpoint + MemberBankTranInfo.AcceptanceAmountLength;
-                                MemberBankTranInfo.CardHolderTransFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransFeeLength));
+
+                                MemberBankTranInfo.CardHolderTransType = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransTypeLenght));
+                                startpoint = startpoint + MemberBankTranInfo.CardHolderTransTypeLenght;
+
+
+                                MemberBankTranInfo.CardHolderTransFee = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.CardHolderTransFeeLength))/100;
                                 startpoint = startpoint + MemberBankTranInfo.CardHolderTransFeeLength;
+
                                 MemberBankTranInfo.TranTranmissionDate = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TranTranmissionDateLength));
                                 startpoint = startpoint + MemberBankTranInfo.TranTranmissionDateLength;
                                 MemberBankTranInfo.RefundStatus = "A";

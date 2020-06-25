@@ -1,8 +1,0 @@
-12/06/2020 11:11:49 ==> Select_DirPOS_Trans Complete=> 2020/05/27
-12/06/2020 11:11:50 ==> SelectAll_Merchant_Rate Complete= >12/06/2020 11:11:50
-12/06/2020 11:11:50 ==> Before Compare With MerchantID= >12/06/2020 11:11:50
-12/06/2020 11:11:51 ==> After Compare With MerchantID= >12/06/2020 11:11:51
-12/06/2020 13:28:59 ==> Select_DirPOS_Trans Complete=> 2020/05/27
-12/06/2020 13:47:57 ==> SelectAll_Merchant_Rate Complete= >12/06/2020 13:47:56
-12/06/2020 13:48:02 ==> Before Compare With MerchantID= >12/06/2020 13:48:02
-12/06/2020 13:48:05 ==> After Compare With MerchantID= >12/06/2020 13:48:05

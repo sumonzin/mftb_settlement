@@ -144,3 +144,18 @@ D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Late
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojResolveAssemblyReference.cache
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\Oracle.DataAccess.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csprojAssemblyReference.cache
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csproj.CoreCompileInputs.cache
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.csproj.CopyComplete
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.Businesslogic\obj\Debug\ACE.Banking.MPU.Businesslogic.pdb

@@ -1,2 +1,0 @@
-09/06/2020 11:39:30 ==> Config Writing Event Start at = >09/06/2020 11:39:30
-09/06/2020 11:39:31 ==> Config Writing Event Finish at = >09/06/2020 11:39:31

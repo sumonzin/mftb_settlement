@@ -394,6 +394,23 @@ D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Late
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\AppConfig.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Oracle.DataAccess.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.csprojAssemblyReference.cache
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.CutOffStartDateandEndDateEntry.resources
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.DataReconcile.resources
@@ -407,26 +424,10 @@ C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\Set
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.SettlementProcessConfiguration.resources
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.Properties.Resources.resources
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.GenerateResource.cache
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.config
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe.manifest
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.application
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.exe
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\SettlementFileProcess.pdb
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\AppConfig.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\RegisterationSaving.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.Businesslogic.pdb
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
-C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\ACE.Banking.MPU.DataAccess.pdb
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.CoreCompileInputs.cache
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.TrustInfo.xml
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe.manifest
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.application
 C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.csproj.CopyComplete
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.exe
+C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\obj\Debug\SettlementFileProcess.pdb

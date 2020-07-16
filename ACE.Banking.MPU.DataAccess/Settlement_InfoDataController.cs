@@ -223,6 +223,12 @@ namespace ACE.Banking.MPU.DataAccess
         public IDataReader Select(string STFdatetime)
         {
             Command = DB.GetStoredProcCommand("Settlement_Info_SelectList_New");
+
+            //0001/01/01
+           // STFdatetime  = "2020/07/06";
+            // STFdatetime = '2020-05-02 00:00:00.000'
+
+
             DB.AddInParameter(Command, "STFdate", DbType.String, STFdatetime);
             return DB.ExecuteReader(Command);
         }

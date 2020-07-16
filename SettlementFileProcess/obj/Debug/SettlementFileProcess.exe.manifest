@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="56832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="58368">
       <assemblyIdentity name="ACE.Banking.MPU.Businesslogic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jhz6U/RRC4k/dEekr4NABNgg7Fj9kup9FHal4vTOKXg=</dsig:DigestValue>
+        <dsig:DigestValue>C2yi+s5n0RmGUUca1dOcBDlqXQC9YYoBK37CtUEaV4w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fNSLg6V91kwrpWM56s4lwI4UR3e9KkGpISZ+qj7wbEY=</dsig:DigestValue>
+        <dsig:DigestValue>yJuxubJehGYuXk8VGG8r99sqcQUaDJe/NPR5xjhDFo8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -163,14 +163,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1947136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1946624">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LY0ViHik9ugu8WoOdf7/2naRaAiO8A1FlsTwE7xjuR8=</dsig:DigestValue>
+        <dsig:DigestValue>NuIyRul8d0lUlnynEbyI2gJ/0/cvv2ryl/U/S8E6N1g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

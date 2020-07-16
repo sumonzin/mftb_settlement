@@ -70,14 +70,22 @@ namespace ACE.Banking.MPU.Businesslogic
             if (!(dataReader["AuthResponseCode"] is DBNull))
                 memberBankDetailTransactionInfoInfo.AuthResponseCode = Convert.ToString(dataReader["AuthResponseCode"]);
 
-            if (!(dataReader["RecInstitutionID"] is DBNull))
-                memberBankDetailTransactionInfoInfo.RecInstitutionID = Convert.ToString(dataReader["RecInstitutionID"]);
-
             if (!(dataReader["OrgSystemTraceNo"] is DBNull))
                 memberBankDetailTransactionInfoInfo.OrgSystemTraceNo = Convert.ToString(dataReader["OrgSystemTraceNo"]);
 
             if (!(dataReader["ResponseCode"] is DBNull))
                 memberBankDetailTransactionInfoInfo.ResponseCode = Convert.ToString(dataReader["ResponseCode"]);
+
+            if (!(dataReader["TranResponseCode"] is DBNull))
+                memberBankDetailTransactionInfoInfo.TranRespCode = Convert.ToString(dataReader["TranResponseCode"]);
+
+         
+            if (!(dataReader["FromAccount"] is DBNull))
+                memberBankDetailTransactionInfoInfo.FromAccount = Convert.ToString(dataReader["FromAccount"]);
+
+            if (!(dataReader["ToAccount"] is DBNull))
+                memberBankDetailTransactionInfoInfo.ToAccount = Convert.ToString(dataReader["ToAccount"]);
+
 
             if (!(dataReader["POSEntryMode"] is DBNull))
                 memberBankDetailTransactionInfoInfo.POSEntryMode = Convert.ToString(dataReader["POSEntryMode"]);
@@ -85,14 +93,19 @@ namespace ACE.Banking.MPU.Businesslogic
             if (!(dataReader["ServiceFeeReceive"] is DBNull))
                 memberBankDetailTransactionInfoInfo.ServiceFeeReceive = Convert.ToDecimal(dataReader["ServiceFeeReceive"]);
 
-            if (!(dataReader["ServiceFeePayable"] is DBNull))
-                memberBankDetailTransactionInfoInfo.ServiceFeePayable = Convert.ToDecimal(dataReader["ServiceFeePayable"]);
+            if (!(dataReader["IssuerBankCode"] is DBNull))
+                memberBankDetailTransactionInfoInfo.IssuerBankCode = Convert.ToString(dataReader["IssuerBankCode"]);
+
+           // BeneficiaryBankCode
+            if (!(dataReader["BeneficiaryBankCode"] is DBNull))
+                memberBankDetailTransactionInfoInfo.BeneficiaryBankCode = Convert.ToString(dataReader["BeneficiaryBankCode"]);
+
 
             if (!(dataReader["InterChangeServiceFee"] is DBNull))
                 memberBankDetailTransactionInfoInfo.InterChangeServiceFee = Convert.ToDecimal(dataReader["InterChangeServiceFee"]);
 
-            if (!(dataReader["SAndDSwitchFlag"] is DBNull))
-                memberBankDetailTransactionInfoInfo.SAndDSwitchFlag = Convert.ToString(dataReader["SAndDSwitchFlag"]);
+            if (!(dataReader["ReservedForUse"] is DBNull))
+                memberBankDetailTransactionInfoInfo.ReservedForUse = Convert.ToString(dataReader["ReservedForUse"]);
 
             if (!(dataReader["ReservedForUse"] is DBNull))
                 memberBankDetailTransactionInfoInfo.ReservedForUse = Convert.ToString(dataReader["ReservedForUse"]);

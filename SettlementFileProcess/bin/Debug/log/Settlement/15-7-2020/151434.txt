@@ -1,0 +1,4 @@
+7/15/2020 2:34:52 PM ==> Download Process Start at = >7/15/2020 2:34:52 PM
+7/15/2020 2:34:52 PM ==> ====================================
+7/15/2020 2:34:52 PM ==> File download Processs start at = >7/15/2020 2:34:52 PM
+7/15/2020 2:34:54 PM ==> SettlementFileChecking Event Start at  = > 7/15/2020 2:34:54 PM

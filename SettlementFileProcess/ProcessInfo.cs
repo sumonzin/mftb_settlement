@@ -311,7 +311,6 @@ namespace SettlementFileProcess
                                                             settlement_UploadCollections[i].TranParticular,
                                                             settlement_UploadCollections[i].AccountRespCode,
                                                             "",
-                                                            //settlement_UploadCollections[i].ReferenceNo,
                                                             settlement_UploadCollections[i].InstrumentType,
                                                             settlement_UploadCollections[i].strInsdate,
                                                             settlement_UploadCollections[i].InstrumentAlpha,
@@ -320,10 +319,8 @@ namespace SettlementFileProcess
                                                             settlement_UploadCollections[i].TranAmount,
                                                             settlement_UploadCollections[i].CurrencyCode,
                                                             "",
-                                                            //settlement_UploadCollections[i].RateCode,
-                                                            null,// GSettlementDate.ToShortDateString(),//Settlement Date
-
-                                                            null,//settlement_UploadCollections[i].strGLDate,
+                                                            null,
+                                                            null,
                                                             settlement_UploadCollections[i].CategoryCode,
                                                             settlement_UploadCollections[i].ENo,
                                                             settlement_UploadCollections[i].Rate,
@@ -339,9 +336,9 @@ namespace SettlementFileProcess
             }
         }
 
-        private void MPUSettlementStatusUpdate(int rowIndex, string status, string eno, DateTime stfdate)
+        private void MPUSettlementStatusUpdate(string status, string eno, DateTime stfdate)
         {
-            int i = rowIndex;
+            
             MPUSettlementStatusInfo MpuStmStatusinfo = new MPUSettlementStatusInfo();
             MPUSettlementStatusController MPUSTFStaCol = new MPUSettlementStatusController();
 
@@ -446,12 +443,14 @@ namespace SettlementFileProcess
                 Settlement_InfoInfo MemberStmInfo;
                 string _Eno = string.Empty;
                 SequenceLog Seqlog = new SequenceLog();
-                for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-                {
+
+                //for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
+                //{
                     string hostname = Dns.GetHostName();
                     string myIP = Dns.GetHostByName(hostname).AddressList[0].ToString();
 
-                    if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
+                   /* if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && 
+                        Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
                     {
                         MerchantStmInfo = new Settlement_InfoInfo();
                         MerchantStmInfo.MerchantCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MerchantCode"].Value);
@@ -474,15 +473,18 @@ namespace SettlementFileProcess
 
                         DataRetrieve();
                         MerchantSettlementFieldsShow();
-                    }
-                    else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
-                    {
+                    } */
+                   // else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" 
+                       // && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
+                   // {
+
+
                         MemberStmInfo = new Settlement_InfoInfo();
-                        MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
+                        //MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
                         MemberStmInfo.Status = "A";
                         MemberStmInfo.ProcessFrom = myIP;
                       
-                        MemberStmInfo.UpdatedDate = DateTime.Now;
+                       /* MemberStmInfo.UpdatedDate = DateTime.Now;
                         MemberStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
                         MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
                         MemberStmInfo.OutgoingAmoutSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingAmountSign"].Value);
@@ -496,20 +498,33 @@ namespace SettlementFileProcess
                         MemberStmInfo.IncomingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
                         MemberStmInfo.IncomingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
                         MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        STMCtrl.UpdateByMemberCode(MemberStmInfo);
+                        STMCtrl.UpdateByMemberCode(MemberStmInfo); */
                         string Eno = string.Empty;
                         string RCode = string.Empty;
+
                         if (MemberBankSettlementProcess(MemberStmInfo, out Eno, out RCode))
                         {
                             MemberStmInfo.Status = "S";
                         }
                         else
-                            MemberStmInfo.Status = "F";
+                        {
+                           MemberStmInfo.Status = "F";
+                        }
 
                         STMCtrl.UpdateByMemberCode(MemberStmInfo);
-                        MPUSettlementStatusUpdate(i, MemberStmInfo.Status, Eno, MemberStmInfo.SettlementDate);
-                      
-                        if (String.IsNullOrEmpty(Eno))
+                        MPUSettlementStatusUpdate(MemberStmInfo.Status, Eno, MemberStmInfo.SettlementDate);
+
+
+                #region IBFT
+                // select all from member bank detail transcation
+                IBFTController iBFTController = new IBFTController();
+                iBFTController.Option1();
+                iBFTController.Option2();
+
+                #endregion
+
+
+                if (String.IsNullOrEmpty(Eno))
                             MessageBox.Show("Data Processing is Complete");
                         else if (MemberStmInfo.Status == "S")
                         {
@@ -518,7 +533,7 @@ namespace SettlementFileProcess
                             //Select Office Acc from Infosys DB for ATM ACQ process
                             Settlement_InfoController controller = new Settlement_InfoController();
                             OfficeACCfromInfosys data = new OfficeACCfromInfosys();
-                            //data = controller.SelectOfficeAccForATMACQ();
+                            
                             data.MPUSettlementAcc = "1111108910100001";
                             data.SundryAccComonATM = "1111300470100003";
                             data.ReceivableAcc = "1111108880100001";
@@ -529,9 +544,11 @@ namespace SettlementFileProcess
                             data.PayableAcc = "1111703010100001";
 
 
-                            #region Select ATM ACQ Trans from Tlf
+                           
 
-                            Settlement_UploadCollections SettlementCollection = new Settlement_UploadCollections();
+                    #region Select ATM ACQ Trans from Tlf
+
+        Settlement_UploadCollections SettlementCollection = new Settlement_UploadCollections();
 
                             SettlementCollection = controller.SelectFromtlf_ForATMACQ(Eno);
 
@@ -580,7 +597,10 @@ namespace SettlementFileProcess
 
                                 #region Insert into Settlement_upload Table (CDB) (ACQ Trans)
 
-                                if ((SettlementCollection[j].AccountNo == data.MPUSettlementAcc && SettlementCollection[j].TranType == "Dr") || SettlementCollection[j].AccountNo == data.SundryAccComonATM || SettlementCollection[j].AccountNo == data.ReceivableAcc)
+                                if ((SettlementCollection[j].AccountNo == data.MPUSettlementAcc 
+                                    && SettlementCollection[j].TranType == "Dr") 
+                                    || SettlementCollection[j].AccountNo == data.SundryAccComonATM 
+                                    || SettlementCollection[j].AccountNo == data.ReceivableAcc)
                                 {
                                     controller.InsertSettlementUpload(SettlementCollection[j].AccountNo,
                                                           "MMK",
@@ -895,7 +915,7 @@ namespace SettlementFileProcess
                             MerchantRateCollections MerchantRateCollections = new MerchantRateCollections();
                             MerchantRateCollections = controller.SelectAll_Merchant_Rate();
                             Seqlog.TraceLog("SelectAll_Merchant_Rate Complete= >" + DateTime.Now, "INC01C");
-                            decimal cashAdvReceive = 0;
+                            
 
                             #region For Normal POS Merchant
                             if (Resmodel.Count > 0)
@@ -1060,8 +1080,8 @@ namespace SettlementFileProcess
 
                         DataRetrieve();
                         MemberBankSettlementFieldsShow();
-                    }
-                }
+                    //}
+                //}
             }
             catch (Exception ex)
             {

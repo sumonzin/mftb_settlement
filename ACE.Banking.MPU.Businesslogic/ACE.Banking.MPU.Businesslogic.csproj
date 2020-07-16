@@ -18,7 +18,7 @@
     </SccAuxPath>
     <SccProvider>
     </SccProvider>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -39,6 +39,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,6 +71,7 @@
     <Compile Include="CBSMPUSFT_Controller.cs" />
     <Compile Include="CutOffDateEntryController.cs" />
     <Compile Include="DMLStringExecuterController.cs" />
+    <Compile Include="IBFTController.cs" />
     <Compile Include="MemberBankDetailTransactionInfo_Controller.cs" />
     <Compile Include="MerchantDetailTransaction_InfoController.cs" />
     <Compile Include="MPUSettlementStatusController.cs" />

@@ -11,7 +11,7 @@ namespace ACE.Banking.MPU.DataAccess
         #region Select Methods
         public IDataReader Select()
         {
-            Command = DB.GetStoredProcCommand("MemberBankDetailTransactionInfo_SelectList");
+            Command = DB.GetStoredProcCommand("MemberBankDetailTransactionInfo_New_SelectAll");
             return DB.ExecuteReader(Command);
         }
 
@@ -64,7 +64,7 @@ namespace ACE.Banking.MPU.DataAccess
 
             DB.AddInParameter(Command, "CARDHOLDERTRANSFEE", DbType.Decimal, GetNull(cardHolderTransFee));
             DB.AddInParameter(Command, "TranTranmissionDate", DbType.String, GetNull(TranTranmissionDate));
-            //DB.AddInParameter(Command, "SANDDSWITCHFLAG", DbType.String, GetNull(sAndDSwitchFlag));
+            
             DB.AddInParameter(Command, "RESERVEDFORUSE", DbType.String, GetNull(reservedForUse));
             DB.AddInParameter(Command, "CREATEDDATE", DbType.DateTime, GetNull(createdDate));
             DB.AddInParameter(Command, "BATCHNO", DbType.Decimal, GetNull(batchNo));

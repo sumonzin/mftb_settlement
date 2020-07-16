@@ -13,7 +13,7 @@ namespace ACE.Banking.MPU.Businesslogic
     {
 
         private MerchantDetailTransaction_InfoDataController DataController;
-        private int _recordCount;
+        
 
         #region "Constructor"
         public MerchantDetailTransaction_InfoController()
@@ -155,7 +155,20 @@ namespace ACE.Banking.MPU.Businesslogic
                 DataController.StartTransaction();
                 foreach (MerchantDetailTransaction_InfoInfo merchantDetailTransaction_InfoInfo in merchantDetailTransaction_InfoCollections)
                 {
-                     DataController.Insert(merchantDetailTransaction_InfoInfo.AcquireInstitutionID, merchantDetailTransaction_InfoInfo.ForwardingInstitutionID, merchantDetailTransaction_InfoInfo.SystemTraceNo, merchantDetailTransaction_InfoInfo.TranDateTime, merchantDetailTransaction_InfoInfo.PAN, merchantDetailTransaction_InfoInfo.TransactionAmount, merchantDetailTransaction_InfoInfo.AccptAmount, merchantDetailTransaction_InfoInfo.MerchantTranFee, merchantDetailTransaction_InfoInfo.MessageType, merchantDetailTransaction_InfoInfo.ProcessingCode, merchantDetailTransaction_InfoInfo.MerchantType, merchantDetailTransaction_InfoInfo.AcceptorTerminalID, merchantDetailTransaction_InfoInfo.AcceptorID, merchantDetailTransaction_InfoInfo.RetrievalReferenceNo, merchantDetailTransaction_InfoInfo.POSConditionCode, merchantDetailTransaction_InfoInfo.AuthorizeResponseCode, merchantDetailTransaction_InfoInfo.InstitutionCode, merchantDetailTransaction_InfoInfo.OrgTraceNo, merchantDetailTransaction_InfoInfo.ResponseCode, merchantDetailTransaction_InfoInfo.POSEntryMode, merchantDetailTransaction_InfoInfo.SvcFeeRec, merchantDetailTransaction_InfoInfo.SvcFeePayable, merchantDetailTransaction_InfoInfo.InterchangeSvcFee, merchantDetailTransaction_InfoInfo.SwitchFlag, merchantDetailTransaction_InfoInfo.ReservedForUse, merchantDetailTransaction_InfoInfo.CreatedDate, merchantDetailTransaction_InfoInfo.BatchNo,merchantDetailTransaction_InfoInfo.FileName,merchantDetailTransaction_InfoInfo.STFDate);
+                     DataController.Insert(merchantDetailTransaction_InfoInfo.AcquireInstitutionID, merchantDetailTransaction_InfoInfo.ForwardingInstitutionID,
+                         merchantDetailTransaction_InfoInfo.SystemTraceNo, merchantDetailTransaction_InfoInfo.TranDateTime, 
+                         merchantDetailTransaction_InfoInfo.PAN, merchantDetailTransaction_InfoInfo.TransactionAmount, 
+                         merchantDetailTransaction_InfoInfo.AccptAmount, merchantDetailTransaction_InfoInfo.MerchantTranFee,
+                         merchantDetailTransaction_InfoInfo.MessageType, merchantDetailTransaction_InfoInfo.ProcessingCode, 
+                         merchantDetailTransaction_InfoInfo.MerchantType, merchantDetailTransaction_InfoInfo.AcceptorTerminalID, 
+                         merchantDetailTransaction_InfoInfo.AcceptorID, merchantDetailTransaction_InfoInfo.RetrievalReferenceNo, 
+                         merchantDetailTransaction_InfoInfo.POSConditionCode, merchantDetailTransaction_InfoInfo.AuthorizeResponseCode,
+                         merchantDetailTransaction_InfoInfo.InstitutionCode, merchantDetailTransaction_InfoInfo.OrgTraceNo, 
+                         merchantDetailTransaction_InfoInfo.ResponseCode, merchantDetailTransaction_InfoInfo.POSEntryMode,
+                         merchantDetailTransaction_InfoInfo.SvcFeeRec, merchantDetailTransaction_InfoInfo.SvcFeePayable,
+                         merchantDetailTransaction_InfoInfo.InterchangeSvcFee, merchantDetailTransaction_InfoInfo.SwitchFlag,
+                         merchantDetailTransaction_InfoInfo.ReservedForUse, merchantDetailTransaction_InfoInfo.CreatedDate,
+                         merchantDetailTransaction_InfoInfo.BatchNo,merchantDetailTransaction_InfoInfo.FileName,merchantDetailTransaction_InfoInfo.STFDate);
                 }
                 DataController.CommitTransaction();
             }
@@ -176,7 +189,21 @@ namespace ACE.Banking.MPU.Businesslogic
             {
                 DataController.StartTransaction();
                 foreach (MerchantDetailTransaction_InfoInfo merchantDetailTransaction_InfoInfo in merchantDetailTransaction_InfoCollections)
-                    DataController.Update(merchantDetailTransaction_InfoInfo.AcquireInstitutionID, merchantDetailTransaction_InfoInfo.ForwardingInstitutionID, merchantDetailTransaction_InfoInfo.SystemTraceNo, merchantDetailTransaction_InfoInfo.TranDateTime, merchantDetailTransaction_InfoInfo.PAN, merchantDetailTransaction_InfoInfo.TransactionAmount, merchantDetailTransaction_InfoInfo.AccptAmount, merchantDetailTransaction_InfoInfo.MerchantTranFee, merchantDetailTransaction_InfoInfo.MessageType, merchantDetailTransaction_InfoInfo.ProcessingCode, merchantDetailTransaction_InfoInfo.MerchantType, merchantDetailTransaction_InfoInfo.AcceptorTerminalID, merchantDetailTransaction_InfoInfo.AcceptorID, merchantDetailTransaction_InfoInfo.RetrievalReferenceNo, merchantDetailTransaction_InfoInfo.POSConditionCode, merchantDetailTransaction_InfoInfo.AuthorizeResponseCode, merchantDetailTransaction_InfoInfo.InstitutionCode, merchantDetailTransaction_InfoInfo.OrgTraceNo, merchantDetailTransaction_InfoInfo.ResponseCode, merchantDetailTransaction_InfoInfo.POSEntryMode, merchantDetailTransaction_InfoInfo.SvcFeeRec, merchantDetailTransaction_InfoInfo.SvcFeePayable, merchantDetailTransaction_InfoInfo.InterchangeSvcFee, merchantDetailTransaction_InfoInfo.SwitchFlag, merchantDetailTransaction_InfoInfo.ReservedForUse, merchantDetailTransaction_InfoInfo.CreatedDate, merchantDetailTransaction_InfoInfo.BatchNo, merchantDetailTransaction_InfoInfo.FileName, merchantDetailTransaction_InfoInfo.STFDate);
+                    DataController.Update(merchantDetailTransaction_InfoInfo.AcquireInstitutionID, merchantDetailTransaction_InfoInfo.ForwardingInstitutionID,
+                        merchantDetailTransaction_InfoInfo.SystemTraceNo, merchantDetailTransaction_InfoInfo.TranDateTime, 
+                        merchantDetailTransaction_InfoInfo.PAN, merchantDetailTransaction_InfoInfo.TransactionAmount, 
+                        merchantDetailTransaction_InfoInfo.AccptAmount, merchantDetailTransaction_InfoInfo.MerchantTranFee, 
+                        merchantDetailTransaction_InfoInfo.MessageType, merchantDetailTransaction_InfoInfo.ProcessingCode, 
+                        merchantDetailTransaction_InfoInfo.MerchantType, merchantDetailTransaction_InfoInfo.AcceptorTerminalID, 
+                        merchantDetailTransaction_InfoInfo.AcceptorID, merchantDetailTransaction_InfoInfo.RetrievalReferenceNo,
+                        merchantDetailTransaction_InfoInfo.POSConditionCode, merchantDetailTransaction_InfoInfo.AuthorizeResponseCode,
+                        merchantDetailTransaction_InfoInfo.InstitutionCode, merchantDetailTransaction_InfoInfo.OrgTraceNo, 
+                        merchantDetailTransaction_InfoInfo.ResponseCode, merchantDetailTransaction_InfoInfo.POSEntryMode,
+                        merchantDetailTransaction_InfoInfo.SvcFeeRec, merchantDetailTransaction_InfoInfo.SvcFeePayable, 
+                        merchantDetailTransaction_InfoInfo.InterchangeSvcFee, merchantDetailTransaction_InfoInfo.SwitchFlag,
+                        merchantDetailTransaction_InfoInfo.ReservedForUse, merchantDetailTransaction_InfoInfo.CreatedDate, 
+                        merchantDetailTransaction_InfoInfo.BatchNo, merchantDetailTransaction_InfoInfo.FileName,
+                        merchantDetailTransaction_InfoInfo.STFDate);
 
                 DataController.CommitTransaction();
             }

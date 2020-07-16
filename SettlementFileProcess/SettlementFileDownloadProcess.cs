@@ -16,6 +16,7 @@ using AppConfig;
 using ACE.Banking.MPU.Businesslogic;
 using ACE.Banking.MPU.CollectionSuit;
 using FTP.Library;
+using System.Globalization;
 
 namespace SettlementFileProcess
 {
@@ -430,6 +431,11 @@ namespace SettlementFileProcess
                                     File.Copy(FileNameSuit[i], MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
                                     seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
                                     break;
+                                case "BCOM":
+                                    seqlog.TraceLog("BCOM File = > " + MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
+                                    File.Copy(FileNameSuit[i], MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\"), true);
+                                    seqlog.TraceLog("BCOM File = > " + MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\") + " download finish at  = > " + DateTime.Now, FileName);
+                                    break;
 
                                 case "MBIcomE": //Member Bank Issuing Transaction Err Process
                                     seqlog.TraceLog("Memberbank Trail File = > " + MemberTrailFilePath + FileNameSuit[i].Replace(DownloadPath, "\\") + " download start at  = > " + DateTime.Now, FileName);
@@ -705,7 +711,6 @@ namespace SettlementFileProcess
                 {
                     SeqLog.TraceLog("Merchant Settlement File " + MerchantSTFtNameSuit[i] + "Reading Start at = > " + DateTime.Now, FileName);
                     Stw = new StreamReader(MerchantSTFtNameSuit[i]);
-
                     MerchantSettlementProcess(Stw, MerchantSTFtNameSuit[i].Replace(MerchantStFile + "\\", ""), out STFDate);
                     SeqLog.TraceLog("Merchant Settlement File " + MerchantSTFtNameSuit[i] + "Reading finish at = > " + DateTime.Now, FileName);
                 }
@@ -890,7 +895,9 @@ namespace SettlementFileProcess
                                 MemberBankTranInfo.ServiceFeePayable = Convert.ToDecimal(OneLine.Substring(startpoint, MemberBankTranInfo.ServiceFeePayableLength));
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeePayableLength;
                                 MemberBankTranInfo.ReservedForUse = Convert.ToString(OneLine.Substring(startpoint));
+
                                 MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+
                                 clsGlobal.vSTFDate = MemberBankTranInfo.SETTLEMENTDATE;
 
                                 MemberBankTranInfo.FILENAME = STFFileName;
@@ -900,9 +907,11 @@ namespace SettlementFileProcess
                                     MemberBankTranInfo.FileType = "MBA"; // Member Bank Acquiring Transaction File
                                 else if (STFFileName.Substring(9, 3) == "11E")
                                     MemberBankTranInfo.FileType = "MBIErr"; // Member Bank Iss Ecom Err Transaction Err File
+                                else if (MemberBankTranInfo.FileType == "BCOM")
+                                    MemberBankTranInfo.FileType = "BCOM";
                                 else if (STFFileName.Substring(9, 3) == "I")
                                     MemberBankTranInfo.FileType = "MBAErr"; // Member Bank Acq Ecom Err Transaction Err File
-
+                                
                                 MemberBankTranInfo.BatchNo = DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
                                 MemberBankTranInfo.CreatedDate = DateTime.Now;
                                 MemberBankTranInfo.RefundStatus = "A";
@@ -947,9 +956,15 @@ namespace SettlementFileProcess
                                 startpoint += 1; //for ('/') filter
                                 MemberBankTranInfo.TransDateTime = Convert.ToString(OneLine.Substring(startpoint, MemberBankTranInfo.TransDateTimeLength)).Trim();
                                 startpoint = startpoint + MemberBankTranInfo.TransDateTimeLength;
-                                // MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+
+                                //MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+
+                               
                                 MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + DateTime.Now.Year.ToString(), 
                                     System.Globalization.CultureInfo.GetCultureInfo("hi-IN").DateTimeFormat);
+
+                                
+
                                 clsGlobal.vSTFDate = MemberBankTranInfo.SETTLEMENTDATE;
                                 startpoint = startpoint + 4;
                                 //Terminal Type=Merchant Type
@@ -1023,7 +1038,8 @@ namespace SettlementFileProcess
                                     MemberBankTranInfo.FileType = "MBAE"; // Member Bank Acquiring Transaction Err File
                                 else if (STFFileName.Substring(11, 1) == "I" && STFFileName.Substring(12, 3) == "ERR")
                                     MemberBankTranInfo.FileType = "MBIE"; // Member Bank Issuing Transaction Err File
-
+                                else if (STFFileName.Substring(11, 1) == "B" && STFFileName.Substring(12, 3) == "COM")
+                                    MemberBankTranInfo.FileType = "BCOM";
                                 MemberBankTranInfo.BatchNo = DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
                                 MemberBankTranInfo.CreatedDate = DateTime.Now;
 
@@ -1270,9 +1286,9 @@ namespace SettlementFileProcess
                         MerchantTranInfo.InterchangeSvcFee = Convert.ToDecimal(OneLine.Substring(218, 12).Trim());
                         MerchantTranInfo.SwitchFlag = Convert.ToDecimal(OneLine.Substring(231, 1).Trim());
                         if (STFFileName.Contains("2B"))
-                            MerchantTranInfo.ReservedForUse = null;     //OneLine.Substring(233, 66).Trim();
+                            MerchantTranInfo.ReservedForUse = null;    
                         else
-                            MerchantTranInfo.ReservedForUse = OneLine.Substring(233, 66).Trim();
+                        MerchantTranInfo.ReservedForUse = OneLine.Substring(233, 66).Trim();
                         MerchantTranInfo.CreatedDate = DateTime.Now;
                         MerchantTranInfo.BatchNo = DateTime.Now.Day + DateTime.Now.Month + DateTime.Now.Year;
                         MerchantTranInfo.FileName = STFFileName;
@@ -1337,6 +1353,9 @@ namespace SettlementFileProcess
                             _type = "MBIcomE"; // Member Bank Issuing Transaction Err File
                         else if (MPUFileName.Substring(11, 4) == "SCOM")
                             _type = "MBScom"; //  For Member Bank Settlement file Acom+Icom  Summary (Newly added)
+                        else if (MPUFileName.Substring(11, 1) == "B" && MPUFileName.Substring(12, 3) == "COM")
+                            _type = "BCOM"; // Member Bank Acquiring Transaction Err File
+                        //else if()
                         SeqLog.TraceLog("SettlementFileChecking Event Finish at  = > " + DateTime.Now + Environment.NewLine + "File Type is = > " + _type, FileName);
                         return true;
 
@@ -1528,7 +1547,13 @@ namespace SettlementFileProcess
                             StInfo.FileType = "MB";
                             StInfo.CreatedDate = DateTime.Now;
                             StInfo.SettlementFileName = STFFileName;
-                            StInfo.SettlementDate = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+
+                            // StInfo.SettlementDate = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+
+                           StInfo.SettlementDate = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + DateTime.Now.Year.ToString(), 
+                                   System.Globalization.CultureInfo.GetCultureInfo("hi-IN").DateTimeFormat);
+
+
                             clsGlobal.vSTFDate = StInfo.SettlementDate;
                             STFDate = StInfo.SettlementDate;
                             StInfoColl.Add(StInfo);

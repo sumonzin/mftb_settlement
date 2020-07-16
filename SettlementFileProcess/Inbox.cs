@@ -10,6 +10,7 @@ using AppConfig;
 using ACE.Banking.MPU.Businesslogic;
 using ACE.Banking.MPU.CollectionSuit;
 using System.Net;
+using System.Globalization;
 
 //using Excel = Microsoft.Office.Interop.Excel;
 namespace SettlementFileProcess
@@ -192,6 +193,7 @@ namespace SettlementFileProcess
         {
             try
             {
+               
                 Settlement_InfoController STFCtrl = new Settlement_InfoController();
                 dgvSettlementLog.AutoGenerateColumns = false;
                 _dataSource = STFCtrl.Select(clsGlobal.vSTFDate.ToString("yyyy/MM/dd"));
@@ -458,7 +460,7 @@ namespace SettlementFileProcess
                 for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
                 {
                     string hostname = Dns.GetHostName();
-                    string myIP = Dns.GetHostEntry(hostname).AddressList[0].ToString();//Dns.GetHostByName(hostname).AddressList[0].ToString();
+                    string myIP = Dns.GetHostEntry(hostname).AddressList[0].ToString();
 
                     if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
                     {
@@ -488,18 +490,21 @@ namespace SettlementFileProcess
                         MPUSettlementStatusRecord(i, MemberStmInfo.Status);
                     }
                 }
+
                 if (MBStmColl.Count > 0)
                 {
                     STMCtrl.UpdateByMemberCode(MBStmColl);
                     DataRetrieve();
                     MerchantSettlementFieldsShow();
                 }
+
                 if (MCStmColl.Count > 0)
                 {
                     STMCtrl.UpdateByMerchantCode(MCStmColl);
                     DataRetrieve();
                     MemberBankSettlementFieldsShow();
                 }
+
                 if (MCStmColl.Count <= 0 && MBStmColl.Count <= 0)
                     MessageBox.Show("There is no row to process.");
             }

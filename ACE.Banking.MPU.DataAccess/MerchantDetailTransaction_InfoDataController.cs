@@ -57,7 +57,12 @@ namespace ACE.Banking.MPU.DataAccess
         #endregion
 
         #region Update Methods
-        public void Update(decimal acquireInstitutionID, decimal forwardingInstitutionID, decimal systemTraceNo, decimal tranDateTime, decimal pAN, decimal transactionAmount, decimal accptAmount, decimal merchantTranFee, decimal messageType, decimal processingCode, decimal merchantType, string acceptorTerminalID, string acceptorID, string retrievalReferenceNo, decimal pOSConditionCode, string authorizeResponseCode, decimal institutionCode, decimal orgTraceNo, string responseCode, decimal pOSEntryMode, decimal svcFeeRec, decimal svcFeePayable, decimal interchangeSvcFee, decimal switchFlag, string reservedForUse, DateTime createdDate, decimal batchNo, string FileName, DateTime STFDate)
+        public void Update(decimal acquireInstitutionID, decimal forwardingInstitutionID, decimal systemTraceNo, decimal tranDateTime, 
+            decimal pAN, decimal transactionAmount, decimal accptAmount, decimal merchantTranFee, decimal messageType,
+            decimal processingCode, decimal merchantType, string acceptorTerminalID, string acceptorID, string retrievalReferenceNo,
+            decimal pOSConditionCode, string authorizeResponseCode, decimal institutionCode, decimal orgTraceNo, string responseCode, 
+            decimal pOSEntryMode, decimal svcFeeRec, decimal svcFeePayable, decimal interchangeSvcFee, decimal switchFlag, string reservedForUse, 
+            DateTime createdDate, decimal batchNo, string FileName, DateTime STFDate)
         {
             Command = DB.GetStoredProcCommand("MerchantDetailTransaction_Info_Update");
 

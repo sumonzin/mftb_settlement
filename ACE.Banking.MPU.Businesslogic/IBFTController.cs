@@ -1,6 +1,7 @@
 ﻿using System;
 using ACE.Banking.MPU.CollectionSuit;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace ACE.Banking.MPU.Businesslogic
 {
@@ -10,6 +11,7 @@ namespace ACE.Banking.MPU.Businesslogic
         //private MemberBankDetailTransactionInfoDataController DataController;
         private MemberBankDetailTransactionInfoController MemberBankDetailController;
 
+        private MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoInfosCol;
         #endregion
 
         #region Constructor
@@ -17,54 +19,39 @@ namespace ACE.Banking.MPU.Businesslogic
         {
             //DataController = new MemberBankDetailTransactionInfoDataController();
             MemberBankDetailController = new MemberBankDetailTransactionInfoController();
-
+            memberBankDetailTransactionInfoInfosCol = MemberBankDetailController.Select();
 
         }
         #endregion
 
 
         #region Methods
-        public void Option1()
-        {
-           
-
-
-
-            //var ace = "9504035459183552".Substring(0, 6);
-
-            Option1BankAsAcquirer();
-            Option2BankAsBeneficiaryAndIssuer();
-        }
-
-        public void Option2()
+        public void BankAsAquirer()
         {
 
-        }
-
-        private void Option1BankAsAcquirer()
-        {
-            MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoInfosCol = MemberBankDetailController.Select();
+            
             var memberBankDetailTransactionInfosList = memberBankDetailTransactionInfoInfosCol.Cast<MemberBankDetailTransactionInfoInfo>().ToList();
 
             var option1List = memberBankDetailTransactionInfosList.Where(
                 x =>
                 (
                 x.ProcessingCode.Substring(0, 2) == "40" ||
-                x.ProcessingCode.Substring(0, 2) == "42"   ||
-                x.ProcessingCode.Substring(0, 2) == "48" ) &&
+                x.ProcessingCode.Substring(0, 2) == "42" ||
+                x.ProcessingCode.Substring(0, 2) == "48") &&
                 x.TranRespCode == "500" &&
                 x.PAN.Substring(0, 6) != "950502" &&
                 x.FILENAME.Contains("ACOM")).ToList();
 
-            //int i = option1List.Count;
 
-            decimal transTotalAmout = 0;
+            decimal acqDebit = 0;
             foreach (var item in option1List)
             {
-                transTotalAmout += (item.ServiceFeeReceive / 100); //  * 0.0005M + 100;
+                acqDebit += (item.ServiceFeeReceive / 100); //  * 0.0005M + 100;
             }
 
-            transTotalAmout = Math.Round(transTotalAmout, 2);
+
+            // Bank as Issuere and Beneficiary
+            acqDebit = Math.Round(acqDebit, 2);
 
             var option1BIList = memberBankDetailTransactionInfosList.Where(
                 x =>
@@ -73,22 +60,115 @@ namespace ACE.Banking.MPU.Businesslogic
                 x.ProcessingCode.Substring(0, 2) == "42" ||
                 x.ProcessingCode.Substring(0, 2) == "48") &&
                 (x.TranRespCode == "500" || x.TranRespCode == "100") &&
-                 x.PAN.Substring(0, 6) != "950502"  &&
+                 x.PAN.Substring(0, 6) != "950502" &&
                  x.FILENAME.Contains("ICOM") &&
-                 x.IssuerBankCode == "00290001" 
+                 x.IssuerBankCode == "00290001" &&
+                 x.BeneficiaryBankCode == "00290001" &&
+                 x.AcquringInstitutionID != "00290001"
                 )
                 .ToList();
 
+            decimal transTotalAmout1 = 0;
+            decimal transTotalAmout2 = 0;
+            decimal transTotalAmout3 = 0;
+            
+            foreach (var item in option1BIList)
+            {
+                transTotalAmout1 += Math.Round(item.ServiceFeePayable / 100, 2);
 
-            int i = option1BIList.Count;
+                transTotalAmout3 += Math.Round(((item.transAmount / 100) * 0.0005M) + 200, 2);
+                var option1BBList = memberBankDetailTransactionInfosList.Where(
+                x =>
+                (
+                x.ProcessingCode.Substring(0, 2) == "40" ||
+                x.ProcessingCode.Substring(0, 2) == "42" ||
+                x.ProcessingCode.Substring(0, 2) == "48") &&
+                (x.TranRespCode == "500" || x.TranRespCode == "100") &&
+                 x.PAN.Substring(0, 6) != "950502" &&
+                 x.FILENAME.Contains("BCOM") &&
+                 x.SystemTraceNo == item.SystemTraceNo &&
+                 x.IssuerBankCode == "00290001" &&
+                 x.BeneficiaryBankCode == "00290001" &&
+                 x.AcquringInstitutionID != "00290001"
+                ).Sum(
+                    y =>
+                    y.ServiceFeeReceive
+                 );
+
+                transTotalAmout2 += option1BBList / 100;
+            }
+
+            transTotalAmout1 = Math.Round(transTotalAmout1, 2);
+            transTotalAmout2 = Math.Round(transTotalAmout2, 2);
+
+            // decimal Iss_Credit2 = Math.Round(transTotalAmout1 + transTotalAmout2);
+           
+            decimal Iss_Debit = transTotalAmout3;
+            decimal Iss_Credit2 = Math.Round((Iss_Debit - transTotalAmout1) + transTotalAmout2, 2);
+
 
 
         }
 
-        private void Option2BankAsBeneficiaryAndIssuer()
+        public void BankAsIssuerOnly()
         {
+            var memberBankDetailTransactionInfosList = memberBankDetailTransactionInfoInfosCol.Cast<MemberBankDetailTransactionInfoInfo>().ToList();
+            var option3List = memberBankDetailTransactionInfosList.Where(
+             x =>
+             (
+             x.ProcessingCode.Substring(0, 2) == "40" ||
+             x.ProcessingCode.Substring(0, 2) == "42" ||
+             x.ProcessingCode.Substring(0, 2) == "48") &&
+             x.TranRespCode == "500" &&
+             x.PAN.Substring(0, 6) != "950502" &&
+             x.IssuerBankCode == "00290001" &&
+             x.BeneficiaryBankCode != "00290001" &&
+             x.AcquringInstitutionID != "00290001" &&
+             x.FILENAME.Contains("ICOM")).ToList();
+
+            decimal transTotalAmout1 = 0;
+            decimal transTotalAmout2 = 0;
+            foreach (var item in option3List)
+            {
+                transTotalAmout1 += Math.Round(((item.transAmount/100)+(item.transAmount / 100) * 0.0005M) + 200, 2);
+                transTotalAmout2 += Math.Round((item.transAmount / 100)+(item.ServiceFeePayable / 100), 2);
+            }
+            
+            decimal ISS_Debit = transTotalAmout1;
+            decimal ISS_Credit= transTotalAmout2;
+        }
+
+        public void BankAsBefiniciaryOnly()
+        {
+           var memberBankDetailTransactionInfosList = memberBankDetailTransactionInfoInfosCol.Cast<MemberBankDetailTransactionInfoInfo>().ToList();
+            var option2List = memberBankDetailTransactionInfosList.Where(
+              x =>
+              (
+              x.ProcessingCode.Substring(0, 2) == "40" ||
+              x.ProcessingCode.Substring(0, 2) == "42" ||
+              x.ProcessingCode.Substring(0, 2) == "48") &&
+              x.TranRespCode == "500" &&
+              x.PAN.Substring(0, 6) != "950502" &&
+              x.IssuerBankCode != "00290001" &&
+              x.BeneficiaryBankCode == "00290001" &&
+              x.AcquringInstitutionID != "00290001" &&
+              x.FILENAME.Contains("BCOM")).ToList();
+
+            decimal transTotalAmout1 = 0;
+            decimal transTotalAmout2 = 0;
+            foreach (var item in option2List)
+            {
+                transTotalAmout1 += Math.Round((item.transAmount/100) + (item.ServiceFeeReceive / 100),2);
+                transTotalAmout2 += Math.Round(item.ServiceFeeReceive / 100,2);
+            }
+
+            decimal Bene_Debit = transTotalAmout1;
+            decimal Bene_Credit = transTotalAmout2;
 
         }
+
+       
+
         #endregion
     }
 }

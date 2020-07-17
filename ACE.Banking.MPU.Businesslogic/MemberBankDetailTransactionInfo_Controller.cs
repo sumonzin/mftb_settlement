@@ -93,6 +93,9 @@ namespace ACE.Banking.MPU.Businesslogic
             if (!(dataReader["ServiceFeeReceive"] is DBNull))
                 memberBankDetailTransactionInfoInfo.ServiceFeeReceive = Convert.ToDecimal(dataReader["ServiceFeeReceive"]);
 
+            if (!(dataReader["ServiceFeePayable"] is DBNull))
+                memberBankDetailTransactionInfoInfo.ServiceFeePayable = Convert.ToDecimal(dataReader["ServiceFeePayable"]);
+
             if (!(dataReader["IssuerBankCode"] is DBNull))
                 memberBankDetailTransactionInfoInfo.IssuerBankCode = Convert.ToString(dataReader["IssuerBankCode"]);
 

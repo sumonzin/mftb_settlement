@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="58368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="60416">
       <assemblyIdentity name="ACE.Banking.MPU.Businesslogic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>C2yi+s5n0RmGUUca1dOcBDlqXQC9YYoBK37CtUEaV4w=</dsig:DigestValue>
+        <dsig:DigestValue>atxKAYGIQI2pZIcy/L7o/6LEgFDW1WFunIGa7Lys+6c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -170,7 +170,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NuIyRul8d0lUlnynEbyI2gJ/0/cvv2ryl/U/S8E6N1g=</dsig:DigestValue>
+        <dsig:DigestValue>N71lCaZqv9V+wYClYRQOQBJBrfUsN8H00WY8BV55WZs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

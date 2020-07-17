@@ -448,60 +448,16 @@ namespace SettlementFileProcess
                 //{
                     string hostname = Dns.GetHostName();
                     string myIP = Dns.GetHostByName(hostname).AddressList[0].ToString();
-
-                   /* if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && 
-                        Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
-                    {
-                        MerchantStmInfo = new Settlement_InfoInfo();
-                        MerchantStmInfo.MerchantCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MerchantCode"].Value);
-                        MerchantStmInfo.ProcessBy = MerchantStmInfo.ApproveFrom;
-                        MerchantStmInfo.ProcessFrom = myIP;
-                        MerchantStmInfo.UpdatedDate = DateTime.Now;
-                        STMCtrl.UpdateByMerchantCode(MerchantStmInfo);
-
-                        if (SettlementProcessControllerForMerchant(i, out _Eno))
-                            MerchantStmInfo.Status = "S";
-                        else
-                            MerchantStmInfo.Status = "F";
-
-                        MerchantStmInfo.UpdatedDate = DateTime.Now;
-                        MerchantStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
-                        MerchantStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        MerchantStmInfo.ProcessFrom = myIP;
-                        STMCtrl.UpdateByMerchantCode(MerchantStmInfo);
-
-
-                        DataRetrieve();
-                        MerchantSettlementFieldsShow();
-                    } */
-                   // else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" 
-                       // && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
-                   // {
-
-
-                        MemberStmInfo = new Settlement_InfoInfo();
-                        //MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
+                    MemberStmInfo = new Settlement_InfoInfo();
+                      
                         MemberStmInfo.Status = "A";
                         MemberStmInfo.ProcessFrom = myIP;
-                      
-                       /* MemberStmInfo.UpdatedDate = DateTime.Now;
-                        MemberStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
-                        MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        MemberStmInfo.OutgoingAmoutSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingAmountSign"].Value);
-                        MemberStmInfo.OutgoingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingFeeSign"].Value);
-                        MemberStmInfo.IncomingAmountSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingAmountSign"].Value);
-                        MemberStmInfo.IncomingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingFeeSign"].Value);
-                        MemberStmInfo.SettlementCurrency = Convert.ToString(dgvSettlementLog.Rows[i].Cells["SettlementCurrency"].Value);
 
-                        MemberStmInfo.OutgoingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingAmount"].Value);
-                        MemberStmInfo.OutgoingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingFee"].Value);
-                        MemberStmInfo.IncomingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
-                        MemberStmInfo.IncomingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
-                        MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        STMCtrl.UpdateByMemberCode(MemberStmInfo); */
-                        string Eno = string.Empty;
-                        string RCode = string.Empty;
-
+                //  MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
+                //  STMCtrl.UpdateByMemberCode(MemberStmInfo); 
+                 string Eno = string.Empty;
+                 string RCode = string.Empty;
+                MemberStmInfo.SettlementDate = clsGlobal.vSTFDate;
                         if (MemberBankSettlementProcess(MemberStmInfo, out Eno, out RCode))
                         {
                             MemberStmInfo.Status = "S";
@@ -518,8 +474,9 @@ namespace SettlementFileProcess
                 #region IBFT
                 // select all from member bank detail transcation
                 IBFTController iBFTController = new IBFTController();
-                iBFTController.Option1();
-                iBFTController.Option2();
+                iBFTController.BankAsAquirer();
+                iBFTController.BankAsBefiniciaryOnly();
+                iBFTController.BankAsIssuerOnly();
 
                 #endregion
 

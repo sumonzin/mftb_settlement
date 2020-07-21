@@ -286,6 +286,29 @@ namespace ACE.Banking.MPU.DataAccess
             DB.ExecuteNonQuery(Command);
         }
 
+        public void Insert_IBFT_SettlementUpload(IBFT_Request_model model)
+        {
+            try
+            {
+                Command = DB.GetStoredProcCommand("Option1_IBFT_Issuer_BNB_Acquirer");
+
+                DB.AddInParameter(Command, "Acq_Debit", DbType.Decimal, model.Acq_Debit);
+                DB.AddInParameter(Command, "Iss_Debit", DbType.Decimal, GetNull(model.Iss_Debit));
+                DB.AddInParameter(Command, "Iss_Credit", DbType.Decimal, model.Iss_Credit);
+                DB.AddInParameter(Command, "Bene_Debit", DbType.Decimal, GetNull(model.Bene_Debit));
+                DB.AddInParameter(Command, "Bene_Credit", DbType.Decimal, model.Bene_Credit);
+                DB.AddInParameter(Command, "IssandBene_Debit", DbType.Decimal, GetNull(model.IssandBene_Debit));
+                DB.AddInParameter(Command, "IssandBene_Credit2", DbType.Decimal, GetNull(model.IssandBene_Credit2));
+
+                DB.ExecuteNonQuery(Command);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
         public void Insert_POS_ACQ_Merchant_tlf(DIR_POS_Record model)
         {
             try

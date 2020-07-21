@@ -12,6 +12,16 @@ namespace ACE.Banking.MPU.Businesslogic
         private MemberBankDetailTransactionInfoController MemberBankDetailController;
 
         private MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoInfosCol;
+
+        public decimal acqDebit;
+        public decimal Iss_Debit;
+        public decimal Iss_Credit2;
+        public decimal Bene_Debit;
+        public decimal Bene_Credit;
+        public decimal ISS_Debit_Only;
+        public decimal ISS_Credit_Only;
+
+
         #endregion
 
         #region Constructor
@@ -23,7 +33,6 @@ namespace ACE.Banking.MPU.Businesslogic
 
         }
         #endregion
-
 
         #region Methods
         public void BankAsAquirer()
@@ -42,8 +51,7 @@ namespace ACE.Banking.MPU.Businesslogic
                 x.PAN.Substring(0, 6) != "950502" &&
                 x.FILENAME.Contains("ACOM")).ToList();
 
-
-            decimal acqDebit = 0;
+             acqDebit = 0;
             foreach (var item in option1List)
             {
                 acqDebit += (item.ServiceFeeReceive / 100); //  * 0.0005M + 100;
@@ -68,7 +76,7 @@ namespace ACE.Banking.MPU.Businesslogic
                 )
                 .ToList();
 
-            decimal transTotalAmout1 = 0;
+            decimal  transTotalAmout1 = 0;
             decimal transTotalAmout2 = 0;
             decimal transTotalAmout3 = 0;
             
@@ -103,11 +111,8 @@ namespace ACE.Banking.MPU.Businesslogic
 
             // decimal Iss_Credit2 = Math.Round(transTotalAmout1 + transTotalAmout2);
            
-            decimal Iss_Debit = transTotalAmout3;
-            decimal Iss_Credit2 = Math.Round((Iss_Debit - transTotalAmout1) + transTotalAmout2, 2);
-
-
-
+             Iss_Debit = transTotalAmout3;
+             Iss_Credit2 = Math.Round((Iss_Debit - transTotalAmout1) + transTotalAmout2, 2);
         }
 
         public void BankAsIssuerOnly()
@@ -123,7 +128,7 @@ namespace ACE.Banking.MPU.Businesslogic
              x.PAN.Substring(0, 6) != "950502" &&
              x.IssuerBankCode == "00290001" &&
              x.BeneficiaryBankCode != "00290001" &&
-             x.AcquringInstitutionID != "00290001" &&
+             x.AcquringInstitutionID == "00290001" &&
              x.FILENAME.Contains("ICOM")).ToList();
 
             decimal transTotalAmout1 = 0;
@@ -134,8 +139,8 @@ namespace ACE.Banking.MPU.Businesslogic
                 transTotalAmout2 += Math.Round((item.transAmount / 100)+(item.ServiceFeePayable / 100), 2);
             }
             
-            decimal ISS_Debit = transTotalAmout1;
-            decimal ISS_Credit= transTotalAmout2;
+             ISS_Debit_Only = transTotalAmout1;
+             ISS_Credit_Only= transTotalAmout2;
         }
 
         public void BankAsBefiniciaryOnly()
@@ -162,12 +167,10 @@ namespace ACE.Banking.MPU.Businesslogic
                 transTotalAmout2 += Math.Round(item.ServiceFeeReceive / 100,2);
             }
 
-            decimal Bene_Debit = transTotalAmout1;
-            decimal Bene_Credit = transTotalAmout2;
+             Bene_Debit = transTotalAmout1;
+             Bene_Credit = transTotalAmout2;
 
         }
-
-       
 
         #endregion
     }

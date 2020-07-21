@@ -32,14 +32,11 @@ namespace SettlementFileProcess
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settlementFileDownloadScheduleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cutOffDateEntryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.processToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settlementFileDownloadProcessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.postingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.processBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.masterT464ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,23 +64,15 @@ namespace SettlementFileProcess
             // configurationToolStripMenuItem
             // 
             this.configurationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.settlementFileDownloadScheduleToolStripMenuItem,
             this.cutOffDateEntryToolStripMenuItem});
             this.configurationToolStripMenuItem.Name = "configurationToolStripMenuItem";
             this.configurationToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.configurationToolStripMenuItem.Text = "Configuration";
             // 
-            // settlementFileDownloadScheduleToolStripMenuItem
-            // 
-            this.settlementFileDownloadScheduleToolStripMenuItem.Name = "settlementFileDownloadScheduleToolStripMenuItem";
-            this.settlementFileDownloadScheduleToolStripMenuItem.Size = new System.Drawing.Size(273, 22);
-            this.settlementFileDownloadScheduleToolStripMenuItem.Text = "Settlement File Download Schedule";
-            this.settlementFileDownloadScheduleToolStripMenuItem.Click += new System.EventHandler(this.settlementFileDownloadScheduleToolStripMenuItem_Click);
-            // 
             // cutOffDateEntryToolStripMenuItem
             // 
             this.cutOffDateEntryToolStripMenuItem.Name = "cutOffDateEntryToolStripMenuItem";
-            this.cutOffDateEntryToolStripMenuItem.Size = new System.Drawing.Size(273, 22);
+            this.cutOffDateEntryToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.cutOffDateEntryToolStripMenuItem.Text = "CutOff Date Entry";
             this.cutOffDateEntryToolStripMenuItem.Click += new System.EventHandler(this.cutOffDateEntryToolStripMenuItem_Click);
             // 
@@ -105,19 +94,10 @@ namespace SettlementFileProcess
             // postingToolStripMenuItem
             // 
             this.postingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.inboxToolStripMenuItem,
-            this.processBoxToolStripMenuItem,
-            this.masterT464ToolStripMenuItem});
+            this.processBoxToolStripMenuItem});
             this.postingToolStripMenuItem.Name = "postingToolStripMenuItem";
             this.postingToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.postingToolStripMenuItem.Text = "Manual Approve";
-            // 
-            // inboxToolStripMenuItem
-            // 
-            this.inboxToolStripMenuItem.Name = "inboxToolStripMenuItem";
-            this.inboxToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.inboxToolStripMenuItem.Text = "Inbox";
-            this.inboxToolStripMenuItem.Click += new System.EventHandler(this.inboxToolStripMenuItem_Click);
             // 
             // processBoxToolStripMenuItem
             // 
@@ -125,14 +105,6 @@ namespace SettlementFileProcess
             this.processBoxToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.processBoxToolStripMenuItem.Text = "ProcessBox";
             this.processBoxToolStripMenuItem.Click += new System.EventHandler(this.processBoxToolStripMenuItem_Click);
-            // 
-            // masterT464ToolStripMenuItem
-            // 
-            this.masterT464ToolStripMenuItem.Name = "masterT464ToolStripMenuItem";
-            this.masterT464ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.masterT464ToolStripMenuItem.Text = "Master T464";
-            this.masterT464ToolStripMenuItem.Visible = false;
-            this.masterT464ToolStripMenuItem.Click += new System.EventHandler(this.masterT464ToolStripMenuItem_Click);
             // 
             // MainMenu
             // 
@@ -156,13 +128,10 @@ namespace SettlementFileProcess
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configurationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem settlementFileDownloadScheduleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem processToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settlementFileDownloadProcessToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem postingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem inboxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem processBoxToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem masterT464ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cutOffDateEntryToolStripMenuItem;
 
     }

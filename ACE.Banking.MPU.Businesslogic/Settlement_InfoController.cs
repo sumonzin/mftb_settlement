@@ -471,6 +471,11 @@ namespace ACE.Banking.MPU.Businesslogic
             DataController.Insert_POS_ACQ_Merchant_tlf(model);
         }
 
+        public void Insert_IBFT_SettlementUpload_call(IBFT_Request_model model)
+        {
+            DataController.Insert_IBFT_SettlementUpload(model);
+        }
+
         public void InsertSettlementUpload(string ACCTNO, string CURCODE, string SERVICEOUTLET, string TRANTYPE, decimal TRANAMT, string TRANPARTICULAR, string ACCRESPCODE, string REFERENCENO,
                                            string INSTRUMENTTYPE, string INSTRUMENTDATE, string INSTRUMENTALPHA, string INSTRUMENTNUM, string NAVIGAIONFLAT, decimal REFERENCEAMT, string RefCurCode, string RateCode, string ValueDate, string GLDate, string CategoryCode, string ENo, decimal Rate, string Channel)
         {

@@ -31,116 +31,110 @@ namespace SettlementFileProcess
 
         #region Customize Events
 
-        private void MerchantSettlementFieldsShow()
-        {
-            try
-            {
-                OutgoingAmountSign.Visible = false;
-                OutgoingAmount.Visible = false;
-                OutgoingFeeSign.Visible = false;
-                OutgoingFee.Visible = false;
-                STFAmountSign.Visible = false;
-                STFAmount.Visible = false;
-                STFFeeSign.Visible = false;
-                STFFee.Visible = false;
-                OutgoingSummary.Visible = false;
+        //private void MerchantSettlementFieldsShow()
+        //{
+        //    try
+        //    {
+        //        OutgoingAmountSign.Visible = false;
+        //        OutgoingAmount.Visible = false;
+        //        OutgoingFeeSign.Visible = false;
+        //        OutgoingFee.Visible = false;
+        //        STFAmountSign.Visible = false;
+        //        STFAmount.Visible = false;
+        //        STFFeeSign.Visible = false;
+        //        STFFee.Visible = false;
+        //        OutgoingSummary.Visible = false;
 
-                MerchantCode.Visible = true;
-                IncomingAmountSign.Visible = true;
-                IncomingAmount.Visible = true;
-                IncomingFeeSign.Visible = true;
-                IncomingFee.Visible = true;
-                IncomingSummary.Visible = true;
-                TotalSTMAmtSign.Visible = true;
-                TotalSTMAmt.Visible = true;
-                IncomingSummary.Visible = true;
-                SettlementCurrency.Visible = true;
-                MerchantSTMAc.Visible = true;
-                ReservedForUse.Visible = true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        //        MerchantCode.Visible = true;
+        //        IncomingAmountSign.Visible = true;
+        //        IncomingAmount.Visible = true;
+        //        IncomingFeeSign.Visible = true;
+        //        IncomingFee.Visible = true;
+        //        IncomingSummary.Visible = true;
+        //        TotalSTMAmtSign.Visible = true;
+        //        TotalSTMAmt.Visible = true;
+        //        IncomingSummary.Visible = true;
+        //        SettlementCurrency.Visible = true;
+        //        MerchantSTMAc.Visible = true;
+        //        ReservedForUse.Visible = true;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //}
 
-        private void MemberBankSettlementFieldsShow()
-        {
-            try
-            {
-                MPUDfCode.HeaderText = "Member Institution Code";
+        //private void MemberBankSettlementFieldsShow()
+        //{
+        //    try
+        //    {
+        //        MPUDfCode.HeaderText = "Member Institution Code";
 
-                OutgoingAmountSign.Visible = true;
-                OutgoingAmount.Visible = true;
-                OutgoingFeeSign.Visible = true;
-                OutgoingFee.Visible = true;
-                STFAmountSign.Visible = true;
-                STFAmount.Visible = true;
-                STFFeeSign.Visible = true;
-                STFFee.Visible = true;
-                OutgoingSummary.Visible = true;
+        //        OutgoingAmountSign.Visible = true;
+        //        OutgoingAmount.Visible = true;
+        //        OutgoingFeeSign.Visible = true;
+        //        OutgoingFee.Visible = true;
+        //        STFAmountSign.Visible = true;
+        //        STFAmount.Visible = true;
+        //        STFFeeSign.Visible = true;
+        //        STFFee.Visible = true;
+        //        OutgoingSummary.Visible = true;
 
-                IncomingAmountSign.Visible = true;
-                IncomingAmount.Visible = true;
-                IncomingFeeSign.Visible = true;
-                IncomingFee.Visible = true;
-                IncomingSummary.Visible = true;
-                SettlementCurrency.Visible = true;
-                ReservedForUse.Visible = true;
+        //        IncomingAmountSign.Visible = true;
+        //        IncomingAmount.Visible = true;
+        //        IncomingFeeSign.Visible = true;
+        //        IncomingFee.Visible = true;
+        //        IncomingSummary.Visible = true;
+        //        SettlementCurrency.Visible = true;
+        //        ReservedForUse.Visible = true;
 
-                MerchantCode.Visible = false;
-                MerchantSTMAc.Visible = false;
-                TotalSTMAmtSign.Visible = false;
-                TotalSTMAmt.Visible = false;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        //        MerchantCode.Visible = false;
+        //        MerchantSTMAc.Visible = false;
+        //        TotalSTMAmtSign.Visible = false;
+        //        TotalSTMAmt.Visible = false;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //}
 
-        private void Both()
-        {
-            try
-            {
-                MPUDfCode.HeaderText = "MPU Code";
+        //private void Both()
+        //{
+        //    try
+        //    {
+        //        MPUDfCode.HeaderText = "MPU Code";
 
-                OutgoingAmountSign.Visible = true;
-                OutgoingAmount.Visible = true;
-                OutgoingFeeSign.Visible = true;
-                OutgoingFee.Visible = true;
-                STFAmountSign.Visible = true;
-                STFAmount.Visible = true;
-                STFFeeSign.Visible = true;
-                STFFee.Visible = true;
-                OutgoingSummary.Visible = true;
+        //        OutgoingAmountSign.Visible = true;
+        //        OutgoingAmount.Visible = true;
+        //        OutgoingFeeSign.Visible = true;
+        //        OutgoingFee.Visible = true;
+        //        STFAmountSign.Visible = true;
+        //        STFAmount.Visible = true;
+        //        STFFeeSign.Visible = true;
+        //        STFFee.Visible = true;
+        //        OutgoingSummary.Visible = true;
 
-                IncomingAmountSign.Visible = true;
-                IncomingAmount.Visible = true;
-                IncomingFeeSign.Visible = true;
-                IncomingFee.Visible = true;
-                IncomingSummary.Visible = true;
-                SettlementCurrency.Visible = true;
-                ReservedForUse.Visible = true;
+        //        IncomingAmountSign.Visible = true;
+        //        IncomingAmount.Visible = true;
+        //        IncomingFeeSign.Visible = true;
+        //        IncomingFee.Visible = true;
+        //        IncomingSummary.Visible = true;
+        //        SettlementCurrency.Visible = true;
+        //        ReservedForUse.Visible = true;
 
-                MerchantCode.Visible = true;
-                MerchantSTMAc.Visible = true;
-                TotalSTMAmtSign.Visible = true;
-                TotalSTMAmt.Visible = true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        //        MerchantCode.Visible = true;
+        //        MerchantSTMAc.Visible = true;
+        //        TotalSTMAmtSign.Visible = true;
+        //        TotalSTMAmt.Visible = true;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //}
 
-        private void GridConfiguration()
-        {
-            for (int i = 1; i < dgvSettlementLog.Columns.Count; i++)
-            {
-                dgvSettlementLog.Columns[i].ReadOnly = true;
-            }
-        }
+       
 
         private void ConfigChanger()
         {
@@ -194,9 +188,9 @@ namespace SettlementFileProcess
             try
             {
                 Settlement_InfoController STFCtrl = new Settlement_InfoController();
-                dgvSettlementLog.AutoGenerateColumns = false; 
+               // dgvSettlementLog.AutoGenerateColumns = false; 
                 _dataSource = STFCtrl.SettlementInfo_SelectListForMemberBank_New("'" + "A" + "'" + "," + "'" + "F" + "'");
-                dgvSettlementLog.DataSource = _dataSource;
+               // dgvSettlementLog.DataSource = _dataSource;
             }
             catch (Exception ex)
             {
@@ -204,137 +198,137 @@ namespace SettlementFileProcess
             }
         }
 
-        private bool SettlementProcessControllerForMerchant(int rowindex, out string Eno)
-        {
-            Eno = string.Empty;
-            try
-            {
-                Settlement_InfoController StCtrl = new Settlement_InfoController();
-                string AccountNo = string.Empty;
-                char AmountSign = ' ';
-                decimal Amount = 0;
-                char FeeSign = ' ';
-                decimal FeeAmount = 0;
-                string TerminalNo = string.Empty;
-                string MerchantCode = string.Empty;
-                string _DateTime = string.Empty;
-                string Currency = string.Empty;
-                string RefEno = string.Empty;
-                string RespCode = string.Empty;
-                DateTime SettlementDate;
+        //private bool SettlementProcessControllerForMerchant(int rowindex, out string Eno)
+        //{
+        //    Eno = string.Empty;
+        //    try
+        //    {
+        //        Settlement_InfoController StCtrl = new Settlement_InfoController();
+        //        string AccountNo = string.Empty;
+        //        char AmountSign = ' ';
+        //        decimal Amount = 0;
+        //        char FeeSign = ' ';
+        //        decimal FeeAmount = 0;
+        //        string TerminalNo = string.Empty;
+        //        string MerchantCode = string.Empty;
+        //        string _DateTime = string.Empty;
+        //        string Currency = string.Empty;
+        //        string RefEno = string.Empty;
+        //        string RespCode = string.Empty;
+        //        DateTime SettlementDate;
 
-                AccountNo = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["MerchantSTMAc"].Value);
-                AmountSign = Convert.ToChar(dgvSettlementLog.Rows[rowindex].Cells["IncomingAmountSign"].Value);
-                Amount = Convert.ToDecimal(dgvSettlementLog.Rows[rowindex].Cells["IncomingAmount"].Value);
-                FeeSign = Convert.ToChar(dgvSettlementLog.Rows[rowindex].Cells["IncomingFeeSign"].Value);
-                FeeAmount = Convert.ToDecimal(dgvSettlementLog.Rows[rowindex].Cells["IncomingFee"].Value);
-                TerminalNo = "M0001";
-                MerchantCode = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["MerchantCode"].Value);
-                _DateTime = Convert.ToString(DateTime.Now);
-                Currency = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["SettlementCurrency"].Value);
-                Eno = string.Empty;
-                SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[rowindex].Cells["STFDATE"].Value);
-                GSettlementDate = SettlementDate;
+        //        AccountNo = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["MerchantSTMAc"].Value);
+        //        AmountSign = Convert.ToChar(dgvSettlementLog.Rows[rowindex].Cells["IncomingAmountSign"].Value);
+        //        Amount = Convert.ToDecimal(dgvSettlementLog.Rows[rowindex].Cells["IncomingAmount"].Value);
+        //        FeeSign = Convert.ToChar(dgvSettlementLog.Rows[rowindex].Cells["IncomingFeeSign"].Value);
+        //        FeeAmount = Convert.ToDecimal(dgvSettlementLog.Rows[rowindex].Cells["IncomingFee"].Value);
+        //        TerminalNo = "M0001";
+        //        MerchantCode = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["MerchantCode"].Value);
+        //        _DateTime = Convert.ToString(DateTime.Now);
+        //        Currency = Convert.ToString(dgvSettlementLog.Rows[rowindex].Cells["SettlementCurrency"].Value);
+        //        Eno = string.Empty;
+        //        SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[rowindex].Cells["STFDATE"].Value);
+        //        GSettlementDate = SettlementDate;
 
-                if (!StCtrl.SettlementProcessForMerchant(AccountNo, AmountSign, Amount, FeeSign, FeeAmount, _DateTime, Currency, Eno, TerminalNo, MerchantCode, SettlementDate, out RefEno, out RespCode))
-                    throw new Exception("Settlement Process Fail for this account  No = > " + AccountNo);
-                else
-                    MessageBox.Show("Settlement Process Success for this account  No = > " + AccountNo + Environment.NewLine + " Transaction No is = > " + RefEno);
-                Eno = RefEno;
+        //        if (!StCtrl.SettlementProcessForMerchant(AccountNo, AmountSign, Amount, FeeSign, FeeAmount, _DateTime, Currency, Eno, TerminalNo, MerchantCode, SettlementDate, out RefEno, out RespCode))
+        //            throw new Exception("Settlement Process Fail for this account  No = > " + AccountNo);
+        //        else
+        //            MessageBox.Show("Settlement Process Success for this account  No = > " + AccountNo + Environment.NewLine + " Transaction No is = > " + RefEno);
+        //        Eno = RefEno;
 
-                //Select from Tlf by RefNo(or)Eno
-                Settlement_UploadCollections settlement_UploadCollections = new Settlement_UploadCollections();
-                settlement_UploadCollections = StCtrl.SelectFromTLF(Eno);
+        //        //Select from Tlf by RefNo(or)Eno
+        //        Settlement_UploadCollections settlement_UploadCollections = new Settlement_UploadCollections();
+        //        settlement_UploadCollections = StCtrl.SelectFromTLF(Eno);
 
-                //Insert into Settlement_Upload
-                for (int i = 0; i < settlement_UploadCollections.Count; i++)
-                {
-                    //Prepare data for Service_outlet
+        //        //Insert into Settlement_Upload
+        //        for (int i = 0; i < settlement_UploadCollections.Count; i++)
+        //        {
+        //            //Prepare data for Service_outlet
 
-                    if (settlement_UploadCollections[i].TranType == "Dr")
-                    {
-                        settlement_UploadCollections[i].ServiceOutlet = "1111";
-                    }
-                    else
-                    {
-                        //Select ServiceOutlet from Gam table
+        //            if (settlement_UploadCollections[i].TranType == "Dr")
+        //            {
+        //                settlement_UploadCollections[i].ServiceOutlet = "1111";
+        //            }
+        //            else
+        //            {
+        //                //Select ServiceOutlet from Gam table
 
-                        var solid = "";
-                        if (settlement_UploadCollections[i].AccountNo != null)
-                        {
-                            if (i == 0)
-                            {
-                                solid = StCtrl.SelectSolID_ByAccountNo(settlement_UploadCollections[i].AccountNo);
-                                if (solid != null)
-                                {
-                                    settlement_UploadCollections[i].ServiceOutlet = solid;
-                                }
-                                else
-                                {
-                                    settlement_UploadCollections[i].ServiceOutlet = null;
-                                }
-                            }
-                            else
-                            {
-                                if (settlement_UploadCollections[i].ENo.ToString().Trim() == settlement_UploadCollections[i - 1].ENo.ToString().Trim())
-                                {
-                                    solid = StCtrl.SelectSolID_ByAccountNo(settlement_UploadCollections[0].AccountNo);
-                                    if (solid != null)
-                                    {
-                                        settlement_UploadCollections[i].ServiceOutlet = solid;
-                                    }
-                                    else
-                                    {
-                                        settlement_UploadCollections[i].ServiceOutlet = null;
-                                    }
-                                }
-                            }
-                        }
-                    }
+        //                var solid = "";
+        //                if (settlement_UploadCollections[i].AccountNo != null)
+        //                {
+        //                    if (i == 0)
+        //                    {
+        //                        solid = StCtrl.SelectSolID_ByAccountNo(settlement_UploadCollections[i].AccountNo);
+        //                        if (solid != null)
+        //                        {
+        //                            settlement_UploadCollections[i].ServiceOutlet = solid;
+        //                        }
+        //                        else
+        //                        {
+        //                            settlement_UploadCollections[i].ServiceOutlet = null;
+        //                        }
+        //                    }
+        //                    else
+        //                    {
+        //                        if (settlement_UploadCollections[i].ENo.ToString().Trim() == settlement_UploadCollections[i - 1].ENo.ToString().Trim())
+        //                        {
+        //                            solid = StCtrl.SelectSolID_ByAccountNo(settlement_UploadCollections[0].AccountNo);
+        //                            if (solid != null)
+        //                            {
+        //                                settlement_UploadCollections[i].ServiceOutlet = solid;
+        //                            }
+        //                            else
+        //                            {
+        //                                settlement_UploadCollections[i].ServiceOutlet = null;
+        //                            }
+        //                        }
+        //                    }
+        //                }
+        //            }
 
-                    //Account No prepare
-                    if (settlement_UploadCollections[i].AccountNo.Length <= 6 && settlement_UploadCollections[i].AccountNo.Contains("AAC"))
-                    {
-                        settlement_UploadCollections[i].AccountNo = settlement_UploadCollections[i].ServiceOutlet.ToString().Trim() + "108910100001";
-                    }
-                    if (settlement_UploadCollections[i].AccountNo.Length <= 6 && settlement_UploadCollections[i].AccountNo.Contains("LAN"))
-                    {
-                        settlement_UploadCollections[i].AccountNo = settlement_UploadCollections[i].ServiceOutlet.ToString().Trim() + "400500100001";
-                    }
+        //            //Account No prepare
+        //            if (settlement_UploadCollections[i].AccountNo.Length <= 6 && settlement_UploadCollections[i].AccountNo.Contains("AAC"))
+        //            {
+        //                settlement_UploadCollections[i].AccountNo = settlement_UploadCollections[i].ServiceOutlet.ToString().Trim() + "108910100001";
+        //            }
+        //            if (settlement_UploadCollections[i].AccountNo.Length <= 6 && settlement_UploadCollections[i].AccountNo.Contains("LAN"))
+        //            {
+        //                settlement_UploadCollections[i].AccountNo = settlement_UploadCollections[i].ServiceOutlet.ToString().Trim() + "400500100001";
+        //            }
 
-                    //Insert into Settlemnt_Upload table
-                    StCtrl.InsertSettlementUpload(settlement_UploadCollections[i].AccountNo,
-                                                            settlement_UploadCollections[i].CurrencyCode,
-                                                            settlement_UploadCollections[i].ServiceOutlet,
-                                                            settlement_UploadCollections[i].TranType,
-                                                            settlement_UploadCollections[i].TranAmount,
-                                                            settlement_UploadCollections[i].TranParticular,
-                                                            settlement_UploadCollections[i].AccountRespCode,
-                                                            "",
-                                                            settlement_UploadCollections[i].InstrumentType,
-                                                            settlement_UploadCollections[i].strInsdate,
-                                                            settlement_UploadCollections[i].InstrumentAlpha,
-                                                            settlement_UploadCollections[i].InstrumentNumber,
-                                                            settlement_UploadCollections[i].NavigationFlat,
-                                                            settlement_UploadCollections[i].TranAmount,
-                                                            settlement_UploadCollections[i].CurrencyCode,
-                                                            "",
-                                                            null,
-                                                            null,
-                                                            settlement_UploadCollections[i].CategoryCode,
-                                                            settlement_UploadCollections[i].ENo,
-                                                            settlement_UploadCollections[i].Rate,
-                                                            "MC");
-                }
+        //            //Insert into Settlemnt_Upload table
+        //            StCtrl.InsertSettlementUpload(settlement_UploadCollections[i].AccountNo,
+        //                                                    settlement_UploadCollections[i].CurrencyCode,
+        //                                                    settlement_UploadCollections[i].ServiceOutlet,
+        //                                                    settlement_UploadCollections[i].TranType,
+        //                                                    settlement_UploadCollections[i].TranAmount,
+        //                                                    settlement_UploadCollections[i].TranParticular,
+        //                                                    settlement_UploadCollections[i].AccountRespCode,
+        //                                                    "",
+        //                                                    settlement_UploadCollections[i].InstrumentType,
+        //                                                    settlement_UploadCollections[i].strInsdate,
+        //                                                    settlement_UploadCollections[i].InstrumentAlpha,
+        //                                                    settlement_UploadCollections[i].InstrumentNumber,
+        //                                                    settlement_UploadCollections[i].NavigationFlat,
+        //                                                    settlement_UploadCollections[i].TranAmount,
+        //                                                    settlement_UploadCollections[i].CurrencyCode,
+        //                                                    "",
+        //                                                    null,
+        //                                                    null,
+        //                                                    settlement_UploadCollections[i].CategoryCode,
+        //                                                    settlement_UploadCollections[i].ENo,
+        //                                                    settlement_UploadCollections[i].Rate,
+        //                                                    "MC");
+        //        }
 
-                return true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                return false;
-            }
-        }
+        //        return true;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //        return false;
+        //    }
+        //}
 
         private void MPUSettlementStatusUpdate(string status, string eno, DateTime stfdate)
         {
@@ -366,7 +360,7 @@ namespace SettlementFileProcess
 
         private void merchantProcessOnlyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MerchantSettlementFieldsShow();
+            //MerchantSettlementFieldsShow();
             Settlement_InfoCollections MerchantdataSource = new Settlement_InfoCollections();
             for (int i = 0; i < _dataSource.Count; i++)
             {
@@ -376,12 +370,12 @@ namespace SettlementFileProcess
                     MerchantdataSource.Add(STInfo);
                 }
             }
-            dgvSettlementLog.DataSource = MerchantdataSource;
+            //dgvSettlementLog.DataSource = MerchantdataSource;
         }
 
         private void memberBankProcessOnlyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MemberBankSettlementFieldsShow();
+            //MemberBankSettlementFieldsShow();
             Settlement_InfoCollections MBdataSource = new Settlement_InfoCollections();
             for (int i = 0; i < _dataSource.Count; i++)
             {
@@ -391,45 +385,45 @@ namespace SettlementFileProcess
                     MBdataSource.Add(STInfo);
                 }
             }
-            dgvSettlementLog.DataSource = MBdataSource;
+            //dgvSettlementLog.DataSource = MBdataSource;
         }
 
         private void bothMerchantMemberBankSettlementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Both();
+            //Both();
         }
 
-        private void btnCheckAll_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-            {
-                dgvSettlementLog.Rows[i].Cells["Approve"].Value = 1;
-            }
-        }
+        //private void btnCheckAll_Click(object sender, EventArgs e)
+        //{
+        //    for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
+        //    {
+        //        dgvSettlementLog.Rows[i].Cells["Approve"].Value = 1;
+        //    }
+        //}
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            gpbFilter.Visible = true;
-        }
+        //private void btnSearch_Click(object sender, EventArgs e)
+        //{
+        //    gpbFilter.Visible = true;
+        //}
 
-        private void rdo_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-            {
-                if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value) == txtFilter.Text)
-                {
-                    dgvSettlementLog.Rows[i].Selected = true;
-                }
-                else
-                    dgvSettlementLog.Rows[i].Selected = false;
-            }
-            gpbFilter.Visible = false;
-        }
+        //private void rdo_Click(object sender, EventArgs e)
+        //{
+        //    for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
+        //    {
+        //        if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value) == txtFilter.Text)
+        //        {
+        //            dgvSettlementLog.Rows[i].Selected = true;
+        //        }
+        //        else
+        //            dgvSettlementLog.Rows[i].Selected = false;
+        //    }
+        //    gpbFilter.Visible = false;
+        //}
 
         private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DataRetrieve();
-            Both();
+            //Both();
         }
 
         private void btnApprove_Click(object sender, EventArgs e)
@@ -470,16 +464,23 @@ namespace SettlementFileProcess
                         STMCtrl.UpdateByMemberCode(MemberStmInfo);
                         MPUSettlementStatusUpdate(MemberStmInfo.Status, Eno, MemberStmInfo.SettlementDate);
 
-
                 #region IBFT
                 // select all from member bank detail transcation
                 IBFTController iBFTController = new IBFTController();
                 iBFTController.BankAsAquirer();
                 iBFTController.BankAsBefiniciaryOnly();
                 iBFTController.BankAsIssuerOnly();
-
+                IBFT_Request_model reqmodel = new IBFT_Request_model();
+                reqmodel.Acq_Debit = iBFTController.acqDebit;
+                reqmodel.Iss_Debit = iBFTController.ISS_Debit_Only;
+                reqmodel.Iss_Credit = iBFTController.ISS_Credit_Only;
+                reqmodel.Bene_Debit = iBFTController.Bene_Debit;
+                reqmodel.Bene_Credit = iBFTController.Bene_Credit;
+                reqmodel.IssandBene_Debit = iBFTController.Iss_Debit;
+                reqmodel.IssandBene_Credit2 = iBFTController.Iss_Credit2;
+                Settlement_InfoController IBFTcontroller = new Settlement_InfoController();
+                IBFTcontroller.Insert_IBFT_SettlementUpload_call(reqmodel);
                 #endregion
-
 
                 if (String.IsNullOrEmpty(Eno))
                             MessageBox.Show("Data Processing is Complete");
@@ -490,7 +491,8 @@ namespace SettlementFileProcess
                             //Select Office Acc from Infosys DB for ATM ACQ process
                             Settlement_InfoController controller = new Settlement_InfoController();
                             OfficeACCfromInfosys data = new OfficeACCfromInfosys();
-                            
+
+                            #region Variable Declaration
                             data.MPUSettlementAcc = "1111108910100001";
                             data.SundryAccComonATM = "1111300470100003";
                             data.ReceivableAcc = "1111108880100001";
@@ -499,13 +501,11 @@ namespace SettlementFileProcess
                             data.SundryAccComonPOS = "1111300470100004";
                             data.POSandEcomCrdPayAcc = "1111703010100004";
                             data.PayableAcc = "1111703010100001";
+                    #endregion
 
+                            #region Select ATM ACQ Trans from Tlf
 
-                           
-
-                    #region Select ATM ACQ Trans from Tlf
-
-        Settlement_UploadCollections SettlementCollection = new Settlement_UploadCollections();
+                    Settlement_UploadCollections SettlementCollection = new Settlement_UploadCollections();
 
                             SettlementCollection = controller.SelectFromtlf_ForATMACQ(Eno);
 
@@ -811,11 +811,11 @@ namespace SettlementFileProcess
                                                       );
                             }
 
-                            #endregion POS Debit Transactions from TLF
+                    #endregion POS Debit Transactions from TLF
 
-                            //Select Direct POS Merchant
-                            DirPOSCollections Resmodel = new DirPOSCollections();
-                            DirPOSCollections Pos_Collection = new DirPOSCollections();
+                            #region Select Direct POS Merchant
+                          DirPOSCollections Resmodel = new DirPOSCollections();
+                          DirPOSCollections Pos_Collection = new DirPOSCollections();
                             DirPOSCollections Pos_normal_Collection = new DirPOSCollections();
                             var test = MemberStmInfo.SettlementDate.ToString("yyyy/MM/dd");
                             Pos_normal_Collection = controller.Select_DirPOS_Trans(test);
@@ -825,7 +825,7 @@ namespace SettlementFileProcess
                                 for (int p = 0; p < Pos_normal_Collection.Count; p++)
                                 {
                                     var com_result = controller.Select_CommisionRate_ByMerchantID(Pos_normal_Collection[p].CardAcceptorIDCode).ToString();
-                                    if(com_result == "0.30")
+                                    if(com_result == "0.40")
                                     {
                                         MemberBankDetailInfo merchant3 = new MemberBankDetailInfo();
                                         merchant3.AcquireInstitutionID = Pos_normal_Collection[p].AcquireInstitutionID;
@@ -867,15 +867,16 @@ namespace SettlementFileProcess
 
                             }
 
+
                             Seqlog.TraceLog("Select_DirPOS_Trans Complete=> " + test, "INC01C");
                             //select all Merchant Rate
                             MerchantRateCollections MerchantRateCollections = new MerchantRateCollections();
                             MerchantRateCollections = controller.SelectAll_Merchant_Rate();
                             Seqlog.TraceLog("SelectAll_Merchant_Rate Complete= >" + DateTime.Now, "INC01C");
-                            
+                    #endregion
 
                             #region For Normal POS Merchant
-                            if (Resmodel.Count > 0)
+                    if (Resmodel.Count > 0)
                             {
                                 for (int j = 0; j < Resmodel.Count; j++)
                                 {
@@ -956,7 +957,7 @@ namespace SettlementFileProcess
                             }
                             #endregion
 
-                            #region  For 0.3 Merchant 
+                            #region  For 0.4 Merchant 
                             if (Pos_Collection.Count > 0)
                             {
                                 for (int l = 0; l < Pos_Collection.Count; l++)
@@ -1036,7 +1037,7 @@ namespace SettlementFileProcess
                         }
 
                         DataRetrieve();
-                        MemberBankSettlementFieldsShow();
+                        //MemberBankSettlementFieldsShow();
                     //}
                 //}
             }
@@ -1076,90 +1077,90 @@ namespace SettlementFileProcess
             }
         }
 
-        private void btnReject_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Settlement_InfoController STMCtrl = new Settlement_InfoController();
-                Settlement_InfoCollections MBStmColl = new Settlement_InfoCollections();
-                Settlement_InfoCollections MCStmColl = new Settlement_InfoCollections();
-                Settlement_InfoInfo MerchantStmInfo;
-                Settlement_InfoInfo MemberStmInfo;
+        //private void btnReject_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        Settlement_InfoController STMCtrl = new Settlement_InfoController();
+        //        Settlement_InfoCollections MBStmColl = new Settlement_InfoCollections();
+        //        Settlement_InfoCollections MCStmColl = new Settlement_InfoCollections();
+        //        Settlement_InfoInfo MerchantStmInfo;
+        //        Settlement_InfoInfo MemberStmInfo;
 
-                for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-                {
-                    if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
-                    {
-                        MerchantStmInfo = new Settlement_InfoInfo();
-                        MerchantStmInfo.MerchantCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MerchantCode"].Value);
-                        MerchantStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
-                        MerchantStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        MerchantStmInfo.Status = "R";
-                        MerchantStmInfo.RejectBy = Dns.GetHostName();
-                        IPHostEntry Ip = Dns.GetHostEntry(MerchantStmInfo.RejectBy);
-                        MerchantStmInfo.RejectFrom = Ip.AddressList[0].ToString();
-                        MCStmColl.Add(MerchantStmInfo);
-                    }
-                    else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
-                    {
-                        MemberStmInfo = new Settlement_InfoInfo();
-                        MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
-                        MemberStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
-                        MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        MemberStmInfo.OutgoingAmoutSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingAmountSign"].Value);
-                        MemberStmInfo.OutgoingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingFeeSign"].Value);
-                        MemberStmInfo.IncomingAmountSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingAmountSign"].Value);
-                        MemberStmInfo.IncomingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingFeeSign"].Value);
-                        MemberStmInfo.SettlementCurrency = Convert.ToString(dgvSettlementLog.Rows[i].Cells["SettlementCurrency"].Value);
+        //        for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
+        //        {
+        //            if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MC")
+        //            {
+        //                MerchantStmInfo = new Settlement_InfoInfo();
+        //                MerchantStmInfo.MerchantCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MerchantCode"].Value);
+        //                MerchantStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
+        //                MerchantStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
+        //                MerchantStmInfo.Status = "R";
+        //                MerchantStmInfo.RejectBy = Dns.GetHostName();
+        //                IPHostEntry Ip = Dns.GetHostEntry(MerchantStmInfo.RejectBy);
+        //                MerchantStmInfo.RejectFrom = Ip.AddressList[0].ToString();
+        //                MCStmColl.Add(MerchantStmInfo);
+        //            }
+        //            else if (Convert.ToString(dgvSettlementLog.Rows[i].Cells["Approve"].Value) == "1" && Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value) == "MB")
+        //            {
+        //                MemberStmInfo = new Settlement_InfoInfo();
+        //                MemberStmInfo.MPUDfCode = Convert.ToString(dgvSettlementLog.Rows[i].Cells["MPUDfCode"].Value);
+        //                MemberStmInfo.FileType = Convert.ToString(dgvSettlementLog.Rows[i].Cells["FileType"].Value);
+        //                MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
+        //                MemberStmInfo.OutgoingAmoutSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingAmountSign"].Value);
+        //                MemberStmInfo.OutgoingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["OutgoingFeeSign"].Value);
+        //                MemberStmInfo.IncomingAmountSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingAmountSign"].Value);
+        //                MemberStmInfo.IncomingFeeSign = Convert.ToString(dgvSettlementLog.Rows[i].Cells["IncomingFeeSign"].Value);
+        //                MemberStmInfo.SettlementCurrency = Convert.ToString(dgvSettlementLog.Rows[i].Cells["SettlementCurrency"].Value);
 
-                        MemberStmInfo.OutgoingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingAmount"].Value);
-                        MemberStmInfo.OutgoingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingFee"].Value);
-                        MemberStmInfo.IncomingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
-                        MemberStmInfo.IncomingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
-                        MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
-                        MemberStmInfo.Status = "R";
-                        MemberStmInfo.RejectBy = Dns.GetHostName();
-                        IPHostEntry Ip = Dns.GetHostEntry(MemberStmInfo.RejectBy);
-                        MemberStmInfo.RejectFrom = Ip.AddressList[0].ToString();
-                        MBStmColl.Add(MemberStmInfo);
-                    }
-                }
-                if (MBStmColl.Count > 0)
-                {
-                    STMCtrl.UpdateByMemberCode(MBStmColl);
-                    DataRetrieve();
-                    MerchantSettlementFieldsShow();
-                }
-                if (MCStmColl.Count > 0)
-                {
-                    STMCtrl.UpdateByMerchantCode(MCStmColl);
-                    DataRetrieve();
-                    MemberBankSettlementFieldsShow();
-                }
-                if (MCStmColl.Count <= 0 || MBStmColl.Count <= 0)
-                    MessageBox.Show("There is no row to process.");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        //                MemberStmInfo.OutgoingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingAmount"].Value);
+        //                MemberStmInfo.OutgoingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["OutgoingFee"].Value);
+        //                MemberStmInfo.IncomingAmount = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingAmount"].Value);
+        //                MemberStmInfo.IncomingFee = Convert.ToDecimal(dgvSettlementLog.Rows[i].Cells["IncomingFee"].Value);
+        //                MemberStmInfo.SettlementDate = Convert.ToDateTime(dgvSettlementLog.Rows[i].Cells["STFDate"].Value);
+        //                MemberStmInfo.Status = "R";
+        //                MemberStmInfo.RejectBy = Dns.GetHostName();
+        //                IPHostEntry Ip = Dns.GetHostEntry(MemberStmInfo.RejectBy);
+        //                MemberStmInfo.RejectFrom = Ip.AddressList[0].ToString();
+        //                MBStmColl.Add(MemberStmInfo);
+        //            }
+        //        }
+        //        if (MBStmColl.Count > 0)
+        //        {
+        //            STMCtrl.UpdateByMemberCode(MBStmColl);
+        //            DataRetrieve();
+        //            MerchantSettlementFieldsShow();
+        //        }
+        //        if (MCStmColl.Count > 0)
+        //        {
+        //            STMCtrl.UpdateByMerchantCode(MCStmColl);
+        //            DataRetrieve();
+        //            MemberBankSettlementFieldsShow();
+        //        }
+        //        if (MCStmColl.Count <= 0 || MBStmColl.Count <= 0)
+        //            MessageBox.Show("There is no row to process.");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //}
 
         private void ProcessInfo_Load(object sender, EventArgs e)
         {
-            gpbFilter.Visible = false;
+           // gpbFilter.Visible = false;
             ConfigChanger();
             DataRetrieve();
-            GridConfiguration();
+            //GridConfiguration();
         }
 
-        private void chkCheckAll_CheckedChanged(object sender, EventArgs e)
-        {
-            for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
-            {
-                dgvSettlementLog.Rows[i].Cells["Approve"].Value = chkCheckAll.Checked == true ? 1 : 0;
-            }
-        }
+        //private void chkCheckAll_CheckedChanged(object sender, EventArgs e)
+        //{
+        //    for (int i = 0; i < dgvSettlementLog.Rows.Count; i++)
+        //    {
+        //        dgvSettlementLog.Rows[i].Cells["Approve"].Value = chkCheckAll.Checked == true ? 1 : 0;
+        //    }
+        //}
 
         private void btnImport_Click(object sender, EventArgs e)
         {

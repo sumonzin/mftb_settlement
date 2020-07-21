@@ -156,10 +156,19 @@ namespace ACE.Banking.MPU.Businesslogic
         #region "Add Methods"
         public bool Add(MemberBankDetailTransactionInfoInfo memberBankDetailTransactionInfoInfo)
         {
-            MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoCollections = new MemberBankDetailTransactionInfoCollections();
-            memberBankDetailTransactionInfoCollections.Add(memberBankDetailTransactionInfoInfo);
+            try
+            {
+                MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoCollections = new MemberBankDetailTransactionInfoCollections();
+                memberBankDetailTransactionInfoCollections.Add(memberBankDetailTransactionInfoInfo);
 
-            return Add(memberBankDetailTransactionInfoCollections);
+                return Add(memberBankDetailTransactionInfoCollections);
+            }
+            catch (Exception ex )
+            {
+
+                throw ex;
+            }
+           
         }
 
         public bool Add(MemberBankDetailTransactionInfoCollections memberBankDetailTransactionInfoCollections)

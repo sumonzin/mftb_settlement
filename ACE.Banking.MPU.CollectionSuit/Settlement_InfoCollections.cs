@@ -559,6 +559,16 @@ namespace ACE.Banking.MPU.CollectionSuit
         public string Name { get; set; }
           
     }
+    public class IBFT_Request_model
+    {
+        public decimal Acq_Debit { get; set; }
+        public decimal Iss_Debit { get; set; }
+        public decimal Iss_Credit { get; set; }
+        public decimal Bene_Debit { get; set; }
+        public decimal Bene_Credit { get; set; }
+        public decimal IssandBene_Debit { get; set; }
+        public decimal IssandBene_Credit2 { get; set; }
+    }
 
     public class DIR_POS_Record
     {

@@ -43,38 +43,43 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="60416">
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.Businesslogic.dll" size="60928">
       <assemblyIdentity name="ACE.Banking.MPU.Businesslogic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>atxKAYGIQI2pZIcy/L7o/6LEgFDW1WFunIGa7Lys+6c=</dsig:DigestValue>
+        <dsig:DigestValue>GV+d2ZgmsFYqT2muhaS2MV9LdoMMX5jgCRR1Tlm5IcI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.CollectionSuit.dll" size="56320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.CollectionSuit.dll" size="57344">
       <assemblyIdentity name="ACE.Banking.MPU.CollectionSuit" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GRpnj4U3QQ0V9190px/fnqEHE9eMmQuep9zh4J13Ims=</dsig:DigestValue>
+        <dsig:DigestValue>BR8T6FJGTXJ3W0VZ5GasP5579XVXXfiVXmnQWbD6h+g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.DataAccess.dll" size="56832">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.DataAccess.dll" size="57856">
       <assemblyIdentity name="ACE.Banking.MPU.DataAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yJuxubJehGYuXk8VGG8r99sqcQUaDJe/NPR5xjhDFo8=</dsig:DigestValue>
+        <dsig:DigestValue>o4/UuyVtG3FuzbSo61g6OsbuWkWrte6iKsbw5AVeenI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -139,14 +144,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.DataAccess.dll" size="1208320">
-      <assemblyIdentity name="Oracle.DataAccess" version="2.121.2.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.DataAccess.dll" size="1200128">
+      <assemblyIdentity name="Oracle.DataAccess" version="2.121.1.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lSbweAesfSnGjJeN3IMmHQlqbufeppr/nEm78LdhH5M=</dsig:DigestValue>
+        <dsig:DigestValue>WKMbiYfcbquuxu15RfjKueC+6t98UNDgMyEtAlIWn1Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -163,14 +168,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1946624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1937408">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>N71lCaZqv9V+wYClYRQOQBJBrfUsN8H00WY8BV55WZs=</dsig:DigestValue>
+        <dsig:DigestValue>dk4O23YU+yped/qs9wT28dVDKDri1ff9o1JVStIuIok=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -183,13 +188,13 @@
       <dsig:DigestValue>jxT/6OICc4mRyZQIrrFlNfUcEDVuvEeKZyYCxqgpJSk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SettlementFileProcess.exe.config" size="2682">
+  <file name="SettlementFileProcess.exe.config" size="2671">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CKb0MylFENcbgxvGyH5jTyqeBy07dZ+xAICfK27xa4k=</dsig:DigestValue>
+      <dsig:DigestValue>J6irV88Ovcq3ujKS9Gs2vo07Y6sfL2wWg1HsHoYX1So=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Support\Image\Log Out_24x24.png" size="926">

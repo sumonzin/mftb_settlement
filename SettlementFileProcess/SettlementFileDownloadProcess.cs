@@ -896,8 +896,9 @@ namespace SettlementFileProcess
                                 startpoint = startpoint + MemberBankTranInfo.ServiceFeePayableLength;
                                 MemberBankTranInfo.ReservedForUse = Convert.ToString(OneLine.Substring(startpoint));
 
-                                MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
-
+                                //MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + STFFileName.Substring(3, 2));
+                                MemberBankTranInfo.SETTLEMENTDATE = Convert.ToDateTime(STFFileName.Substring(7, 2) + "/" + STFFileName.Substring(5, 2) + "/" + DateTime.Now.Year.ToString(),
+                                    System.Globalization.CultureInfo.GetCultureInfo("hi-IN").DateTimeFormat);
                                 clsGlobal.vSTFDate = MemberBankTranInfo.SETTLEMENTDATE;
 
                                 MemberBankTranInfo.FILENAME = STFFileName;

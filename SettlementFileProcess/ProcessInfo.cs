@@ -464,7 +464,7 @@ namespace SettlementFileProcess
                         STMCtrl.UpdateByMemberCode(MemberStmInfo);
                         MPUSettlementStatusUpdate(MemberStmInfo.Status, Eno, MemberStmInfo.SettlementDate);
 
-                #region IBFT
+                     #region IBFT
                 // select all from member bank detail transcation
                 IBFTController iBFTController = new IBFTController();
                 iBFTController.BankAsAquirer();
@@ -482,11 +482,8 @@ namespace SettlementFileProcess
                 IBFTcontroller.Insert_IBFT_SettlementUpload_call(reqmodel);
                 #endregion
 
-                if (String.IsNullOrEmpty(Eno))
-                            MessageBox.Show("Data Processing is Complete");
-                        else if (MemberStmInfo.Status == "S")
-                        {
-                            MessageBox.Show("Data Processing is Successful." + Environment.NewLine + "Entry No is " + Eno);
+                       
+                            //MessageBox.Show("Data Processing is Successful." + Environment.NewLine + "Entry No is " + Eno);
 
                             //Select Office Acc from Infosys DB for ATM ACQ process
                             Settlement_InfoController controller = new Settlement_InfoController();
@@ -823,8 +820,9 @@ namespace SettlementFileProcess
                             if (Pos_normal_Collection.Count > 0)
                             {
                                 for (int p = 0; p < Pos_normal_Collection.Count; p++)
-                                {
-                                    var com_result = controller.Select_CommisionRate_ByMerchantID(Pos_normal_Collection[p].CardAcceptorIDCode).ToString();
+                                 {
+                                     Console.WriteLine("Opening the connection time : " + p);
+                                     var com_result = controller.Select_CommisionRate_ByMerchantID(Pos_normal_Collection[p].CardAcceptorIDCode).ToString();
                                     if(com_result == "0.40")
                                     {
                                         MemberBankDetailInfo merchant3 = new MemberBankDetailInfo();
@@ -1030,11 +1028,11 @@ namespace SettlementFileProcess
 
                             #endregion
   
-                        }
-                        else
+                        //}
+                      /*  else
                         {
                             MessageBox.Show("Data Processing is Fail." + Environment.NewLine + "Response Code is  " + RCode);
-                        }
+                        }*/
 
                         DataRetrieve();
                         //MemberBankSettlementFieldsShow();

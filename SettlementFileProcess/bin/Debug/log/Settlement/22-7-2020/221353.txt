@@ -1,0 +1,96 @@
+7/22/2020 1:53:04 PM ==> Download Process Start at = >7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> ====================================
+7/22/2020 1:53:04 PM ==> File download Processs start at = >7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBACom
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101ACOM download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101ACOM download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBAcomE
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101AERR download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101AERR download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > BCOM
+7/22/2020 1:53:04 PM ==> BCOM File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101BCOM download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> BCOM File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101BCOM download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > 
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBICom
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101ICOM download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101ICOM download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBIcomE
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101IERR download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\IND20072101IERR download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBScom
+7/22/2020 1:53:04 PM ==> Member Bank File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MemberBankSTF\22-7-2020\IND20072101SCOM download start at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Member Bank File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MemberBankSTF\22-7-2020\IND20072101SCOM download finish at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MCS
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MCD
+7/22/2020 1:53:04 PM ==> Merchant Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MerchantTrailFile\22-7-2020\MCD20072101C download start at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Merchant Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MerchantTrailFile\22-7-2020\MCD20072101C download finish at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MCD
+7/22/2020 1:53:04 PM ==> Merchant Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MerchantTrailFile\22-7-2020\MCD20072101E download start at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Merchant Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MerchantTrailFile\22-7-2020\MCD20072101E download finish at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> File download Processs finish at = >7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> ====================================
+7/22/2020 1:53:04 PM ==> ====================================
+7/22/2020 1:53:04 PM ==> File download Processs start at = >7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBAC
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072101C download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072101C download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBAE
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072101E download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072101E download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > 
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBAS
+7/22/2020 1:53:04 PM ==> Merchant Settlement File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MemberBankSTF\22-7-2020\ECOM\INC20072101S download start at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Merchant Settlement File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MerchantSTF\22-7-2020\ECOM\INC20072101S download finish at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > 
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > 
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBIC
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072111C download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072111C download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBIE
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072111E download start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Memberbank Trail File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\TrailFile\MemberTrailFile\22-7-2020\INC20072111E download finish at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Start at  = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> SettlementFileChecking Event Finish at  = > 7/22/2020 1:53:04 PM
+File Type is = > MBIS
+7/22/2020 1:53:04 PM ==> Merchant Settlement File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MemberBankSTF\22-7-2020\ECOM\INC20072111S download start at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> Merchant Settlement File = > C:\Projects\Banking\MWD\02_Coding\Settlement\SettlementFileProcess\bin\Debug\MPUSettlementFile\22-7-2020\MerchantSTF\22-7-2020\ECOM\INC20072111S download finish at = > 7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> File download Processs finish at = >7/22/2020 1:53:04 PM
+7/22/2020 1:53:04 PM ==> ====================================
+7/22/2020 1:53:05 PM ==> Download Process finish at = >7/22/2020 1:53:05 PM
+7/22/2020 1:53:40 PM ==> SettlementFileReading Event Start at = >7/22/2020 1:53:40 PM

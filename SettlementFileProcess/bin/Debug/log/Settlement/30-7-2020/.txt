@@ -1,0 +1,8 @@
+30/07/2020 09:14:44 ==> Config Writing Event Start at = >30/07/2020 09:14:44
+30/07/2020 09:14:44 ==> Config Writing Event Finish at = >30/07/2020 09:14:44
+30/07/2020 09:31:19 ==> Config Writing Event Start at = >30/07/2020 09:31:19
+30/07/2020 09:31:19 ==> Config Writing Event Finish at = >30/07/2020 09:31:19
+30/07/2020 09:37:15 ==> Config Writing Event Start at = >30/07/2020 09:37:15
+30/07/2020 09:37:15 ==> Config Writing Event Finish at = >30/07/2020 09:37:15
+30/07/2020 09:47:30 ==> Config Writing Event Start at = >30/07/2020 09:47:30
+30/07/2020 09:47:30 ==> Config Writing Event Finish at = >30/07/2020 09:47:30

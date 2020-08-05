@@ -1,0 +1,107 @@
+29/07/2020 15:07:33 ==> Download Process Start at = >29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> ====================================
+29/07/2020 15:07:33 ==> File download Processs start at = >29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBACom
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801ACOM download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801ACOM download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBAcomE
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801AERR download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801AERR download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > BCOM
+29/07/2020 15:07:33 ==> BCOM File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801BCOM download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> BCOM File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801BCOM download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > 
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBICom
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801ICOM download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801ICOM download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBIcomE
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801IERR download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\IND20072801IERR download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBScom
+29/07/2020 15:07:33 ==> Member Bank File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\IND20072801SCOM download start at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Member Bank File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\IND20072801SCOM download finish at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> File download Processs finish at = >29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> ====================================
+29/07/2020 15:07:33 ==> ====================================
+29/07/2020 15:07:33 ==> File download Processs start at = >29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBAC
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072801C download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072801C download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBAE
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072801E download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072801E download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBAS
+29/07/2020 15:07:33 ==> Merchant Settlement File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\ECOM\INC20072801S download start at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Merchant Settlement File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MerchantSTF\29-7-2020\ECOM\INC20072801S download finish at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBIC
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072811C download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072811C download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBIE
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072811E download start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Memberbank Trail File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072811E download finish at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Start at  = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> SettlementFileChecking Event Finish at  = > 29/07/2020 15:07:33
+File Type is = > MBIS
+29/07/2020 15:07:33 ==> Merchant Settlement File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\ECOM\INC20072811S download start at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> Merchant Settlement File = > C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MerchantSTF\29-7-2020\ECOM\INC20072811S download finish at = > 29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> File download Processs finish at = >29/07/2020 15:07:33
+29/07/2020 15:07:33 ==> ====================================
+29/07/2020 15:07:35 ==> Download Process finish at = >29/07/2020 15:07:35
+29/07/2020 15:07:35 ==> SettlementFileReading Event Start at = >29/07/2020 15:07:35
+29/07/2020 15:07:35 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\INC20072801SReading Start at = > 29/07/2020 15:07:35
+29/07/2020 15:07:38 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:38
+29/07/2020 15:07:38 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:38
+29/07/2020 15:07:38 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:38
+29/07/2020 15:07:38 ==> Data = > 900   10200002C0000000594998000D00000000019382870000000000000000000000000000000000C0000000594998000D000000000193828700000004650000000000104                              
+29/07/2020 15:07:38 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:38
+29/07/2020 15:07:41 ==> Member Bank SettlementProcess Finish at = >29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\INC20072801SReading finish at = > 29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\INC20072811SReading Start at = > 29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:41
+29/07/2020 15:07:41 ==> Data = > 900   102000020000000000000000000000000000000000D0000000098391800C0000000000123702D0000000098391800C000000000012370200000000000000000108104                              
+29/07/2020 15:07:41 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:41
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess Finish at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\INC20072811SReading finish at = > 29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\IND20072801SCOMReading Start at = > 29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Data = > 900   10200002C0000002433890000C0000000009885059D0000001761970000D0000000008960308C0000000671920000C000000000092475100000002850000000243104                              
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess start at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Data = > 904   10200002104100000000000700000000002900000000000000000000                              
+29/07/2020 15:07:42 ==> Member Bank SettlementProcess Fail at = >29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> Err Description = >Input string was not in a correct format.
+29/07/2020 15:07:42 ==> Member Bank Settlement File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\MemberBankSTF\29-7-2020\IND20072801SCOMReading finish at = > 29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> MemberBank Trail File C:\Users\Dell\Desktop\Settlement Handover\Settlement Handover\SourcesCode\Settlement_latest\SettlementFileProcess\bin\Debug\MPUSettlementFile\29-7-2020\TrailFile\MemberTrailFile\29-7-2020\INC20072801CReading Start at = > 29/07/2020 15:07:42
+29/07/2020 15:07:42 ==> ===================================
+29/07/2020 15:07:42 ==> MemberBank Trail File Reading One By One start at = > 29/07/2020 15:07:42
+29/07/2020 15:07:43 ==> data = > 100   95050316638224720000000000000970000000000970002000000010410407281426015601661057410728000003938563   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11007281426015601660728000000000000000   10300001F05104100000000000000000000000582     
+29/07/2020 15:07:59 ==> data = > 100   95051010130396460000000000002910000000002910002000000010410407280510584058020496290728000003936501   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11007280510584058020728000000000000000   10300005F05104100000000000000000000001746     
+29/07/2020 15:08:00 ==> data = > 100   95030201002318940000000000000970000000000970002000000010410407281431580158272674110728000003938574   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11007281431580158270728000000000000000   10200002F05104100000000000000000000000582     
+29/07/2020 15:08:01 ==> data = > 100   95050315150726490000000000000970000000000970002000000010410407281334290429065674470728000003938438   1020000200030000   333400010001204104000000281Myanmar Soft-Gate Tech Yangon        MMR11007281334290429060728000000000000000   10300001F05104100000000000000000000000582     

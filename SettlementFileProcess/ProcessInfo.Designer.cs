@@ -38,6 +38,9 @@ namespace SettlementFileProcess
             this.btnApprove = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnImport = new System.Windows.Forms.Button();
+            this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
             this.ctmMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -45,47 +48,49 @@ namespace SettlementFileProcess
             // memberBankProcessOnlyToolStripMenuItem
             // 
             this.memberBankProcessOnlyToolStripMenuItem.Name = "memberBankProcessOnlyToolStripMenuItem";
-            this.memberBankProcessOnlyToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.memberBankProcessOnlyToolStripMenuItem.Size = new System.Drawing.Size(537, 36);
             this.memberBankProcessOnlyToolStripMenuItem.Text = "Member Bank Settlement Only";
             this.memberBankProcessOnlyToolStripMenuItem.Click += new System.EventHandler(this.memberBankProcessOnlyToolStripMenuItem_Click);
             // 
             // merchantProcessOnlyToolStripMenuItem
             // 
             this.merchantProcessOnlyToolStripMenuItem.Name = "merchantProcessOnlyToolStripMenuItem";
-            this.merchantProcessOnlyToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.merchantProcessOnlyToolStripMenuItem.Size = new System.Drawing.Size(537, 36);
             this.merchantProcessOnlyToolStripMenuItem.Text = "Merchant Settlement Only";
             this.merchantProcessOnlyToolStripMenuItem.Click += new System.EventHandler(this.merchantProcessOnlyToolStripMenuItem_Click);
             // 
             // bothMerchantMemberBankSettlementToolStripMenuItem
             // 
             this.bothMerchantMemberBankSettlementToolStripMenuItem.Name = "bothMerchantMemberBankSettlementToolStripMenuItem";
-            this.bothMerchantMemberBankSettlementToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.bothMerchantMemberBankSettlementToolStripMenuItem.Size = new System.Drawing.Size(537, 36);
             this.bothMerchantMemberBankSettlementToolStripMenuItem.Text = "Both Merchant & Member Bank Settlement";
             this.bothMerchantMemberBankSettlementToolStripMenuItem.Click += new System.EventHandler(this.bothMerchantMemberBankSettlementToolStripMenuItem_Click);
             // 
             // refreshToolStripMenuItem
             // 
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(537, 36);
             this.refreshToolStripMenuItem.Text = "Refresh";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // ctmMenu
             // 
+            this.ctmMenu.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.ctmMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.merchantProcessOnlyToolStripMenuItem,
             this.memberBankProcessOnlyToolStripMenuItem,
             this.bothMerchantMemberBankSettlementToolStripMenuItem,
             this.refreshToolStripMenuItem});
             this.ctmMenu.Name = "ctmMenu";
-            this.ctmMenu.Size = new System.Drawing.Size(294, 92);
+            this.ctmMenu.Size = new System.Drawing.Size(538, 148);
             // 
             // btnApprove
             // 
             this.btnApprove.Image = global::SettlementFileProcess.Properties.Resources.Check_24x24;
-            this.btnApprove.Location = new System.Drawing.Point(14, 10);
+            this.btnApprove.Location = new System.Drawing.Point(28, 19);
+            this.btnApprove.Margin = new System.Windows.Forms.Padding(6);
             this.btnApprove.Name = "btnApprove";
-            this.btnApprove.Size = new System.Drawing.Size(94, 39);
+            this.btnApprove.Size = new System.Drawing.Size(188, 75);
             this.btnApprove.TabIndex = 0;
             this.btnApprove.Text = "Process";
             this.btnApprove.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -98,34 +103,64 @@ namespace SettlementFileProcess
             this.panel1.Controls.Add(this.btnApprove);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(884, 62);
+            this.panel1.Size = new System.Drawing.Size(1768, 119);
             this.panel1.TabIndex = 2;
             // 
             // btnImport
             // 
-            this.btnImport.Location = new System.Drawing.Point(108, 10);
+            this.btnImport.Location = new System.Drawing.Point(216, 19);
+            this.btnImport.Margin = new System.Windows.Forms.Padding(6);
             this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(91, 39);
+            this.btnImport.Size = new System.Drawing.Size(182, 75);
             this.btnImport.TabIndex = 7;
             this.btnImport.Text = "Export";
             this.btnImport.UseMnemonic = false;
             this.btnImport.UseVisualStyleBackColor = true;
             this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
+            // backgroundWorker
+            // 
+            this.backgroundWorker.WorkerReportsProgress = true;
+            this.backgroundWorker.WorkerSupportsCancellation = true;
+            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorker_DoWork);
+            this.backgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BackgroundWorker_ProgressChanged);
+            this.backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BackgroundWorker_RunWorkerCompleted);
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(28, 151);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(652, 53);
+            this.progressBar.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(701, 167);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 25);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "0%";
+            // 
             // ProcessInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.ClientSize = new System.Drawing.Size(1768, 887);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.progressBar);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "ProcessInfo";
             this.Text = "Settlement Process ";
             this.Load += new System.EventHandler(this.ProcessInfo_Load);
             this.ctmMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -139,5 +174,8 @@ namespace SettlementFileProcess
         private System.Windows.Forms.Button btnApprove;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnImport;
+        private System.ComponentModel.BackgroundWorker backgroundWorker;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.Label label1;
     }
 }

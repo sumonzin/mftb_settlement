@@ -583,24 +583,17 @@ namespace ACE.Banking.MPU.DataAccess
 
         //---------------------end--------------------------------
 
-        public bool MemberBankSettlementProcess(string InstitutionCode, decimal outgoingAmt, string outgoingAmtSign, decimal outgoingFee, string outgoinfeesign, decimal incomeAmt, string incomeAmtSign, decimal incomefee, string incomefeesign, string STFcurrency, string channel, DateTime STFDateTime, out string eno, out string Rcode)
+        public bool MemberBankSettlementProcess(string channel, DateTime STFDateTime, out string eno, out string Rcode)
         {
             Command = DB.GetStoredProcCommand("MEMBERBANKSETTLEMENTPROCESS_NEW");
-            DB.AddInParameter(Command, "InstitutionID", DbType.String, GetNull(InstitutionCode));
-            DB.AddInParameter(Command, "OutgoingAmount", DbType.Decimal, GetNull(outgoingAmt));
-            DB.AddInParameter(Command, "OutgoingCharges", DbType.Decimal, GetNull(outgoingFee));
-            DB.AddInParameter(Command, "OutgoingAmtSign", DbType.String, GetNull(outgoingAmtSign));
-            DB.AddInParameter(Command, "OGTChargesAmtSign", DbType.String, GetNull(outgoinfeesign));
-            DB.AddInParameter(Command, "IncomingAmount", DbType.Decimal, GetNull(incomeAmt));
-            DB.AddInParameter(Command, "IncomingCharges", DbType.Decimal, GetNull(incomefee));
-            DB.AddInParameter(Command, "IncomingAmtSign", DbType.String, GetNull(incomeAmtSign));
-            DB.AddInParameter(Command, "IncChargesSign", DbType.String, GetNull(incomefeesign));
-            DB.AddInParameter(Command, "SOURCECUR", DbType.String, GetNull(STFcurrency));
+
+            DB.AddInParameter(Command, "SOURCECUR", DbType.String, GetNull("104"));
             DB.AddInParameter(Command, "Channel", DbType.String, GetNull(channel));
-            DB.AddInParameter(Command, "STFDateTime", DbType.String, GetNull(STFDateTime.ToString("yyyy/MM/dd")));
 
             DB.AddOutParameter(Command, "REF@ENO", DbType.String, 11);
             DB.AddOutParameter(Command, "RCODE", DbType.String, 2);
+
+            // Rcode = Convert.ToString(DB.GetParameterValue(Command, "RCODE"));
 
             DB.ExecuteNonQuery(Command);
 

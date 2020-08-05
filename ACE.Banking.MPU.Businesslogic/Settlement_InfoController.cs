@@ -1123,13 +1123,47 @@ namespace ACE.Banking.MPU.Businesslogic
             }
         }
 
+        /* public bool SettlementProcessForMemberBank(Settlement_InfoInfo stfmbinfo, string channel, out string ENO, out string RCODE)
+         {
+             try
+             {
+                 DataController.StartTransaction();
+
+                 if (DataController.MemberBankSettlementProcess(stfmbinfo.MPUDfCode, stfmbinfo.OutgoingAmount, stfmbinfo.OutgoingAmoutSign, 
+                                 stfmbinfo.OutgoingFee, stfmbinfo.OutgoingFeeSign, stfmbinfo.IncomingAmount, stfmbinfo.IncomingAmountSign,
+                                 stfmbinfo.IncomingFee, stfmbinfo.IncomingFeeSign, stfmbinfo.SettlementCurrency,
+                                 channel, stfmbinfo.SettlementDate, out ENO, out RCODE))
+                 {
+                     if (RCODE == "00")
+                         DataController.CommitTransaction();
+                     else
+
+                         throw new Exception("Error");
+                 }
+                 else
+                     throw new Exception("Error");
+
+                 return true;
+             }
+             catch (Exception ex)
+             {
+                 DataController.RollbackTransaction();
+                 ENO = string.Empty;
+                 RCODE = "06";
+                 return false;
+             }
+         } */
+
         public bool SettlementProcessForMemberBank(Settlement_InfoInfo stfmbinfo, string channel, out string ENO, out string RCODE)
         {
             try
             {
                 DataController.StartTransaction();
 
-                if (DataController.MemberBankSettlementProcess(stfmbinfo.MPUDfCode, stfmbinfo.OutgoingAmount, stfmbinfo.OutgoingAmoutSign, stfmbinfo.OutgoingFee, stfmbinfo.OutgoingFeeSign, stfmbinfo.IncomingAmount, stfmbinfo.IncomingAmountSign, stfmbinfo.IncomingFee, stfmbinfo.IncomingFeeSign, stfmbinfo.SettlementCurrency, channel, stfmbinfo.SettlementDate, out ENO, out RCODE))
+                //if (DataController.MemberBankSettlementProcess(stfmbinfo.MPUDfCode, stfmbinfo.OutgoingAmount, stfmbinfo.OutgoingAmoutSign, stfmbinfo.OutgoingFee, stfmbinfo.OutgoingFeeSign, stfmbinfo.IncomingAmount, stfmbinfo.IncomingAmountSign, stfmbinfo.IncomingFee, stfmbinfo.IncomingFeeSign, stfmbinfo.SettlementCurrency, channel, stfmbinfo.SettlementDate, out ENO, out RCODE))
+
+
+                if (DataController.MemberBankSettlementProcess(channel, stfmbinfo.SettlementDate, out ENO, out RCODE))
                 {
                     if (RCODE == "00")
                         DataController.CommitTransaction();

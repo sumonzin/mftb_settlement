@@ -46,14 +46,14 @@ D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Late
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csprojResolveAssemblyReference.cache
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
 D:\ma maythanzin ko ko data\Direct POS Devlopment\Source Code\Source code  (Latest) Version 2.1  Development Version\Version V\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csprojAssemblyReference.cache
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csproj.CoreCompileInputs.cache
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb
-C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
-C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
-C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
-C:\Users\Dell\Downloads\Compressed\mwd_settlement-master_4\mwd_settlement-master\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb

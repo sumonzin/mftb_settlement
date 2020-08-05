@@ -1,0 +1,18 @@
+7/28/2020 9:35:50 AM ==> Select_DirPOS_Trans Complete=> 2020/07/22
+7/28/2020 9:35:50 AM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 9:35:50 AM
+7/28/2020 9:35:50 AM ==> No Data For Direct POs merchant = >7/28/2020 9:35:50 AM
+7/28/2020 10:59:17 AM ==> Select_DirPOS_Trans Complete=> 2020/07/23
+7/28/2020 10:59:17 AM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 10:59:17 AM
+7/28/2020 10:59:17 AM ==> No Data For Direct POs merchant = >7/28/2020 10:59:17 AM
+7/28/2020 11:02:30 AM ==> Select_DirPOS_Trans Complete=> 2020/07/23
+7/28/2020 11:02:30 AM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 11:02:30 AM
+7/28/2020 11:02:30 AM ==> No Data For Direct POs merchant = >7/28/2020 11:02:30 AM
+7/28/2020 11:08:30 AM ==> Select_DirPOS_Trans Complete=> 0001/01/01
+7/28/2020 11:08:30 AM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 11:08:30 AM
+7/28/2020 11:08:30 AM ==> No Data For Direct POs merchant = >7/28/2020 11:08:30 AM
+7/28/2020 11:27:30 AM ==> Select_DirPOS_Trans Complete=> 2020/07/23
+7/28/2020 11:27:30 AM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 11:27:30 AM
+7/28/2020 11:27:30 AM ==> No Data For Direct POs merchant = >7/28/2020 11:27:30 AM
+7/28/2020 2:52:53 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+7/28/2020 2:52:53 PM ==> SelectAll_Merchant_Rate Complete= >7/28/2020 2:52:53 PM
+7/28/2020 2:52:53 PM ==> No Data For Direct POs merchant = >7/28/2020 2:52:53 PM

@@ -55,7 +55,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Qo99uWtzthfk471InWT46AejpuCU4PdlTIBPp0MnqDQ=</dsig:DigestValue>
+        <dsig:DigestValue>L1sFJw1wmFsaWwwxwMkV17unSlbOxVn5w5/pxJLf4QA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -67,19 +67,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BR8T6FJGTXJ3W0VZ5GasP5579XVXXfiVXmnQWbD6h+g=</dsig:DigestValue>
+        <dsig:DigestValue>GxnLqwvnZDnPwRU3U+b1hx9yDwd+zuPA2h2N/326C/c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.DataAccess.dll" size="57856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACE.Banking.MPU.DataAccess.dll" size="57344">
       <assemblyIdentity name="ACE.Banking.MPU.DataAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1QG8NqCHIjpL2jt4yhFW5muTwdQ1e3Zdhk6CyB16z2I=</dsig:DigestValue>
+        <dsig:DigestValue>ZU4iiqYx7+nnA2PZafNfIJGQXpNHthGJHUYXVqXPpgo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -168,14 +168,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1947136">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1938944">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VyAA5fvrpvc6hf3bItGwpyxs/cgm1ML4g1HafSMnSig=</dsig:DigestValue>
+        <dsig:DigestValue>umwiKr7GETRDZLvIPPlkqWTqz9Tg6SwpU0F/Qu/pSBo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -188,13 +188,13 @@
       <dsig:DigestValue>jxT/6OICc4mRyZQIrrFlNfUcEDVuvEeKZyYCxqgpJSk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SettlementFileProcess.exe.config" size="2647">
+  <file name="SettlementFileProcess.exe.config" size="2689">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ghJ8LM5beSJ3+zgo+CXmwxIMPHzKmYdxQVL1e4yuUYs=</dsig:DigestValue>
+      <dsig:DigestValue>w7Rs8qWhaMUC0ZnO/iAbvMxpIrhnhv+qMQubYLU7sLc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Support\Image\Log Out_24x24.png" size="926">

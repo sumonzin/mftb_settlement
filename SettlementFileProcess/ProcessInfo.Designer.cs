@@ -38,9 +38,6 @@ namespace SettlementFileProcess
             this.btnApprove = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnImport = new System.Windows.Forms.Button();
-            this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
-            this.progressBar = new System.Windows.Forms.ProgressBar();
-            this.label1 = new System.Windows.Forms.Label();
             this.ctmMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -120,37 +117,11 @@ namespace SettlementFileProcess
             this.btnImport.UseVisualStyleBackColor = true;
             this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
-            // backgroundWorker
-            // 
-            this.backgroundWorker.WorkerReportsProgress = true;
-            this.backgroundWorker.WorkerSupportsCancellation = true;
-            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorker_DoWork);
-            this.backgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BackgroundWorker_ProgressChanged);
-            this.backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BackgroundWorker_RunWorkerCompleted);
-            // 
-            // progressBar
-            // 
-            this.progressBar.Location = new System.Drawing.Point(28, 151);
-            this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(652, 53);
-            this.progressBar.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(701, 167);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 25);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "0%";
-            // 
             // ProcessInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1768, 887);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.progressBar);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -160,7 +131,6 @@ namespace SettlementFileProcess
             this.ctmMenu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -174,8 +144,5 @@ namespace SettlementFileProcess
         private System.Windows.Forms.Button btnApprove;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnImport;
-        private System.ComponentModel.BackgroundWorker backgroundWorker;
-        private System.Windows.Forms.ProgressBar progressBar;
-        private System.Windows.Forms.Label label1;
     }
 }

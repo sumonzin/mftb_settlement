@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>L1sFJw1wmFsaWwwxwMkV17unSlbOxVn5w5/pxJLf4QA=</dsig:DigestValue>
+        <dsig:DigestValue>T2DW7pumbtdROLipT4J9xhEdiXPZ/kG8Zb1nFeHoSNI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZU4iiqYx7+nnA2PZafNfIJGQXpNHthGJHUYXVqXPpgo=</dsig:DigestValue>
+        <dsig:DigestValue>Xlzvdf3sQmMhgM2sDbnw4UfSNwq2Uu1Fw3lJYEzqz0c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -163,14 +163,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1939456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SettlementFileProcess.exe" size="1938944">
       <assemblyIdentity name="SettlementFileProcess" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UDKE7bz4n7HjTX3mbElh0w9D1C7JWQ0nkcERxmvBeF0=</dsig:DigestValue>
+        <dsig:DigestValue>vu38DFbINIP3T2247YVz5ZSWkKo4cUGzIbWaehijjO0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -183,13 +183,13 @@
       <dsig:DigestValue>jxT/6OICc4mRyZQIrrFlNfUcEDVuvEeKZyYCxqgpJSk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SettlementFileProcess.exe.config" size="2689">
+  <file name="SettlementFileProcess.exe.config" size="2522">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>w7Rs8qWhaMUC0ZnO/iAbvMxpIrhnhv+qMQubYLU7sLc=</dsig:DigestValue>
+      <dsig:DigestValue>HqcY+uWrCfKy/Q/PAUDRIqyMuRO2zOLJiwHCTjkBvOM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Support\Image\Log Out_24x24.png" size="926">

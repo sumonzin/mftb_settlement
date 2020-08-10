@@ -57,3 +57,9 @@ C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csproj.CoreCompileInputs.cache
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
 C:\Projects\Banking\MWD\02_Coding\Settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\bin\Debug\ACE.Banking.MPU.CollectionSuit.pdb
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csprojAssemblyReference.cache
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.csproj.CoreCompileInputs.cache
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.dll
+C:\Projects\Banking\MWD\02_Coding\mwd_settlement\ACE.Banking.MPU.CollectionSuit\obj\Debug\ACE.Banking.MPU.CollectionSuit.pdb

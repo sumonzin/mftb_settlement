@@ -1,0 +1,55 @@
+8/21/2020 1:35:44 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 1:35:44 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 1:35:44 PM
+8/21/2020 1:35:44 PM ==> No Data For Direct POs merchant = >8/21/2020 1:35:44 PM
+8/21/2020 2:58:37 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 2:58:37 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 2:58:37 PM
+8/21/2020 2:58:37 PM ==> No Data For Direct POs merchant = >8/21/2020 2:58:37 PM
+8/21/2020 3:01:27 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:01:27 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:01:27 PM
+8/21/2020 3:01:27 PM ==> No Data For Direct POs merchant = >8/21/2020 3:01:27 PM
+8/21/2020 3:02:29 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:02:29 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:02:29 PM
+8/21/2020 3:02:29 PM ==> No Data For Direct POs merchant = >8/21/2020 3:02:29 PM
+8/21/2020 3:09:37 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:09:37 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:09:37 PM
+8/21/2020 3:09:37 PM ==> No Data For Direct POs merchant = >8/21/2020 3:09:37 PM
+8/21/2020 3:12:58 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:12:59 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:12:59 PM
+8/21/2020 3:12:59 PM ==> No Data For Direct POs merchant = >8/21/2020 3:12:59 PM
+8/21/2020 3:24:58 PM ==> Select_DirPOS_Trans Complete=> 2020/06/19
+8/21/2020 3:24:58 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:24:58 PM
+8/21/2020 3:24:58 PM ==> No Data For Direct POs merchant = >8/21/2020 3:24:58 PM
+8/21/2020 3:26:51 PM ==> Select_DirPOS_Trans Complete=> 2020/06/19
+8/21/2020 3:26:51 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:26:51 PM
+8/21/2020 3:26:51 PM ==> No Data For Direct POs merchant = >8/21/2020 3:26:51 PM
+8/21/2020 3:31:32 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:31:32 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:31:32 PM
+8/21/2020 3:31:32 PM ==> No Data For Direct POs merchant = >8/21/2020 3:31:32 PM
+8/21/2020 3:36:39 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:36:39 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:36:39 PM
+8/21/2020 3:36:39 PM ==> No Data For Direct POs merchant = >8/21/2020 3:36:39 PM
+8/21/2020 3:39:14 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:39:14 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:39:14 PM
+8/21/2020 3:39:14 PM ==> No Data For Direct POs merchant = >8/21/2020 3:39:14 PM
+8/21/2020 3:43:55 PM ==> Select_DirPOS_Trans Complete=> 0001/01/01
+8/21/2020 3:43:55 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:43:55 PM
+8/21/2020 3:43:55 PM ==> No Data For Direct POs merchant = >8/21/2020 3:43:55 PM
+8/21/2020 3:45:08 PM ==> Select_DirPOS_Trans Complete=> 2020/06/22
+8/21/2020 3:45:08 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 3:45:08 PM
+8/21/2020 3:45:08 PM ==> No Data For Direct POs merchant = >8/21/2020 3:45:08 PM
+8/21/2020 4:17:52 PM ==> Select_DirPOS_Trans Complete=> 2020/05/26
+8/21/2020 4:17:52 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 4:17:52 PM
+8/21/2020 4:17:52 PM ==> Before Compare With MerchantID= >8/21/2020 4:17:52 PM
+8/21/2020 4:17:52 PM ==> After Compare With MerchantID= >8/21/2020 4:17:52 PM
+8/21/2020 4:30:04 PM ==> Select_DirPOS_Trans Complete=> 2020/05/26
+8/21/2020 4:30:04 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 4:30:04 PM
+8/21/2020 4:30:04 PM ==> Before Compare With MerchantID= >8/21/2020 4:30:04 PM
+8/21/2020 4:30:04 PM ==> After Compare With MerchantID= >8/21/2020 4:30:04 PM
+8/21/2020 4:41:17 PM ==> Select_DirPOS_Trans Complete=> 2020/05/26
+8/21/2020 4:41:17 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 4:41:17 PM
+8/21/2020 4:41:17 PM ==> Before Compare With MerchantID= >8/21/2020 4:41:17 PM
+8/21/2020 4:41:17 PM ==> After Compare With MerchantID= >8/21/2020 4:41:17 PM
+8/21/2020 4:46:51 PM ==> Select_DirPOS_Trans Complete=> 2020/05/26
+8/21/2020 4:46:51 PM ==> SelectAll_Merchant_Rate Complete= >8/21/2020 4:46:51 PM
+8/21/2020 4:46:51 PM ==> Before Compare With MerchantID= >8/21/2020 4:46:51 PM
+8/21/2020 4:46:51 PM ==> After Compare With MerchantID= >8/21/2020 4:46:51 PM

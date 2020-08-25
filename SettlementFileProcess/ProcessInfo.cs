@@ -479,9 +479,7 @@ namespace SettlementFileProcess
                 Settlement_InfoController IBFTcontroller = new Settlement_InfoController();
                 IBFTcontroller.Insert_IBFT_SettlementUpload_call(reqmodel);
                 #endregion
-
                        
-
                 //Select Office Acc from Infosys DB for ATM ACQ process
                 Settlement_InfoController controller = new Settlement_InfoController();
                 OfficeACCfromInfosys data = new OfficeACCfromInfosys();
@@ -582,7 +580,7 @@ namespace SettlementFileProcess
 
                             #endregion Select ATM ACQ Trans from Tlf
 
-                            #region Select ISS Trans from Tlf
+                #region Select ISS Trans from Tlf
 
                             Settlement_Upload ThirdDataRecord = new Settlement_Upload();
 
@@ -694,7 +692,7 @@ namespace SettlementFileProcess
 
                             #endregion Select ISS Trans from Tlf
 
-                            #region ECOM Debit Trans from tlf
+                #region ECOM Debit Trans from tlf
 
                             Settlement_Upload ISSECOMData = new Settlement_Upload();
 
@@ -751,7 +749,7 @@ namespace SettlementFileProcess
 
                             #endregion ECOM Debit Trans from tlf
 
-                            #region POS Debit Transactions from TLF
+                #region POS Debit Transactions from TLF
 
                             Settlement_Upload ISSPOSData = new Settlement_Upload();
 
@@ -807,7 +805,7 @@ namespace SettlementFileProcess
 
                     #endregion POS Debit Transactions from TLF
 
-                            #region Select Direct POS Merchant
+                #region Select Direct POS Merchant
                           DirPOSCollections Resmodel = new DirPOSCollections();
                           DirPOSCollections Pos_Collection = new DirPOSCollections();
                             DirPOSCollections Pos_normal_Collection = new DirPOSCollections();
@@ -818,8 +816,8 @@ namespace SettlementFileProcess
                             {
                                 for (int p = 0; p < Pos_normal_Collection.Count; p++)
                                  {
-                                     Console.WriteLine("Opening the connection time : " + p);
-                                     var com_result = controller.Select_CommisionRate_ByMerchantID(Pos_normal_Collection[p].CardAcceptorIDCode).ToString();
+                                   
+                                   var com_result = controller.Select_CommisionRate_ByMerchantID(Pos_normal_Collection[p].CardAcceptorIDCode).ToString();
                                     if(com_result == "0.40")
                                     {
                                         MemberBankDetailInfo merchant3 = new MemberBankDetailInfo();
@@ -873,17 +871,26 @@ namespace SettlementFileProcess
                 #region For Normal POS Merchant
                 if (Resmodel.Count > 0)
                 {
-                    for (int j = 0; j < Resmodel.Count; j++)
+                    for (   int j = 0; j < Resmodel.Count; j++)
                     {
+                        /*
+                         if(j == 29)
+                        {
+                            var ace = "test";
+                        }
+                        */
+
+                        Console.WriteLine("Trace.... " + j);
+
                         DIR_POS_Record model = new DIR_POS_Record();
                         model.MerchantID = Resmodel[j].CardAcceptorIDCode;
-                        Seqlog.TraceLog("Before Compare With MerchantID= >" + (object)DateTime.Now, "INC01C");
+                        Seqlog.TraceLog("Before Compare With MerchantID= >" + DateTime.Now, "INC01C");
                         var list = MerchantRateCollections.Where((x => x.MerchantID == Resmodel[j].CardAcceptorIDCode)).ToList();
-                        Seqlog.TraceLog("After Compare With MerchantID= >" + (object)DateTime.Now, "INC01C");
+                        Seqlog.TraceLog("After Compare With MerchantID= >" + DateTime.Now, "INC01C");
                         if (list[0].MerchantID != null)
                             model.MerchantRate = Convert.ToDecimal(list[0].Rate);
                         else
-                            Seqlog.TraceLog("MerchantID compare process is null.= >" + (object)DateTime.Now, "INC01C");
+                            Seqlog.TraceLog("MerchantID compare process is null.= >" + DateTime.Now, "INC01C");
                         model.TranAmt = Convert.ToDecimal(Resmodel[j].TranAmt) / new Decimal(100);
                         model.ServiceFeePayable = Convert.ToDecimal(Resmodel[j].ServiceFeePayable) / new Decimal(100);
                         if (Convert.ToDecimal(model.ServiceFeePayable) == Decimal.Zero)
@@ -899,24 +906,30 @@ namespace SettlementFileProcess
                         model.MerchantType = Resmodel[j].MerchantType;
                         model.STFDate = Convert.ToDateTime(test);
                         controller.Insert_DirPoS(model);
-                        Seqlog.TraceLog("Insert_DirPoS process is successful.= >" + (object)DateTime.Now, "INC01C");
+                        Seqlog.TraceLog("Insert_DirPoS process is successful.= >" + DateTime.Now, "INC01C");
                     }
                     DIR_POS_Record dirPosRecord1 = new DIR_POS_Record();
                     DIR_POS_Record dirPosRecord2 = controller.Select_Sum_DirPOS_Trans(test);
-                    Seqlog.TraceLog("Select_Sum_DirPOS_Trans is successful.= >" + (object)DateTime.Now, "INC01C");
+                    Seqlog.TraceLog("Select_Sum_DirPOS_Trans is successful.= >" + DateTime.Now, "INC01C");
                     sum_memB_record sumMemBRecord1 = new sum_memB_record();
                     sum_memB_record sumMemBRecord2 = controller.Select_Sum_MemberBankDirPOS_Trans(test);
-                    Seqlog.TraceLog("Select_Sum_MemberBankDirPOS_Trans is successful.= >" + (object)DateTime.Now, "INC01C");
+                    Seqlog.TraceLog("Select_Sum_MemberBankDirPOS_Trans is successful.= >" + DateTime.Now, "INC01C");
                     Decimal debitAmt = sumMemBRecord2.DebitAmt;
                     Decimal num4 = dirPosRecord2.ServiceFeeReceive - dirPosRecord2.ServiceFeePayable;
                     Decimal num5 = sumMemBRecord2.Credit2Amt - num4;
-                    Seqlog.TraceLog("After Amount Calculation is successful.= >" + (object)DateTime.Now, "INC01C");
+                    Seqlog.TraceLog("After Amount Calculation is successful.= >" + DateTime.Now, "INC01C");
                     if (dirPosRecord2.TranAmt != Decimal.Zero || dirPosRecord2.ServiceFeePayable != Decimal.Zero || dirPosRecord2.ServiceFeeReceive != Decimal.Zero)
                     {
-                        controller.InsertSettlementUpload("1111108910100001", "MMK", "1111", "D", debitAmt, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, debitAmt, "MMK", (string)null, (string)null, (string)null, (string)null, Eno, Decimal.Zero, "Dir_POS");
-                        controller.InsertSettlementUpload("1111300470100004", "MMK", "1111", "C", num4, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, num4, "MMK", (string)null, (string)null, (string)null, (string)null, Eno, Decimal.Zero, "Dir_POS");
-                        controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", num5, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, (string)null, num5, "MMK", (string)null, (string)null, (string)null, (string)null, Eno, Decimal.Zero, "Dir_POS");
-                        Seqlog.TraceLog("InsertSettlementUpload is successful.= >" + (object)DateTime.Now, "INC01C");
+                        controller.InsertSettlementUpload("1111108910100001", "MMK", "1111", "D", debitAmt,null,null,null, 
+                            null,null,null,null,null, debitAmt, "MMK",null,null,null, 
+                            null, Eno, Decimal.Zero, "Dir_POS");
+                        controller.InsertSettlementUpload("1111300470100004", "MMK", "1111", "C", num4,null, null,null,null, 
+                            null,null,null,null, num4, "MMK",null, null, null,null, 
+                            Eno, Decimal.Zero, "Dir_POS");
+                        controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", num5,null, null,null,null,
+                            null,null,null,null, num5, "MMK",null,null,null,null, Eno,
+                            Decimal.Zero, "Dir_POS");
+                        Seqlog.TraceLog("InsertSettlementUpload is successful.= >" + DateTime.Now, "INC01C");
                     }
                     int num6 = (int)MessageBox.Show("Direct POS process is Successful.");
                 }
@@ -951,7 +964,8 @@ namespace SettlementFileProcess
                         }
                         else
                         {
-                            model.ServiceFeeReceive = model.TranAmt * model.MerchantRate / new Decimal(100);
+                            //model.ServiceFeeReceive = model.TranAmt * model.MerchantRate / new Decimal(100);
+                            model.ServiceFeeReceive = model.TranAmt * Convert.ToDecimal(0.4) / new Decimal(100);
                             model.CashAdvReceive = Decimal.Zero;
                         }
                         model.MerchantType = Pos_Collection[l].MerchantType;
@@ -960,7 +974,6 @@ namespace SettlementFileProcess
 
                         Seqlog.TraceLog("Insert_DirPoS_0.4Merchant process is successful.= >" + DateTime.Now, "INC01C");
                     }
-
 
                     DIR_POS_Record dirPosRecord1 = new DIR_POS_Record();
                     DIR_POS_Record dirPosRecord2 = controller.Select_Sum_DirPOS_Trans_03(test);
@@ -976,9 +989,12 @@ namespace SettlementFileProcess
 
                     if (dirPosRecord2.TranAmt != Decimal.Zero || dirPosRecord2.ServiceFeePayable != Decimal.Zero || dirPosRecord2.ServiceFeeReceive != Decimal.Zero)
                     {
-                        controller.InsertSettlementUpload("1111108910100001", "MMK", "1111", "D", num4, null, null, null, null, null, null, null, null, num4, "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
-                        controller.InsertSettlementUpload("1111300470100004", "MMK", "1111", "C", num5, null, null, null, null, null, null, null, null, num5, "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
-                        controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", num6, null, null, null, null, null, null, null, null, num6, "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
+                        controller.InsertSettlementUpload("1111108910100001", "MMK", "1111", "D", num4, null, null, null, null, null, null, null, null, num4,
+                                                            "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
+                        controller.InsertSettlementUpload("1111300470100004", "MMK", "1111", "C", num5, null, null, null, null, null, null, null, null, num5,
+                                                            "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
+                        controller.InsertSettlementUpload("1111108660020002", "MMK", "1111", "C", num6, null, null, null, null, null, null, null, null, num6, 
+                                                            "MMK", null, null, null, null, Eno, Decimal.Zero, "03_POS");
                         Seqlog.TraceLog("InsertSettlementUpload for 03_POS Merchant is successful.= >" +DateTime.Now, "INC01C");
                     }
 
@@ -998,8 +1014,6 @@ namespace SettlementFileProcess
                 MessageBox.Show(ex.Message);
             }
         }
-
-      
 
         private bool MemberBankSettlementProcess(Settlement_InfoInfo mbstfinfo, out string Eno, out string RCODE)
         {
